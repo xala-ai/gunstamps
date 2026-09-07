@@ -1,17 +1,22 @@
 # Deploy
 
+Staging live: https://gunstamps.netlify.app  
+Netlify already has custom domain `gunstamps.xala.ai` attached (SSL pending DNS).
+
 ## Netlify
 
-Site name: `gunstamps` (staging URL `https://gunstamps.netlify.app` until custom domain).
-
-Deploy from repo root (`publish = public`).
+- Site id / name: `gunstamps`
+- Publish directory: `public`
+- CNAME target: `gunstamps.netlify.app`
 
 ## Cloudflare (you)
 
-1. DNS for `xala.ai` zone:
-   - **CNAME** `gunstamps` → `gunstamps.netlify.app` (or the site’s Netlify subdomain)
-2. Proxy orange-cloud OK (same pattern as `yellobricks.xala.ai`).
-3. In Netlify → Domain management → Add `gunstamps.xala.ai` → verify.
+1. In the `xala.ai` zone, add:
+   - **Type:** CNAME  
+   - **Name:** `gunstamps`  
+   - **Target:** `gunstamps.netlify.app`  
+   - Proxy: orange-cloud OK (same as `yellobricks.xala.ai`)
+2. Wait for Netlify SSL to provision for `gunstamps.xala.ai`.
 
 ## GitHub org
 

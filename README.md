@@ -2,9 +2,11 @@
 
 Parental guidance stamps for kids’ movies (guns, explosions, scary scenes, alcohol/smoke, nudity, …).
 
-- **Site (staging):** see Netlify URL in deploy notes / `gunstamps.xala.ai` after Cloudflare DNS
+- **Site (staging):** https://gunstamps.netlify.app
+- **Custom domain (pending Cloudflare DNS):** https://gunstamps.xala.ai
 - **API shape:** [`/api/v1/movies.json`](public/api/v1/movies.json) · OpenAPI [`public/openapi.yaml`](public/openapi.yaml)
 - **Issues / roadmap:** use GitHub Issues on this repo
+- **Note:** repo is currently `csaladenes/gunstamps` — transfer to `xala-ai/gunstamps` in GitHub Settings (org create blocked for the agent PAT)
 
 ## Architecture (day 1)
 
