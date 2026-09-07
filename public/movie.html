@@ -70,9 +70,7 @@
             "</span></div>" +
             '<p class="muted">' +
             (m.segment_count || 0) +
-            " segments · " +
-            (m.detection_count || 0) +
-            " frame hits</p></div></div>";
+            " segments</p></div></div>";
           const list = m.segments || [];
           if (!list.length) {
             segs.textContent = "No segments.";
