@@ -3,7 +3,7 @@
 Parental guidance stamps for kids’ movies (guns, explosions, scary scenes, alcohol/smoke, nudity, …).
 
 **Live:** https://gunstamps.xala.ai  
-**Repo:** https://github.com/csaladenes/gunstamps (transfer to `xala-ai/gunstamps` when ready)
+**Repo:** https://github.com/xala-ai/gunstamps
 
 ## Two modes only
 
