@@ -1,0 +1,32 @@
+openapi: 3.0.3
+info:
+  title: GunStamps API
+  version: 0.1.0
+  description: >
+    Public catalog API for parental-guidance stamps. Day-1 staging serves
+    static JSON under /api/v1. Production will move these routes to EC2 with
+    auth and rate limits. Do not treat static files as the canonical database.
+servers:
+  - url: https://gunstamps.xala.ai/api/v1
+    description: Production (Cloudflare → Netlify / later EC2)
+  - url: /api/v1
+    description: This deployment
+paths:
+  /movies.json:
+    get:
+      summary: List published movies
+      responses:
+        "200":
+          description: Movie index (no full segment lists)
+  /movies/{id}.json:
+    get:
+      summary: Movie detail including segments
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Movie stamp detail

@@ -1,0 +1,706 @@
+{
+  "id": "cars-2-2011",
+  "title": "Cars 2",
+  "year": 2011,
+  "duration_s": 6421.6,
+  "summary": "some guns, explosions, scary moments, and alcohol.",
+  "segment_count": 89,
+  "detection_count": 404,
+  "poster": "/posters/cars-2-2011.jpg",
+  "safety": {
+    "rag": "red",
+    "rag_label": "Red",
+    "pct": 50.0,
+    "pct_label": "50%",
+    "unsafe_minutes": 54,
+    "total_minutes": 108,
+    "bar": [
+      {
+        "id": "gun",
+        "label": "gun",
+        "seconds": 151.3333333333323,
+        "minutes": 27,
+        "film_pct": 25.0,
+        "flagged_pct": 50.0,
+        "share_pct": 17.763157894736842,
+        "tooltip": "gun\n25% of the movie\n50% of flagged minutes"
+      },
+      {
+        "id": "explosion",
+        "label": "explosion",
+        "seconds": 227.49999999999866,
+        "minutes": 24,
+        "film_pct": 22.22222222222222,
+        "flagged_pct": 44.44444444444444,
+        "share_pct": 15.789473684210526,
+        "tooltip": "explosion\n22% of the movie\n44% of flagged minutes"
+      },
+      {
+        "id": "death",
+        "label": "death",
+        "seconds": 4.16666666666697,
+        "minutes": 1,
+        "film_pct": 0.9259259259259259,
+        "flagged_pct": 1.8518518518518519,
+        "share_pct": 0.6578947368421053,
+        "tooltip": "death\n1% of the movie\n2% of flagged minutes"
+      },
+      {
+        "id": "scary",
+        "label": "scary",
+        "seconds": 42.66666666666697,
+        "minutes": 13,
+        "film_pct": 12.037037037037036,
+        "flagged_pct": 24.074074074074073,
+        "share_pct": 8.552631578947368,
+        "tooltip": "scary\n12% of the movie\n24% of flagged minutes"
+      },
+      {
+        "id": "alcohol_smoke",
+        "label": "alcohol/smoke",
+        "seconds": 99.16666666666629,
+        "minutes": 11,
+        "film_pct": 10.185185185185185,
+        "flagged_pct": 20.37037037037037,
+        "share_pct": 7.2368421052631575,
+        "tooltip": "alcohol/smoke\n10% of the movie\n20% of flagged minutes"
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "seconds": 0.0,
+        "minutes": 54,
+        "film_pct": 50.0,
+        "flagged_pct": 0.0,
+        "share_pct": 50.0,
+        "tooltip": "Other\n50% of the movie"
+      }
+    ],
+    "headline": "50% of this movie contained scenes not safe for kids"
+  },
+  "segments": [
+    {
+      "category": "explosion",
+      "t_start": 62.583333333333336,
+      "t_end": 74.75,
+      "confidence": 0.8,
+      "summary": "A bright light source or fireball is visible."
+    },
+    {
+      "category": "gun",
+      "t_start": 139.58333333333334,
+      "t_end": 143.41666666666666,
+      "confidence": 0.9,
+      "summary": "A red laser sight is visible pointing toward a vessel."
+    },
+    {
+      "category": "gun",
+      "t_start": 246.91666666666666,
+      "t_end": 248.41666666666666,
+      "confidence": 1.0,
+      "summary": "manual"
+    },
+    {
+      "category": "gun",
+      "t_start": 269.5833333333333,
+      "t_end": 276.4166666666667,
+      "confidence": 1.0,
+      "summary": "manual"
+    },
+    {
+      "category": "explosion",
+      "t_start": 282.25,
+      "t_end": 289.75,
+      "confidence": 1.0,
+      "summary": "A bright explosion or fireball is visible in the background behind the character."
+    },
+    {
+      "category": "gun",
+      "t_start": 288.25,
+      "t_end": 289.75,
+      "confidence": 1.0,
+      "summary": "manual"
+    },
+    {
+      "category": "explosion",
+      "t_start": 351.9166666666667,
+      "t_end": 358.4166666666667,
+      "confidence": 1.0,
+      "summary": "A large fireball explosion is visible."
+    },
+    {
+      "category": "gun",
+      "t_start": 405.25,
+      "t_end": 413.75,
+      "confidence": 1.0,
+      "summary": "The character is a stylized ship equipped with a large gun turret."
+    },
+    {
+      "category": "scary",
+      "t_start": 407.25,
+      "t_end": 408.75,
+      "confidence": 0.4,
+      "summary": "The character has an intimidating or menacing expression in the dark."
+    },
+    {
+      "category": "explosion",
+      "t_start": 408.9166666666667,
+      "t_end": 441.4166666666667,
+      "confidence": 1.0,
+      "summary": "A large fireball explosion is visible in the water."
+    },
+    {
+      "category": "explosion",
+      "t_start": 450.5833333333333,
+      "t_end": 459.4166666666667,
+      "confidence": 1.0,
+      "summary": "The scene shows fire or explosions on the surface of water."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 776.5833333333334,
+      "t_end": 788.4166666666666,
+      "confidence": 0.9,
+      "summary": "The scene features characters in a setting with cocktail glasses containing red liquid."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 849.25,
+      "t_end": 856.0833333333334,
+      "confidence": 0.8,
+      "summary": "The characters are presented with cocktail glasses containing drinks and garnishes."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 865.25,
+      "t_end": 877.4166666666666,
+      "confidence": 0.8,
+      "summary": "The characters are presented with cocktail glasses containing liquid."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 898.5833333333334,
+      "t_end": 903.75,
+      "confidence": 0.8,
+      "summary": "The scene contains cocktail glasses that resemble alcoholic beverages."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 923.25,
+      "t_end": 924.75,
+      "confidence": 0.8,
+      "summary": "The characters are presented with cocktail glasses containing liquid."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 1022.9166666666666,
+      "t_end": 1024.4166666666665,
+      "confidence": 0.5,
+      "summary": "The scene shows several bottles on a counter that resemble alcohol bottles."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 1047.25,
+      "t_end": 1049.75,
+      "confidence": 0.8,
+      "summary": "The scene features cocktail glasses on a bar counter."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 1273.9166666666667,
+      "t_end": 1284.0833333333333,
+      "confidence": 1.0,
+      "summary": "A cocktail glass is visible on the table."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 1298.9166666666667,
+      "t_end": 1318.0833333333333,
+      "confidence": 0.8,
+      "summary": "A cocktail glass is visible in the background."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 1342.25,
+      "t_end": 1353.75,
+      "confidence": 0.8,
+      "summary": "A cocktail glass is visible on the table."
+    },
+    {
+      "category": "gun",
+      "t_start": 1494.5833333333333,
+      "t_end": 1496.0833333333333,
+      "confidence": 1.0,
+      "summary": "manual"
+    },
+    {
+      "category": "scary",
+      "t_start": 1494.5833333333333,
+      "t_end": 1496.0833333333333,
+      "confidence": 0.4,
+      "summary": "The character has an intense, menacing expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1535.25,
+      "t_end": 1536.75,
+      "confidence": 0.7,
+      "summary": "The character has a distorted, frightening facial expression."
+    },
+    {
+      "category": "gun",
+      "t_start": 1869.25,
+      "t_end": 1874.75,
+      "confidence": 0.9,
+      "summary": "The image shows a vehicle viewed through a red targeting reticle or gun sight."
+    },
+    {
+      "category": "gun",
+      "t_start": 1892.9166666666667,
+      "t_end": 1905.0833333333333,
+      "confidence": 0.9,
+      "summary": "A character is holding a device that is shaped like a gun or a weaponized camera."
+    },
+    {
+      "category": "gun",
+      "t_start": 1921.5833333333333,
+      "t_end": 1931.4166666666667,
+      "confidence": 1.0,
+      "summary": "manual"
+    },
+    {
+      "category": "gun",
+      "t_start": 1946.5833333333333,
+      "t_end": 1948.0833333333333,
+      "confidence": 0.8,
+      "summary": "A character is holding a device that resembles a gun or weaponized camera."
+    },
+    {
+      "category": "explosion",
+      "t_start": 1955.9166666666667,
+      "t_end": 1962.0833333333333,
+      "confidence": 1.0,
+      "summary": "A large explosion or blast of dust and smoke is filling the scene."
+    },
+    {
+      "category": "gun",
+      "t_start": 2207.5833333333335,
+      "t_end": 2209.75,
+      "confidence": 0.9,
+      "summary": "A large pink stylized weapon/cannon is present in the foreground."
+    },
+    {
+      "category": "gun",
+      "t_start": 2220.9166666666665,
+      "t_end": 2232.0833333333335,
+      "confidence": 1.0,
+      "summary": "A firearm is visible in the center of the frame."
+    },
+    {
+      "category": "gun",
+      "t_start": 2296.25,
+      "t_end": 2297.75,
+      "confidence": 0.9,
+      "summary": "A character is holding a firearm-like object."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2369.9166666666665,
+      "t_end": 2389.4166666666665,
+      "confidence": 1.0,
+      "summary": "A small flame or blast is visible behind the character."
+    },
+    {
+      "category": "scary",
+      "t_start": 2436.25,
+      "t_end": 2437.75,
+      "confidence": 0.6,
+      "summary": "The character has a creepy, distorted facial expression."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 2614.5833333333335,
+      "t_end": 2618.0833333333335,
+      "confidence": 0.9,
+      "summary": "The scene shows a bar area with many alcohol bottles on shelves."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 2631.25,
+      "t_end": 2636.4166666666665,
+      "confidence": 0.8,
+      "summary": "Alcohol bottles are visible on the shelves in the background."
+    },
+    {
+      "category": "gun",
+      "t_start": 2693.5833333333335,
+      "t_end": 2695.75,
+      "confidence": 0.9,
+      "summary": "A weapon/cannon is attached to the side of the orange vehicle."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2702.5833333333335,
+      "t_end": 2710.0833333333335,
+      "confidence": 1.0,
+      "summary": "A projectile or object is emitting a blast or fireball effect."
+    },
+    {
+      "category": "gun",
+      "t_start": 2751.5833333333335,
+      "t_end": 2754.4166666666665,
+      "confidence": 1.0,
+      "summary": "A gun is mounted to the side of the vehicle."
+    },
+    {
+      "category": "scary",
+      "t_start": 2830.25,
+      "t_end": 2831.75,
+      "confidence": 0.4,
+      "summary": "The character has an intense, slightly unsettling facial expression."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3331.9166666666665,
+      "t_end": 3334.0833333333335,
+      "confidence": 0.9,
+      "summary": "There are several bottles on the table that resemble alcohol containers."
+    },
+    {
+      "category": "scary",
+      "t_start": 3486.25,
+      "t_end": 3487.75,
+      "confidence": 0.4,
+      "summary": "The character has a stylized monster-like face with sharp teeth."
+    },
+    {
+      "category": "explosion",
+      "t_start": 3495.5833333333335,
+      "t_end": 3497.0833333333335,
+      "confidence": 1.0,
+      "summary": "The vehicle has flames/fire coming from the exhaust area."
+    },
+    {
+      "category": "gun",
+      "t_start": 3564.9166666666665,
+      "t_end": 3568.0833333333335,
+      "confidence": 1.0,
+      "summary": "The walls are lined with various sci-fi blasters and weapons."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4031.9166666666665,
+      "t_end": 4033.4166666666665,
+      "confidence": 0.9,
+      "summary": "A green car is shown with fire and smoke around it, suggesting an explosion or crash."
+    },
+    {
+      "category": "gun",
+      "t_start": 4040.5833333333335,
+      "t_end": 4049.75,
+      "confidence": 1.0,
+      "summary": "A red laser or projectile beam is visible crossing the frame."
+    },
+    {
+      "category": "gun",
+      "t_start": 4125.583333333333,
+      "t_end": 4134.083333333333,
+      "confidence": 1.0,
+      "summary": "The device on the right is shaped like a large cannon or weapon."
+    },
+    {
+      "category": "gun",
+      "t_start": 4203.25,
+      "t_end": 4209.416666666667,
+      "confidence": 1.0,
+      "summary": "A gun is visible on the television screen in the background."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 4222.25,
+      "t_end": 4225.75,
+      "confidence": 0.9,
+      "summary": "Characters are holding champagne bottles."
+    },
+    {
+      "category": "gun",
+      "t_start": 4222.916666666667,
+      "t_end": 4224.416666666667,
+      "confidence": 0.8,
+      "summary": "The characters are holding objects that resemble stylized, toy-like guns."
+    },
+    {
+      "category": "scary",
+      "t_start": 4298.583333333333,
+      "t_end": 4300.083333333333,
+      "confidence": 0.4,
+      "summary": "The character in the foreground has an intense, aggressive, or frightening facial expression."
+    },
+    {
+      "category": "gun",
+      "t_start": 4302.916666666667,
+      "t_end": 4322.416666666667,
+      "confidence": 1.0,
+      "summary": "A large gatling-style gun is mounted in the side of a vehicle."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4307.916666666667,
+      "t_end": 4322.75,
+      "confidence": 1.0,
+      "summary": "A vehicle is shown amidst a large explosion or blast effect."
+    },
+    {
+      "category": "gun",
+      "t_start": 4376.25,
+      "t_end": 4377.75,
+      "confidence": 0.8,
+      "summary": "A character is holding a large weapon/cannon-like device."
+    },
+    {
+      "category": "gun",
+      "t_start": 4386.916666666667,
+      "t_end": 4389.083333333333,
+      "confidence": 1.0,
+      "summary": "A large, stylized weapon/cannon is in the foreground."
+    },
+    {
+      "category": "scary",
+      "t_start": 4432.583333333333,
+      "t_end": 4455.75,
+      "confidence": 0.8,
+      "summary": "A character has a frightened/shocked expression in the dark."
+    },
+    {
+      "category": "scary",
+      "t_start": 4479.916666666667,
+      "t_end": 4481.416666666667,
+      "confidence": 0.4,
+      "summary": "A character car has a frightened, wide-mouthed expression."
+    },
+    {
+      "category": "gun",
+      "t_start": 4508.916666666667,
+      "t_end": 4510.416666666667,
+      "confidence": 0.9,
+      "summary": "The character is equipped with a large cannon-like weapon."
+    },
+    {
+      "category": "scary",
+      "t_start": 4545.583333333333,
+      "t_end": 4547.083333333333,
+      "confidence": 0.5,
+      "summary": "A character is tied up and trapped, which may be frightening to young children."
+    },
+    {
+      "category": "gun",
+      "t_start": 4590.25,
+      "t_end": 4598.083333333333,
+      "confidence": 0.9,
+      "summary": "A character vehicle is facing a large mechanical weapon/cannon."
+    },
+    {
+      "category": "gun",
+      "t_start": 4700.583333333333,
+      "t_end": 4707.083333333333,
+      "confidence": 0.9,
+      "summary": "The image shows the interior of a gun barrel or a glowing red circular aperture."
+    },
+    {
+      "category": "scary",
+      "t_start": 4904.583333333333,
+      "t_end": 4906.083333333333,
+      "confidence": 0.6,
+      "summary": "The character has a distorted, frightening facial expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4912.916666666667,
+      "t_end": 4914.416666666667,
+      "confidence": 0.9,
+      "summary": "The screen displays 'ARMED', indicating an imminent explosion or bomb threat."
+    },
+    {
+      "category": "scary",
+      "t_start": 4988.25,
+      "t_end": 4989.75,
+      "confidence": 0.6,
+      "summary": "The character has an intense, aggressive, or frightening facial expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4991.25,
+      "t_end": 4997.75,
+      "confidence": 1.0,
+      "summary": "A bright fireball or explosion is visible behind the character."
+    },
+    {
+      "category": "scary",
+      "t_start": 5010.25,
+      "t_end": 5011.75,
+      "confidence": 0.7,
+      "summary": "The character has an exaggerated, frightened expression with a wide-open mouth."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5023.583333333333,
+      "t_end": 5025.083333333333,
+      "confidence": 1.0,
+      "summary": "A bright blue blast or explosion is visible in the background."
+    },
+    {
+      "category": "gun",
+      "t_start": 5081.25,
+      "t_end": 5084.75,
+      "confidence": 1.0,
+      "summary": "The character features a large turret/weaponry structure on its side."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5087.916666666667,
+      "t_end": 5103.083333333333,
+      "confidence": 1.0,
+      "summary": "A bright fireball/explosion is visible in the background."
+    },
+    {
+      "category": "gun",
+      "t_start": 5102.916666666667,
+      "t_end": 5104.416666666667,
+      "confidence": 1.0,
+      "summary": "A large firearm is visible in the foreground."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5122.583333333333,
+      "t_end": 5134.75,
+      "confidence": 1.0,
+      "summary": "A bright fireball/explosion is visible behind the red car."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 5140.583333333333,
+      "t_end": 5143.083333333333,
+      "confidence": 1.0,
+      "summary": "A large glass of beer is prominent in the foreground."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5154.583333333333,
+      "t_end": 5156.75,
+      "confidence": 1.0,
+      "summary": "The image shows a C4 explosive device with a remote detonator."
+    },
+    {
+      "category": "gun",
+      "t_start": 5159.916666666667,
+      "t_end": 5161.75,
+      "confidence": 0.9,
+      "summary": "A character in the background appears to be holding a firearm."
+    },
+    {
+      "category": "scary",
+      "t_start": 5163.25,
+      "t_end": 5164.75,
+      "confidence": 0.4,
+      "summary": "The character has a frightened/distressed facial expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5173.25,
+      "t_end": 5191.083333333333,
+      "confidence": 1.0,
+      "summary": "The image shows a C4 explosive charge with a timer."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5226.25,
+      "t_end": 5227.75,
+      "confidence": 0.8,
+      "summary": "A vehicle is shown in a collision with bright sparks/explosion effects."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5323.25,
+      "t_end": 5344.416666666667,
+      "confidence": 1.0,
+      "summary": "A vehicle is experiencing a large fireball/explosion effect."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5367.25,
+      "t_end": 5368.75,
+      "confidence": 0.9,
+      "summary": "The frame shows a C4 explosive charge with a timer."
+    },
+    {
+      "category": "gun",
+      "t_start": 5368.916666666667,
+      "t_end": 5370.416666666667,
+      "confidence": 0.0,
+      "summary": "A close-up shot of a vehicle's exhaust pipe."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5396.916666666667,
+      "t_end": 5400.75,
+      "confidence": 0.9,
+      "summary": "The image shows a C4 explosive device with a timer."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5451.916666666667,
+      "t_end": 5454.083333333333,
+      "confidence": 1.0,
+      "summary": "The frame shows a C4 explosive charge with a timer."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5463.25,
+      "t_end": 5464.75,
+      "confidence": 0.9,
+      "summary": "An explosive C4 charge with a digital timer is shown."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5473.583333333333,
+      "t_end": 5481.75,
+      "confidence": 0.9,
+      "summary": "The image shows a timer on an explosive device."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5854.25,
+      "t_end": 5865.083333333333,
+      "confidence": 1.0,
+      "summary": "The vehicle is emitting a large fireball-like exhaust blast."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5891.25,
+      "t_end": 5892.75,
+      "confidence": 1.0,
+      "summary": "A bright fireball or explosion is visible behind the vehicles."
+    },
+    {
+      "category": "gun",
+      "t_start": 5964.583333333333,
+      "t_end": 5966.083333333333,
+      "confidence": 0.9,
+      "summary": "Multiple yellow toy-like guns are visible on the surface."
+    },
+    {
+      "category": "gun",
+      "t_start": 6063.916666666667,
+      "t_end": 6065.416666666667,
+      "confidence": 1.0,
+      "summary": "A character is holding a gun on the Hawaii card."
+    },
+    {
+      "category": "death",
+      "t_start": 6216.583333333333,
+      "t_end": 6220.75,
+      "confidence": 1.0,
+      "summary": "A memorial card is visible for two individuals."
+    }
+  ]
+}

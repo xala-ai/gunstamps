@@ -1,0 +1,304 @@
+{
+  "id": "cars-3-2017",
+  "title": "Cars 3",
+  "year": 2017,
+  "duration_s": 6145.1,
+  "summary": "some explosions, scary moments, and very brief smoking.",
+  "segment_count": 33,
+  "detection_count": 128,
+  "poster": "/posters/cars-3-2017.jpg",
+  "safety": {
+    "rag": "amber",
+    "rag_label": "Amber",
+    "pct": 23.300970873786408,
+    "pct_label": "23%",
+    "unsafe_minutes": 24,
+    "total_minutes": 103,
+    "bar": [
+      {
+        "id": "gun",
+        "label": "gun",
+        "seconds": 9.666666666666657,
+        "minutes": 6,
+        "film_pct": 5.825242718446602,
+        "flagged_pct": 25.0,
+        "share_pct": 4.820890525610981,
+        "tooltip": "gun\n6% of the movie\n25% of flagged minutes"
+      },
+      {
+        "id": "explosion",
+        "label": "explosion",
+        "seconds": 125.1666666666664,
+        "minutes": 13,
+        "film_pct": 12.62135922330097,
+        "flagged_pct": 54.166666666666664,
+        "share_pct": 10.445262805490458,
+        "tooltip": "explosion\n13% of the movie\n54% of flagged minutes"
+      },
+      {
+        "id": "scary",
+        "label": "scary",
+        "seconds": 73.33333333333394,
+        "minutes": 8,
+        "film_pct": 7.766990291262136,
+        "flagged_pct": 33.333333333333336,
+        "share_pct": 6.427854034147975,
+        "tooltip": "scary\n8% of the movie\n33% of flagged minutes"
+      },
+      {
+        "id": "alcohol_smoke",
+        "label": "alcohol/smoke",
+        "seconds": 3.333333333333485,
+        "minutes": 2,
+        "film_pct": 1.941747572815534,
+        "flagged_pct": 8.333333333333334,
+        "share_pct": 1.6069635085369938,
+        "tooltip": "alcohol/smoke\n2% of the movie\n8% of flagged minutes"
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "seconds": 0.0,
+        "minutes": 79,
+        "film_pct": 76.69902912621359,
+        "flagged_pct": 0.0,
+        "share_pct": 76.69902912621359,
+        "tooltip": "Other\n77% of the movie"
+      }
+    ],
+    "headline": "23% of this movie contained scenes not safe for kids"
+  },
+  "segments": [
+    {
+      "category": "gun",
+      "t_start": 196.58333333333334,
+      "t_end": 198.75,
+      "confidence": 0.8,
+      "summary": "A blue character is holding a small projectile launcher or gun-like device."
+    },
+    {
+      "category": "explosion",
+      "t_start": 259.5833333333333,
+      "t_end": 261.0833333333333,
+      "confidence": 1.0,
+      "summary": "A large fireball/explosion is visible behind the characters."
+    },
+    {
+      "category": "explosion",
+      "t_start": 726.25,
+      "t_end": 727.75,
+      "confidence": 1.0,
+      "summary": "A large fireball/explosion is visible behind the characters."
+    },
+    {
+      "category": "explosion",
+      "t_start": 810.9166666666666,
+      "t_end": 820.75,
+      "confidence": 1.0,
+      "summary": "A large vehicle or object is shown exploding with smoke and fire."
+    },
+    {
+      "category": "gun",
+      "t_start": 875.9166666666666,
+      "t_end": 877.4166666666666,
+      "confidence": 0.9,
+      "summary": "A blurred silhouette of a gun is visible in the foreground."
+    },
+    {
+      "category": "gun",
+      "t_start": 926.9166666666666,
+      "t_end": 928.4166666666666,
+      "confidence": 0.8,
+      "summary": "A close-up of a mechanical device that appears to be a firearm or weapon component."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2021.25,
+      "t_end": 2051.4166666666665,
+      "confidence": 1.0,
+      "summary": "The frame features a large, bright explosion or fireball effect."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2635.5833333333335,
+      "t_end": 2662.0833333333335,
+      "confidence": 1.0,
+      "summary": "The frame shows bright orange explosions or fireballs in a dark setting."
+    },
+    {
+      "category": "scary",
+      "t_start": 2680.25,
+      "t_end": 2692.75,
+      "confidence": 0.6,
+      "summary": "The character has a dark, menacing expression in a low-light setting."
+    },
+    {
+      "category": "scary",
+      "t_start": 2702.9166666666665,
+      "t_end": 2704.4166666666665,
+      "confidence": 0.4,
+      "summary": "The character has an intense, menacing expression in a dark setting."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2708.5833333333335,
+      "t_end": 2710.4166666666665,
+      "confidence": 1.0,
+      "summary": "Large fireballs or explosions are visible in the background."
+    },
+    {
+      "category": "scary",
+      "t_start": 2720.5833333333335,
+      "t_end": 2722.0833333333335,
+      "confidence": 0.4,
+      "summary": "The characters have intense, wide-eyed expressions that could be perceived as frightening."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2732.5833333333335,
+      "t_end": 2751.0833333333335,
+      "confidence": 1.0,
+      "summary": "A vehicle is shown exploding in the background."
+    },
+    {
+      "category": "scary",
+      "t_start": 2740.25,
+      "t_end": 2741.75,
+      "confidence": 0.7,
+      "summary": "The character has a distressed and frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2805.9166666666665,
+      "t_end": 2807.4166666666665,
+      "confidence": 0.4,
+      "summary": "The character has a terrified expression due to the large object above it."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2855.5833333333335,
+      "t_end": 2870.0833333333335,
+      "confidence": 1.0,
+      "summary": "Large fireballs or explosions are visible on both sides of the frame."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2881.25,
+      "t_end": 2885.0833333333335,
+      "confidence": 1.0,
+      "summary": "A bright fireball or energy blast is visible."
+    },
+    {
+      "category": "gun",
+      "t_start": 2891.5833333333335,
+      "t_end": 2893.0833333333335,
+      "confidence": 1.0,
+      "summary": "The frame shows the barrel of a tank or heavy artillery weapon."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2927.5833333333335,
+      "t_end": 2940.0833333333335,
+      "confidence": 1.0,
+      "summary": "A vehicle is on fire with visible flames."
+    },
+    {
+      "category": "scary",
+      "t_start": 2929.9166666666665,
+      "t_end": 2931.4166666666665,
+      "confidence": 0.4,
+      "summary": "The character has a distressed and intense facial expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2958.5833333333335,
+      "t_end": 2960.0833333333335,
+      "confidence": 1.0,
+      "summary": "A large white blast or explosion is visible."
+    },
+    {
+      "category": "scary",
+      "t_start": 3361.9166666666665,
+      "t_end": 3383.75,
+      "confidence": 0.6,
+      "summary": "The character has a distorted, unsettling facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 3392.9166666666665,
+      "t_end": 3399.0833333333335,
+      "confidence": 0.6,
+      "summary": "The character has a menacing or intense expression in a dark setting."
+    },
+    {
+      "category": "scary",
+      "t_start": 3418.5833333333335,
+      "t_end": 3420.0833333333335,
+      "confidence": 0.4,
+      "summary": "The character on the screen has a frightened or intense expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 3448.25,
+      "t_end": 3469.0833333333335,
+      "confidence": 0.6,
+      "summary": "The character on the screen has a slightly menacing or intense expression."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3736.25,
+      "t_end": 3738.0833333333335,
+      "confidence": 0.5,
+      "summary": "The sign indicates a bar and grill which implies alcohol service."
+    },
+    {
+      "category": "scary",
+      "t_start": 3926.5833333333335,
+      "t_end": 3928.0833333333335,
+      "confidence": 0.4,
+      "summary": "The glowing eyes in the dark background create a sense of tension or a jump-scare element."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3953.25,
+      "t_end": 3954.75,
+      "confidence": 0.3,
+      "summary": "The sign indicates a bar and grill, implying alcohol presence."
+    },
+    {
+      "category": "gun",
+      "t_start": 4163.25,
+      "t_end": 4164.75,
+      "confidence": 1.0,
+      "summary": "A character is holding a firearm-shaped object."
+    },
+    {
+      "category": "gun",
+      "t_start": 4587.916666666667,
+      "t_end": 4589.416666666667,
+      "confidence": 0.9,
+      "summary": "A character is holding a gun-shaped object/weapon in the foreground."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5327.916666666667,
+      "t_end": 5329.416666666667,
+      "confidence": 1.0,
+      "summary": "The frame shows a bright light or explosion effect."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5628.25,
+      "t_end": 5629.75,
+      "confidence": 1.0,
+      "summary": "A bright orange blast or explosion is visible in the landscape."
+    },
+    {
+      "category": "scary",
+      "t_start": 6056.916666666667,
+      "t_end": 6058.416666666667,
+      "confidence": 0.4,
+      "summary": "A pair of eyes peering out from the darkness can be perceived as scary."
+    }
+  ]
+}

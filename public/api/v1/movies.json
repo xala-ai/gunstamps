@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "movies": [
+    {
+      "id": "cars-2006",
+      "title": "Cars",
+      "year": 2006,
+      "duration_s": 6996.0,
+      "summary": "some explosions, scary moments, guns, and a death.",
+      "segment_count": 25,
+      "detection_count": 55,
+      "poster": "/posters/cars-2006.jpg",
+      "safety": {
+        "rag": "amber",
+        "rag_label": "Amber",
+        "pct": 17.94871794871795,
+        "pct_label": "18%",
+        "unsafe_minutes": 21,
+        "total_minutes": 117,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 7.83333333333394,
+            "minutes": 5,
+            "film_pct": 4.273504273504273,
+            "flagged_pct": 23.80952380952381,
+            "share_pct": 3.73931623931624,
+            "tooltip": "gun\n4% of the movie\n24% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 50.50000000000074,
+            "minutes": 13,
+            "film_pct": 11.11111111111111,
+            "flagged_pct": 61.904761904761905,
+            "share_pct": 9.722222222222223,
+            "tooltip": "explosion\n11% of the movie\n62% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 2.1666666666660603,
+            "minutes": 1,
+            "film_pct": 0.8547008547008547,
+            "flagged_pct": 4.761904761904762,
+            "share_pct": 0.7478632478632479,
+            "tooltip": "death\n1% of the movie\n5% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 12.5,
+            "minutes": 4,
+            "film_pct": 3.4188034188034186,
+            "flagged_pct": 19.047619047619047,
+            "share_pct": 2.9914529914529915,
+            "tooltip": "scary\n3% of the movie\n19% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 1.5,
+            "minutes": 1,
+            "film_pct": 0.8547008547008547,
+            "flagged_pct": 4.761904761904762,
+            "share_pct": 0.7478632478632479,
+            "tooltip": "alcohol/smoke\n1% of the movie\n5% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 96,
+            "film_pct": 82.05128205128206,
+            "flagged_pct": 0.0,
+            "share_pct": 82.05128205128206,
+            "tooltip": "Other\n82% of the movie"
+          }
+        ],
+        "headline": "18% of this movie contained scenes not safe for kids"
+      }
+    },
+    {
+      "id": "cars-2-2011",
+      "title": "Cars 2",
+      "year": 2011,
+      "duration_s": 6421.6,
+      "summary": "some guns, explosions, scary moments, and alcohol.",
+      "segment_count": 89,
+      "detection_count": 404,
+      "poster": "/posters/cars-2-2011.jpg",
+      "safety": {
+        "rag": "red",
+        "rag_label": "Red",
+        "pct": 50.0,
+        "pct_label": "50%",
+        "unsafe_minutes": 54,
+        "total_minutes": 108,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 151.3333333333323,
+            "minutes": 27,
+            "film_pct": 25.0,
+            "flagged_pct": 50.0,
+            "share_pct": 17.763157894736842,
+            "tooltip": "gun\n25% of the movie\n50% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 227.49999999999866,
+            "minutes": 24,
+            "film_pct": 22.22222222222222,
+            "flagged_pct": 44.44444444444444,
+            "share_pct": 15.789473684210526,
+            "tooltip": "explosion\n22% of the movie\n44% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 4.16666666666697,
+            "minutes": 1,
+            "film_pct": 0.9259259259259259,
+            "flagged_pct": 1.8518518518518519,
+            "share_pct": 0.6578947368421053,
+            "tooltip": "death\n1% of the movie\n2% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 42.66666666666697,
+            "minutes": 13,
+            "film_pct": 12.037037037037036,
+            "flagged_pct": 24.074074074074073,
+            "share_pct": 8.552631578947368,
+            "tooltip": "scary\n12% of the movie\n24% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 99.16666666666629,
+            "minutes": 11,
+            "film_pct": 10.185185185185185,
+            "flagged_pct": 20.37037037037037,
+            "share_pct": 7.2368421052631575,
+            "tooltip": "alcohol/smoke\n10% of the movie\n20% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 54,
+            "film_pct": 50.0,
+            "flagged_pct": 0.0,
+            "share_pct": 50.0,
+            "tooltip": "Other\n50% of the movie"
+          }
+        ],
+        "headline": "50% of this movie contained scenes not safe for kids"
+      }
+    },
+    {
+      "id": "cars-3-2017",
+      "title": "Cars 3",
+      "year": 2017,
+      "duration_s": 6145.1,
+      "summary": "some explosions, scary moments, and very brief smoking.",
+      "segment_count": 33,
+      "detection_count": 128,
+      "poster": "/posters/cars-3-2017.jpg",
+      "safety": {
+        "rag": "amber",
+        "rag_label": "Amber",
+        "pct": 23.300970873786408,
+        "pct_label": "23%",
+        "unsafe_minutes": 24,
+        "total_minutes": 103,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 9.666666666666657,
+            "minutes": 6,
+            "film_pct": 5.825242718446602,
+            "flagged_pct": 25.0,
+            "share_pct": 4.820890525610981,
+            "tooltip": "gun\n6% of the movie\n25% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 125.1666666666664,
+            "minutes": 13,
+            "film_pct": 12.62135922330097,
+            "flagged_pct": 54.166666666666664,
+            "share_pct": 10.445262805490458,
+            "tooltip": "explosion\n13% of the movie\n54% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 73.33333333333394,
+            "minutes": 8,
+            "film_pct": 7.766990291262136,
+            "flagged_pct": 33.333333333333336,
+            "share_pct": 6.427854034147975,
+            "tooltip": "scary\n8% of the movie\n33% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 3.333333333333485,
+            "minutes": 2,
+            "film_pct": 1.941747572815534,
+            "flagged_pct": 8.333333333333334,
+            "share_pct": 1.6069635085369938,
+            "tooltip": "alcohol/smoke\n2% of the movie\n8% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 79,
+            "film_pct": 76.69902912621359,
+            "flagged_pct": 0.0,
+            "share_pct": 76.69902912621359,
+            "tooltip": "Other\n77% of the movie"
+          }
+        ],
+        "headline": "23% of this movie contained scenes not safe for kids"
+      }
+    },
+    {
+      "id": "minions-2015",
+      "title": "Minions",
+      "year": 2015,
+      "duration_s": 5159.612792,
+      "summary": "guns, explosions, scary moments, nudity, kissing, death, and alcohol.",
+      "segment_count": 226,
+      "detection_count": 1047,
+      "poster": "/posters/minions-2015.jpg",
+      "safety": {
+        "rag": "red",
+        "rag_label": "Red",
+        "pct": 87.20930232558139,
+        "pct_label": "87%",
+        "unsafe_minutes": 75,
+        "total_minutes": 86,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 424.0000000000003,
+            "minutes": 56,
+            "film_pct": 65.11627906976744,
+            "flagged_pct": 74.66666666666667,
+            "share_pct": 28.897756983624603,
+            "tooltip": "gun\n65% of the movie\n75% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 171.8333333333334,
+            "minutes": 30,
+            "film_pct": 34.883720930232556,
+            "flagged_pct": 40.0,
+            "share_pct": 15.480941241227466,
+            "tooltip": "explosion\n35% of the movie\n40% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 19.333333333333485,
+            "minutes": 5,
+            "film_pct": 5.813953488372093,
+            "flagged_pct": 6.666666666666667,
+            "share_pct": 2.580156873537911,
+            "tooltip": "death\n6% of the movie\n7% of flagged minutes"
+          },
+          {
+            "id": "kiss",
+            "label": "kiss",
+            "seconds": 18.33333333333303,
+            "minutes": 6,
+            "film_pct": 6.976744186046512,
+            "flagged_pct": 8.0,
+            "share_pct": 3.0961882482454928,
+            "tooltip": "kiss\n7% of the movie\n8% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 486.5000000000004,
+            "minutes": 46,
+            "film_pct": 53.48837209302326,
+            "flagged_pct": 61.333333333333336,
+            "share_pct": 23.73744323654878,
+            "tooltip": "scary\n53% of the movie\n61% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 35.166666666666515,
+            "minutes": 5,
+            "film_pct": 5.813953488372093,
+            "flagged_pct": 6.666666666666667,
+            "share_pct": 2.580156873537911,
+            "tooltip": "alcohol/smoke\n6% of the movie\n7% of flagged minutes"
+          },
+          {
+            "id": "nudity",
+            "label": "nudity",
+            "seconds": 152.16666666666566,
+            "minutes": 21,
+            "film_pct": 24.41860465116279,
+            "flagged_pct": 28.0,
+            "share_pct": 10.836658868859226,
+            "tooltip": "nudity\n24% of the movie\n28% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 11,
+            "film_pct": 12.790697674418604,
+            "flagged_pct": 0.0,
+            "share_pct": 12.790697674418604,
+            "tooltip": "Other\n13% of the movie"
+          }
+        ],
+        "headline": "87% of this movie contained scenes not safe for kids"
+      }
+    },
+    {
+      "id": "shrek-2001",
+      "title": "Shrek",
+      "year": 2001,
+      "duration_s": 5404.5,
+      "summary": "scary moments, some death, explosions, guns, kissing, nudity and alcohol.",
+      "segment_count": 140,
+      "detection_count": 1127,
+      "poster": "/posters/shrek-2001.jpg",
+      "safety": {
+        "rag": "red",
+        "rag_label": "Red",
+        "pct": 69.23076923076923,
+        "pct_label": "69%",
+        "unsafe_minutes": 63,
+        "total_minutes": 91,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 57.333333333333144,
+            "minutes": 20,
+            "film_pct": 21.978021978021978,
+            "flagged_pct": 31.746031746031747,
+            "share_pct": 12.040133779264213,
+            "tooltip": "gun\n22% of the movie\n32% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 72.83333333333303,
+            "minutes": 9,
+            "film_pct": 9.89010989010989,
+            "flagged_pct": 14.285714285714286,
+            "share_pct": 5.418060200668896,
+            "tooltip": "explosion\n10% of the movie\n14% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 101.83333333333326,
+            "minutes": 23,
+            "film_pct": 25.274725274725274,
+            "flagged_pct": 36.507936507936506,
+            "share_pct": 13.846153846153845,
+            "tooltip": "death\n25% of the movie\n37% of flagged minutes"
+          },
+          {
+            "id": "kiss",
+            "label": "kiss",
+            "seconds": 28.333333333333485,
+            "minutes": 8,
+            "film_pct": 8.791208791208792,
+            "flagged_pct": 12.698412698412698,
+            "share_pct": 4.816053511705685,
+            "tooltip": "kiss\n9% of the movie\n13% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 924.3333333333321,
+            "minutes": 44,
+            "film_pct": 48.35164835164835,
+            "flagged_pct": 69.84126984126983,
+            "share_pct": 26.488294314381267,
+            "tooltip": "scary\n48% of the movie\n70% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 25.166666666666174,
+            "minutes": 6,
+            "film_pct": 6.593406593406593,
+            "flagged_pct": 9.523809523809524,
+            "share_pct": 3.612040133779264,
+            "tooltip": "alcohol/smoke\n7% of the movie\n10% of flagged minutes"
+          },
+          {
+            "id": "nudity",
+            "label": "nudity",
+            "seconds": 7.833333333333371,
+            "minutes": 5,
+            "film_pct": 5.4945054945054945,
+            "flagged_pct": 7.936507936507937,
+            "share_pct": 3.0100334448160533,
+            "tooltip": "nudity\n5% of the movie\n8% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 28,
+            "film_pct": 30.76923076923077,
+            "flagged_pct": 0.0,
+            "share_pct": 30.76923076923077,
+            "tooltip": "Other\n31% of the movie"
+          }
+        ],
+        "headline": "69% of this movie contained scenes not safe for kids"
+      }
+    },
+    {
+      "id": "shrek-2-2004",
+      "title": "Shrek 2",
+      "year": 2004,
+      "duration_s": 5543.5,
+      "summary": "scary moments, guns, explosions, death, kissing, alcohol and some nudity.",
+      "segment_count": 149,
+      "detection_count": 637,
+      "poster": "/posters/shrek-2-2004.jpg",
+      "safety": {
+        "rag": "red",
+        "rag_label": "Red",
+        "pct": 72.04301075268818,
+        "pct_label": "72%",
+        "unsafe_minutes": 67,
+        "total_minutes": 93,
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 51.0,
+            "minutes": 20,
+            "film_pct": 21.50537634408602,
+            "flagged_pct": 29.850746268656717,
+            "share_pct": 11.619840443981964,
+            "tooltip": "gun\n22% of the movie\n30% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 37.166666666666515,
+            "minutes": 6,
+            "film_pct": 6.451612903225806,
+            "flagged_pct": 8.955223880597014,
+            "share_pct": 3.485952133194589,
+            "tooltip": "explosion\n6% of the movie\n9% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 40.33333333333417,
+            "minutes": 10,
+            "film_pct": 10.75268817204301,
+            "flagged_pct": 14.925373134328359,
+            "share_pct": 5.809920221990982,
+            "tooltip": "death\n11% of the movie\n15% of flagged minutes"
+          },
+          {
+            "id": "kiss",
+            "label": "kiss",
+            "seconds": 60.6666666666664,
+            "minutes": 17,
+            "film_pct": 18.27956989247312,
+            "flagged_pct": 25.37313432835821,
+            "share_pct": 9.876864377384669,
+            "tooltip": "kiss\n18% of the movie\n25% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 603.1666666666642,
+            "minutes": 55,
+            "film_pct": 59.13978494623656,
+            "flagged_pct": 82.08955223880596,
+            "share_pct": 31.9545612209504,
+            "tooltip": "scary\n59% of the movie\n82% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 46.83333333333292,
+            "minutes": 11,
+            "film_pct": 11.827956989247312,
+            "flagged_pct": 16.417910447761194,
+            "share_pct": 6.39091224419008,
+            "tooltip": "alcohol/smoke\n12% of the movie\n16% of flagged minutes"
+          },
+          {
+            "id": "nudity",
+            "label": "nudity",
+            "seconds": 14.666666666666345,
+            "minutes": 5,
+            "film_pct": 5.376344086021505,
+            "flagged_pct": 7.462686567164179,
+            "share_pct": 2.904960110995491,
+            "tooltip": "nudity\n5% of the movie\n7% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 26,
+            "film_pct": 27.956989247311828,
+            "flagged_pct": 0.0,
+            "share_pct": 27.956989247311828,
+            "tooltip": "Other\n28% of the movie"
+          }
+        ],
+        "headline": "72% of this movie contained scenes not safe for kids"
+      }
+    }
+  ]
+}

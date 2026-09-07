@@ -1,0 +1,258 @@
+{
+  "id": "cars-2006",
+  "title": "Cars",
+  "year": 2006,
+  "duration_s": 6996.0,
+  "summary": "some explosions, scary moments, guns, and a death.",
+  "segment_count": 25,
+  "detection_count": 55,
+  "poster": "/posters/cars-2006.jpg",
+  "safety": {
+    "rag": "amber",
+    "rag_label": "Amber",
+    "pct": 17.94871794871795,
+    "pct_label": "18%",
+    "unsafe_minutes": 21,
+    "total_minutes": 117,
+    "bar": [
+      {
+        "id": "gun",
+        "label": "gun",
+        "seconds": 7.83333333333394,
+        "minutes": 5,
+        "film_pct": 4.273504273504273,
+        "flagged_pct": 23.80952380952381,
+        "share_pct": 3.73931623931624,
+        "tooltip": "gun\n4% of the movie\n24% of flagged minutes"
+      },
+      {
+        "id": "explosion",
+        "label": "explosion",
+        "seconds": 50.50000000000074,
+        "minutes": 13,
+        "film_pct": 11.11111111111111,
+        "flagged_pct": 61.904761904761905,
+        "share_pct": 9.722222222222223,
+        "tooltip": "explosion\n11% of the movie\n62% of flagged minutes"
+      },
+      {
+        "id": "death",
+        "label": "death",
+        "seconds": 2.1666666666660603,
+        "minutes": 1,
+        "film_pct": 0.8547008547008547,
+        "flagged_pct": 4.761904761904762,
+        "share_pct": 0.7478632478632479,
+        "tooltip": "death\n1% of the movie\n5% of flagged minutes"
+      },
+      {
+        "id": "scary",
+        "label": "scary",
+        "seconds": 12.5,
+        "minutes": 4,
+        "film_pct": 3.4188034188034186,
+        "flagged_pct": 19.047619047619047,
+        "share_pct": 2.9914529914529915,
+        "tooltip": "scary\n3% of the movie\n19% of flagged minutes"
+      },
+      {
+        "id": "alcohol_smoke",
+        "label": "alcohol/smoke",
+        "seconds": 1.5,
+        "minutes": 1,
+        "film_pct": 0.8547008547008547,
+        "flagged_pct": 4.761904761904762,
+        "share_pct": 0.7478632478632479,
+        "tooltip": "alcohol/smoke\n1% of the movie\n5% of flagged minutes"
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "seconds": 0.0,
+        "minutes": 96,
+        "film_pct": 82.05128205128206,
+        "flagged_pct": 0.0,
+        "share_pct": 82.05128205128206,
+        "tooltip": "Other\n82% of the movie"
+      }
+    ],
+    "headline": "18% of this movie contained scenes not safe for kids"
+  },
+  "segments": [
+    {
+      "category": "explosion",
+      "t_start": 268.25,
+      "t_end": 270.4166666666667,
+      "confidence": 1.0,
+      "summary": "The frame shows a bright, central explosion with light trails."
+    },
+    {
+      "category": "explosion",
+      "t_start": 739.25,
+      "t_end": 752.0833333333334,
+      "confidence": 1.0,
+      "summary": "A large fireball or explosion is visible behind the text."
+    },
+    {
+      "category": "scary",
+      "t_start": 1572.25,
+      "t_end": 1577.75,
+      "confidence": 0.4,
+      "summary": "The character has a distressed, wide-eyed expression that could be perceived as frightening."
+    },
+    {
+      "category": "explosion",
+      "t_start": 1577.5833333333333,
+      "t_end": 1587.75,
+      "confidence": 1.0,
+      "summary": "A vehicle or object is shown amidst a fire or explosion."
+    },
+    {
+      "category": "scary",
+      "t_start": 1588.9166666666667,
+      "t_end": 1591.4166666666667,
+      "confidence": 0.6,
+      "summary": "The character has a creepy, stylized monster-like appearance."
+    },
+    {
+      "category": "explosion",
+      "t_start": 2466.25,
+      "t_end": 2469.75,
+      "confidence": 1.0,
+      "summary": "A bright, central explosion or blast is visible against a dark background."
+    },
+    {
+      "category": "scary",
+      "t_start": 3284.5833333333335,
+      "t_end": 3286.0833333333335,
+      "confidence": 0.3,
+      "summary": "The dark atmosphere and the character's expression create a slightly tense or scary mood."
+    },
+    {
+      "category": "scary",
+      "t_start": 3421.5833333333335,
+      "t_end": 3423.0833333333335,
+      "confidence": 1.0,
+      "summary": "A vehicle or object is surrounded by a large blast or explosion effect."
+    },
+    {
+      "category": "scary",
+      "t_start": 3584.9166666666665,
+      "t_end": 3586.4166666666665,
+      "confidence": 0.6,
+      "summary": "The character has a menacing, wide-toothed expression in a dark setting."
+    },
+    {
+      "category": "gun",
+      "t_start": 3803.9166666666665,
+      "t_end": 3805.4166666666665,
+      "confidence": 0.8,
+      "summary": "A stylized tank is visible in a stadium setting."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4649.583333333333,
+      "t_end": 4652.083333333333,
+      "confidence": 0.9,
+      "summary": "A car is shown next to a large fireball or explosion."
+    },
+    {
+      "category": "gun",
+      "t_start": 4965.583333333333,
+      "t_end": 4967.083333333333,
+      "confidence": 1.0,
+      "summary": "A character is holding a gun-shaped object."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5039.916666666667,
+      "t_end": 5041.416666666667,
+      "confidence": 0.8,
+      "summary": "A bright red light or blast is visible in the center of the frame."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5262.916666666667,
+      "t_end": 5264.416666666667,
+      "confidence": 0.8,
+      "summary": "The frame shows a bright, intense light effect consistent with an explosion or blast."
+    },
+    {
+      "category": "gun",
+      "t_start": 5263.583333333333,
+      "t_end": 5265.416666666667,
+      "confidence": 0.9,
+      "summary": "A character car is equipped with a large cannon-like weapon."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5423.25,
+      "t_end": 5424.75,
+      "confidence": 0.7,
+      "summary": "A bright light or blast is visible between the vehicles."
+    },
+    {
+      "category": "gun",
+      "t_start": 5430.25,
+      "t_end": 5431.75,
+      "confidence": 0.9,
+      "summary": "Characters are being targeted by large, stylized mechanical weapons/cannons."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5445.916666666667,
+      "t_end": 5449.416666666667,
+      "confidence": 0.7,
+      "summary": "A bright light or blast effect is visible near the vehicles."
+    },
+    {
+      "category": "gun",
+      "t_start": 5607.25,
+      "t_end": 5608.75,
+      "confidence": 0.9,
+      "summary": "Large stylized cannons/weapons are visible on the side of the frame."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5712.25,
+      "t_end": 5713.75,
+      "confidence": 0.5,
+      "summary": "The jet engines are emitting bright fire/exhaust plumes."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 6054.916666666667,
+      "t_end": 6056.416666666667,
+      "confidence": 0.5,
+      "summary": "There are bottles visible on the table behind the characters."
+    },
+    {
+      "category": "explosion",
+      "t_start": 6103.583333333333,
+      "t_end": 6110.416666666667,
+      "confidence": 1.0,
+      "summary": "The image shows a fiery blast or explosion effect."
+    },
+    {
+      "category": "explosion",
+      "t_start": 6139.583333333333,
+      "t_end": 6141.083333333333,
+      "confidence": 0.8,
+      "summary": "A small explosion or impact is occurring on the grass."
+    },
+    {
+      "category": "explosion",
+      "t_start": 6558.916666666667,
+      "t_end": 6560.416666666667,
+      "confidence": 0.8,
+      "summary": "The orange car has large fire/exhaust blasts coming from it."
+    },
+    {
+      "category": "death",
+      "t_start": 6749.916666666667,
+      "t_end": 6752.083333333333,
+      "confidence": 1.0,
+      "summary": "The frame contains a dedication to a deceased person (Joe Ranft 1960-2005)."
+    }
+  ]
+}

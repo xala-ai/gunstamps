@@ -1,0 +1,20 @@
+[build]
+  publish = "public"
+  command = "echo 'static site'"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Staging / production static CDN. API-shaped JSON under /api/v1.
+# Custom domain gunstamps.xala.ai → Cloudflare CNAME to this Netlify site.
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/posters/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

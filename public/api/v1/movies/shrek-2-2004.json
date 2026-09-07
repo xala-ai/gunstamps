@@ -1,0 +1,1146 @@
+{
+  "id": "shrek-2-2004",
+  "title": "Shrek 2",
+  "year": 2004,
+  "duration_s": 5543.5,
+  "summary": "scary moments, guns, explosions, death, kissing, alcohol and some nudity.",
+  "segment_count": 149,
+  "detection_count": 637,
+  "poster": "/posters/shrek-2-2004.jpg",
+  "safety": {
+    "rag": "red",
+    "rag_label": "Red",
+    "pct": 72.04301075268818,
+    "pct_label": "72%",
+    "unsafe_minutes": 67,
+    "total_minutes": 93,
+    "bar": [
+      {
+        "id": "gun",
+        "label": "gun",
+        "seconds": 51.0,
+        "minutes": 20,
+        "film_pct": 21.50537634408602,
+        "flagged_pct": 29.850746268656717,
+        "share_pct": 11.619840443981964,
+        "tooltip": "gun\n22% of the movie\n30% of flagged minutes"
+      },
+      {
+        "id": "explosion",
+        "label": "explosion",
+        "seconds": 37.166666666666515,
+        "minutes": 6,
+        "film_pct": 6.451612903225806,
+        "flagged_pct": 8.955223880597014,
+        "share_pct": 3.485952133194589,
+        "tooltip": "explosion\n6% of the movie\n9% of flagged minutes"
+      },
+      {
+        "id": "death",
+        "label": "death",
+        "seconds": 40.33333333333417,
+        "minutes": 10,
+        "film_pct": 10.75268817204301,
+        "flagged_pct": 14.925373134328359,
+        "share_pct": 5.809920221990982,
+        "tooltip": "death\n11% of the movie\n15% of flagged minutes"
+      },
+      {
+        "id": "kiss",
+        "label": "kiss",
+        "seconds": 60.6666666666664,
+        "minutes": 17,
+        "film_pct": 18.27956989247312,
+        "flagged_pct": 25.37313432835821,
+        "share_pct": 9.876864377384669,
+        "tooltip": "kiss\n18% of the movie\n25% of flagged minutes"
+      },
+      {
+        "id": "scary",
+        "label": "scary",
+        "seconds": 603.1666666666642,
+        "minutes": 55,
+        "film_pct": 59.13978494623656,
+        "flagged_pct": 82.08955223880596,
+        "share_pct": 31.9545612209504,
+        "tooltip": "scary\n59% of the movie\n82% of flagged minutes"
+      },
+      {
+        "id": "alcohol_smoke",
+        "label": "alcohol/smoke",
+        "seconds": 46.83333333333292,
+        "minutes": 11,
+        "film_pct": 11.827956989247312,
+        "flagged_pct": 16.417910447761194,
+        "share_pct": 6.39091224419008,
+        "tooltip": "alcohol/smoke\n12% of the movie\n16% of flagged minutes"
+      },
+      {
+        "id": "nudity",
+        "label": "nudity",
+        "seconds": 14.666666666666345,
+        "minutes": 5,
+        "film_pct": 5.376344086021505,
+        "flagged_pct": 7.462686567164179,
+        "share_pct": 2.904960110995491,
+        "tooltip": "nudity\n5% of the movie\n7% of flagged minutes"
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "seconds": 0.0,
+        "minutes": 26,
+        "film_pct": 27.956989247311828,
+        "flagged_pct": 0.0,
+        "share_pct": 27.956989247311828,
+        "tooltip": "Other\n28% of the movie"
+      }
+    ],
+    "headline": "72% of this movie contained scenes not safe for kids"
+  },
+  "segments": [
+    {
+      "category": "scary",
+      "t_start": 68.58333333333333,
+      "t_end": 74.75,
+      "confidence": 0.6,
+      "summary": "The green monster character and the text describing a 'frightful enchantment' create a mildly scary atmosphere."
+    },
+    {
+      "category": "explosion",
+      "t_start": 93.91666666666667,
+      "t_end": 95.41666666666667,
+      "confidence": 0.9,
+      "summary": "A large bright blast or explosion is visible in the background."
+    },
+    {
+      "category": "gun",
+      "t_start": 96.91666666666667,
+      "t_end": 98.41666666666667,
+      "confidence": 0.7,
+      "summary": "A silhouette of a character on horseback appears to be holding a firearm."
+    },
+    {
+      "category": "scary",
+      "t_start": 103.25,
+      "t_end": 104.75,
+      "confidence": 0.4,
+      "summary": "The dark, hellish environment with red mist and lava creates a scary atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 126.25,
+      "t_end": 136.75,
+      "confidence": 0.4,
+      "summary": "The dark, shadowy castle setting and ominous atmosphere create a scary tone."
+    },
+    {
+      "category": "scary",
+      "t_start": 151.91666666666666,
+      "t_end": 153.41666666666666,
+      "confidence": 0.5,
+      "summary": "The character has a frightened, wide-eyed expression."
+    },
+    {
+      "category": "kiss",
+      "t_start": 160.58333333333334,
+      "t_end": 162.08333333333334,
+      "confidence": 1.0,
+      "summary": "Two characters are sharing a romantic kiss in front of a gingerbread house."
+    },
+    {
+      "category": "kiss",
+      "t_start": 209.58333333333334,
+      "t_end": 211.08333333333334,
+      "confidence": 1.0,
+      "summary": "A character is kissing another character on the beach."
+    },
+    {
+      "category": "scary",
+      "t_start": 253.58333333333334,
+      "t_end": 255.08333333333334,
+      "confidence": 0.6,
+      "summary": "The character's expression and pose suggest fear or a frightening moment."
+    },
+    {
+      "category": "kiss",
+      "t_start": 260.25,
+      "t_end": 261.75,
+      "confidence": 1.0,
+      "summary": "The characters are sharing a romantic kiss."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 262.5833333333333,
+      "t_end": 264.0833333333333,
+      "confidence": 0.7,
+      "summary": "A character is holding a glass bottle that appears to contain an alcoholic beverage."
+    },
+    {
+      "category": "kiss",
+      "t_start": 282.25,
+      "t_end": 287.4166666666667,
+      "confidence": 1.0,
+      "summary": "The characters are sharing a romantic kiss."
+    },
+    {
+      "category": "kiss",
+      "t_start": 299.5833333333333,
+      "t_end": 301.0833333333333,
+      "confidence": 1.0,
+      "summary": "Shrek and Fiona are kissing."
+    },
+    {
+      "category": "nudity",
+      "t_start": 307.9166666666667,
+      "t_end": 310.75,
+      "confidence": 1.0,
+      "summary": "A character is shown lying down with bare buttocks exposed."
+    },
+    {
+      "category": "kiss",
+      "t_start": 313.5833333333333,
+      "t_end": 315.0833333333333,
+      "confidence": 1.0,
+      "summary": "The characters are sharing a romantic kiss."
+    },
+    {
+      "category": "scary",
+      "t_start": 371.25,
+      "t_end": 372.75,
+      "confidence": 0.6,
+      "summary": "The character has an exaggerated, unsettling grin in a dark setting."
+    },
+    {
+      "category": "death",
+      "t_start": 388.9166666666667,
+      "t_end": 390.4166666666667,
+      "confidence": 0.8,
+      "summary": "An animal appears to be dead on the ground."
+    },
+    {
+      "category": "kiss",
+      "t_start": 406.5833333333333,
+      "t_end": 415.75,
+      "confidence": 1.0,
+      "summary": "The characters are engaged in a romantic kiss."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 423.5833333333333,
+      "t_end": 425.4166666666667,
+      "confidence": 1.0,
+      "summary": "A character is drinking from a long pipe or vessel."
+    },
+    {
+      "category": "gun",
+      "t_start": 457.5833333333333,
+      "t_end": 459.0833333333333,
+      "confidence": 1.0,
+      "summary": "Characters are holding long muskets/firearms."
+    },
+    {
+      "category": "scary",
+      "t_start": 664.25,
+      "t_end": 665.75,
+      "confidence": 0.7,
+      "summary": "The green character has a frightening, aggressive expression with an open mouth."
+    },
+    {
+      "category": "gun",
+      "t_start": 707.5833333333334,
+      "t_end": 709.0833333333334,
+      "confidence": 0.9,
+      "summary": "A character is holding a small handgun/pistol."
+    },
+    {
+      "category": "scary",
+      "t_start": 713.5833333333334,
+      "t_end": 715.0833333333334,
+      "confidence": 0.4,
+      "summary": "The large creature with a gaping mouth could be perceived as scary."
+    },
+    {
+      "category": "scary",
+      "t_start": 904.5833333333334,
+      "t_end": 906.0833333333334,
+      "confidence": 0.4,
+      "summary": "A winged creature looms in the background creating a potentially scary atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 1002.5833333333334,
+      "t_end": 1004.0833333333334,
+      "confidence": 0.8,
+      "summary": "A large creature with an open mouth is lunging toward the characters."
+    },
+    {
+      "category": "scary",
+      "t_start": 1077.5833333333333,
+      "t_end": 1083.0833333333333,
+      "confidence": 0.7,
+      "summary": "The character has an intense, menacing facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1112.5833333333333,
+      "t_end": 1114.0833333333333,
+      "confidence": 0.4,
+      "summary": "The dark lighting and character's approach create a suspenseful/scary atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 1202.25,
+      "t_end": 1203.75,
+      "confidence": 0.6,
+      "summary": "The character in the background has a frightened, wide-eyed expression."
+    },
+    {
+      "category": "gun",
+      "t_start": 1238.5833333333333,
+      "t_end": 1240.4166666666667,
+      "confidence": 1.0,
+      "summary": "A character is holding a handgun while sitting on a carriage."
+    },
+    {
+      "category": "scary",
+      "t_start": 1375.9166666666667,
+      "t_end": 1378.0833333333333,
+      "confidence": 0.6,
+      "summary": "The character has an intense, aggressive facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1409.5833333333333,
+      "t_end": 1411.0833333333333,
+      "confidence": 0.7,
+      "summary": "The character has a frightened expression in a dark setting."
+    },
+    {
+      "category": "scary",
+      "t_start": 1541.9166666666667,
+      "t_end": 1550.4166666666667,
+      "confidence": 0.7,
+      "summary": "The female character has an intense, frightening facial expression."
+    },
+    {
+      "category": "kiss",
+      "t_start": 1554.5833333333333,
+      "t_end": 1556.0833333333333,
+      "confidence": 1.0,
+      "summary": "A romantic kiss is occurring between two characters."
+    },
+    {
+      "category": "scary",
+      "t_start": 1564.5833333333333,
+      "t_end": 1566.75,
+      "confidence": 0.7,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary."
+    },
+    {
+      "category": "gun",
+      "t_start": 1588.9166666666667,
+      "t_end": 1590.4166666666667,
+      "confidence": 1.0,
+      "summary": "A character is holding a firearm/gun."
+    },
+    {
+      "category": "scary",
+      "t_start": 1602.5833333333333,
+      "t_end": 1604.0833333333333,
+      "confidence": 0.4,
+      "summary": "The character has an intense, potentially frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1631.9166666666667,
+      "t_end": 1636.4166666666667,
+      "confidence": 0.8,
+      "summary": "A dark, silhouette figure against a full moon creates a spooky atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 1655.9166666666667,
+      "t_end": 1683.75,
+      "confidence": 0.8,
+      "summary": "A single eye peering through a dark peephole creates a suspenseful/scary atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 1696.25,
+      "t_end": 1705.4166666666667,
+      "confidence": 0.7,
+      "summary": "The character on the left has an intense, frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1714.9166666666667,
+      "t_end": 1761.75,
+      "confidence": 0.9,
+      "summary": "The character has an intense, potentially menacing expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 1772.9166666666667,
+      "t_end": 1774.75,
+      "confidence": 0.8,
+      "summary": "A dark, shadowy figure is looming over a character in bed."
+    },
+    {
+      "category": "scary",
+      "t_start": 1797.25,
+      "t_end": 1815.75,
+      "confidence": 0.7,
+      "summary": "A large green monster is shown in a dark room, which may be frightening to young children."
+    },
+    {
+      "category": "death",
+      "t_start": 1821.5833333333333,
+      "t_end": 1826.75,
+      "confidence": 0.7,
+      "summary": "A character is holding a large weapon while another character lies motionless on the ground."
+    },
+    {
+      "category": "gun",
+      "t_start": 1821.5833333333333,
+      "t_end": 1823.0833333333333,
+      "confidence": 0.7,
+      "summary": "A character is holding a large weapon while another character lies motionless on the ground."
+    },
+    {
+      "category": "scary",
+      "t_start": 2027.9166666666667,
+      "t_end": 2030.0833333333333,
+      "confidence": 0.4,
+      "summary": "The character has a frightened/aggressive expression with bared teeth."
+    },
+    {
+      "category": "scary",
+      "t_start": 2055.5833333333335,
+      "t_end": 2065.4166666666665,
+      "confidence": 0.6,
+      "summary": "The character has an exaggerated, intense facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2113.25,
+      "t_end": 2120.0833333333335,
+      "confidence": 0.7,
+      "summary": "The character appears to be in a state of terror or distress."
+    },
+    {
+      "category": "scary",
+      "t_start": 2277.5833333333335,
+      "t_end": 2279.0833333333335,
+      "confidence": 0.4,
+      "summary": "The character has an exaggerated, intense, and potentially frightening facial expression."
+    },
+    {
+      "category": "nudity",
+      "t_start": 2497.25,
+      "t_end": 2500.75,
+      "confidence": 0.9,
+      "summary": "A large painting on the wall depicts a nude figure."
+    },
+    {
+      "category": "scary",
+      "t_start": 2509.9166666666665,
+      "t_end": 2511.4166666666665,
+      "confidence": 0.4,
+      "summary": "Figures in hooded robes in a dark setting create a potentially scary atmosphere."
+    },
+    {
+      "category": "gun",
+      "t_start": 2525.25,
+      "t_end": 2526.75,
+      "confidence": 0.9,
+      "summary": "Shrek is holding a small firearm/blaster."
+    },
+    {
+      "category": "scary",
+      "t_start": 2534.9166666666665,
+      "t_end": 2551.0833333333335,
+      "confidence": 0.7,
+      "summary": "The purple mist and dark setting create a spooky, potentially scary atmosphere."
+    },
+    {
+      "category": "scary",
+      "t_start": 2569.9166666666665,
+      "t_end": 2571.4166666666665,
+      "confidence": 0.6,
+      "summary": "A shadowy, monster-like figure is visible in the background."
+    },
+    {
+      "category": "scary",
+      "t_start": 2603.9166666666665,
+      "t_end": 2605.4166666666665,
+      "confidence": 0.4,
+      "summary": "The character has an intense, aggressive, or frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2649.5833333333335,
+      "t_end": 2659.4166666666665,
+      "confidence": 0.6,
+      "summary": "A creature with glowing eyes in a dark setting may be perceived as scary."
+    },
+    {
+      "category": "scary",
+      "t_start": 2668.25,
+      "t_end": 2670.0833333333335,
+      "confidence": 0.7,
+      "summary": "The character appears to be in a state of terror or shock."
+    },
+    {
+      "category": "gun",
+      "t_start": 2685.25,
+      "t_end": 2687.4166666666665,
+      "confidence": 1.0,
+      "summary": "A character is holding a small firearm/pistol."
+    },
+    {
+      "category": "scary",
+      "t_start": 2725.9166666666665,
+      "t_end": 2729.0833333333335,
+      "confidence": 0.7,
+      "summary": "The cat has an intense, menacing expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2745.5833333333335,
+      "t_end": 2777.0833333333335,
+      "confidence": 0.7,
+      "summary": "The character has a menacing, intense expression in a dark setting."
+    },
+    {
+      "category": "gun",
+      "t_start": 2807.25,
+      "t_end": 2811.75,
+      "confidence": 1.0,
+      "summary": "A group of characters is holding firearms."
+    },
+    {
+      "category": "scary",
+      "t_start": 2817.5833333333335,
+      "t_end": 2819.0833333333335,
+      "confidence": 0.8,
+      "summary": "The characters have distorted, frightening facial expressions."
+    },
+    {
+      "category": "scary",
+      "t_start": 2830.25,
+      "t_end": 2831.75,
+      "confidence": 0.7,
+      "summary": "The dinosaur has an aggressive, frightening expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2841.25,
+      "t_end": 2842.75,
+      "confidence": 0.4,
+      "summary": "The character has a frightened or distressed facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 2862.5833333333335,
+      "t_end": 2867.0833333333335,
+      "confidence": 0.7,
+      "summary": "The character has a frightened, intense expression."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 2911.25,
+      "t_end": 2912.75,
+      "confidence": 0.7,
+      "summary": "The character is holding a small bottle that appears to contain alcohol."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 2987.25,
+      "t_end": 2988.75,
+      "confidence": 0.6,
+      "summary": "The character is holding a small bottle that resembles an alcoholic beverage."
+    },
+    {
+      "category": "scary",
+      "t_start": 3018.5833333333335,
+      "t_end": 3026.0833333333335,
+      "confidence": 0.6,
+      "summary": "The character has a wide-mouthed, distressed expression in a dark setting."
+    },
+    {
+      "category": "explosion",
+      "t_start": 3032.25,
+      "t_end": 3034.0833333333335,
+      "confidence": 0.9,
+      "summary": "A large bright light or explosion is visible."
+    },
+    {
+      "category": "scary",
+      "t_start": 3044.9166666666665,
+      "t_end": 3061.0833333333335,
+      "confidence": 0.7,
+      "summary": "The dark, rainy atmosphere and looming figure create a scary/suspenseful mood."
+    },
+    {
+      "category": "scary",
+      "t_start": 3079.25,
+      "t_end": 3080.75,
+      "confidence": 0.4,
+      "summary": "The character has a frightened or distressed expression in a dark setting."
+    },
+    {
+      "category": "kiss",
+      "t_start": 3087.25,
+      "t_end": 3088.75,
+      "confidence": 1.0,
+      "summary": "Shrek and Fiona are sharing a romantic kiss."
+    },
+    {
+      "category": "death",
+      "t_start": 3087.9166666666665,
+      "t_end": 3092.0833333333335,
+      "confidence": 0.9,
+      "summary": "A character is lying motionless on the ground, implying death."
+    },
+    {
+      "category": "scary",
+      "t_start": 3097.9166666666665,
+      "t_end": 3099.4166666666665,
+      "confidence": 0.4,
+      "summary": "A dark, rainy atmosphere with a shadowy hand creates a sense of tension or fear."
+    },
+    {
+      "category": "death",
+      "t_start": 3140.9166666666665,
+      "t_end": 3146.0833333333335,
+      "confidence": 0.8,
+      "summary": "A character is lying motionless on the floor, implying death or injury."
+    },
+    {
+      "category": "scary",
+      "t_start": 3244.9166666666665,
+      "t_end": 3246.4166666666665,
+      "confidence": 0.4,
+      "summary": "The creature on the left has a wide, gaping mouth that could be perceived as frightening."
+    },
+    {
+      "category": "gun",
+      "t_start": 3256.25,
+      "t_end": 3259.4166666666665,
+      "confidence": 1.0,
+      "summary": "The character is holding a small firearm/pistol."
+    },
+    {
+      "category": "gun",
+      "t_start": 3269.5833333333335,
+      "t_end": 3279.75,
+      "confidence": 1.0,
+      "summary": "The character is holding a stylized flintlock-style pistol."
+    },
+    {
+      "category": "death",
+      "t_start": 3331.25,
+      "t_end": 3337.0833333333335,
+      "confidence": 0.8,
+      "summary": "An animal is lying motionless on the ground, appearing to be dead."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3342.9166666666665,
+      "t_end": 3344.4166666666665,
+      "confidence": 0.5,
+      "summary": "A character is holding a mug that appears to contain alcohol."
+    },
+    {
+      "category": "gun",
+      "t_start": 3343.9166666666665,
+      "t_end": 3346.75,
+      "confidence": 1.0,
+      "summary": "A character is holding a small firearm/blaster."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3358.9166666666665,
+      "t_end": 3360.4166666666665,
+      "confidence": 0.9,
+      "summary": "The character appears to be smoking a pipe or cigarette."
+    },
+    {
+      "category": "gun",
+      "t_start": 3370.25,
+      "t_end": 3371.75,
+      "confidence": 0.8,
+      "summary": "Two characters in the background appear to be holding guns."
+    },
+    {
+      "category": "kiss",
+      "t_start": 3376.25,
+      "t_end": 3377.75,
+      "confidence": 0.9,
+      "summary": "Two characters are seen kissing in the distance."
+    },
+    {
+      "category": "gun",
+      "t_start": 3413.9166666666665,
+      "t_end": 3415.4166666666665,
+      "confidence": 0.7,
+      "summary": "A blurry foreground object appears to be a gun barrel being pointed towards the camera."
+    },
+    {
+      "category": "scary",
+      "t_start": 3444.9166666666665,
+      "t_end": 3447.0833333333335,
+      "confidence": 0.7,
+      "summary": "The character has a frightened, wide-eyed expression."
+    },
+    {
+      "category": "nudity",
+      "t_start": 3501.9166666666665,
+      "t_end": 3503.4166666666665,
+      "confidence": 1.0,
+      "summary": "The character is shown with bare buttocks visible."
+    },
+    {
+      "category": "scary",
+      "t_start": 3560.5833333333335,
+      "t_end": 3565.75,
+      "confidence": 0.7,
+      "summary": "The characters have exaggerated expressions of terror/shock."
+    },
+    {
+      "category": "kiss",
+      "t_start": 3570.25,
+      "t_end": 3571.75,
+      "confidence": 1.0,
+      "summary": "Two characters are seen kissing on a balcony."
+    },
+    {
+      "category": "kiss",
+      "t_start": 3603.25,
+      "t_end": 3604.75,
+      "confidence": 1.0,
+      "summary": "A character is seen kissing another on a balcony."
+    },
+    {
+      "category": "scary",
+      "t_start": 3647.25,
+      "t_end": 3651.0833333333335,
+      "confidence": 0.4,
+      "summary": "The presence of skulls and dark lighting creates a spooky atmosphere."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3659.5833333333335,
+      "t_end": 3664.4166666666665,
+      "confidence": 0.5,
+      "summary": "There are bottles and small cups on the bar suggesting alcohol consumption."
+    },
+    {
+      "category": "scary",
+      "t_start": 3682.25,
+      "t_end": 3683.75,
+      "confidence": 0.4,
+      "summary": "The character has a frightened expression and there is a skull in the background."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3684.25,
+      "t_end": 3699.75,
+      "confidence": 0.5,
+      "summary": "A character is sitting at a bar with a mug present."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3714.25,
+      "t_end": 3724.75,
+      "confidence": 0.8,
+      "summary": "A bottle and a small drinking glass are visible on the table."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 3776.5833333333335,
+      "t_end": 3781.75,
+      "confidence": 0.5,
+      "summary": "A character is holding a small red bottle that appears to be alcohol."
+    },
+    {
+      "category": "scary",
+      "t_start": 3784.5833333333335,
+      "t_end": 3787.0833333333335,
+      "confidence": 0.4,
+      "summary": "The character has an exaggeratedly frightened or intense facial expression."
+    },
+    {
+      "category": "death",
+      "t_start": 3849.5833333333335,
+      "t_end": 3853.4166666666665,
+      "confidence": 0.8,
+      "summary": "A character is lying motionless on the red carpet, implying death or injury."
+    },
+    {
+      "category": "gun",
+      "t_start": 3859.25,
+      "t_end": 3861.75,
+      "confidence": 0.9,
+      "summary": "A character is holding a small object that appears to be a gun."
+    },
+    {
+      "category": "scary",
+      "t_start": 3877.9166666666665,
+      "t_end": 3900.4166666666665,
+      "confidence": 0.8,
+      "summary": "The character's expression and lighting create a creepy, unsettling atmosphere."
+    },
+    {
+      "category": "gun",
+      "t_start": 3911.9166666666665,
+      "t_end": 3914.75,
+      "confidence": 1.0,
+      "summary": "A character is being held at gunpoint by a figure in armor."
+    },
+    {
+      "category": "scary",
+      "t_start": 3916.25,
+      "t_end": 3919.75,
+      "confidence": 0.7,
+      "summary": "The metallic figures looming over the animal create a frightening atmosphere."
+    },
+    {
+      "category": "death",
+      "t_start": 3916.5833333333335,
+      "t_end": 3918.0833333333335,
+      "confidence": 0.8,
+      "summary": "A character in armor is attacking or finishing off a fallen character."
+    },
+    {
+      "category": "scary",
+      "t_start": 3939.5833333333335,
+      "t_end": 3951.75,
+      "confidence": 0.7,
+      "summary": "The character has a frightened/terror expression."
+    },
+    {
+      "category": "alcohol_smoke",
+      "t_start": 4037.5833333333335,
+      "t_end": 4039.0833333333335,
+      "confidence": 0.5,
+      "summary": "A character is holding a glass that appears to contain alcohol."
+    },
+    {
+      "category": "scary",
+      "t_start": 4047.5833333333335,
+      "t_end": 4154.416666666667,
+      "confidence": 0.8,
+      "summary": "A ghostly figure appears in a dark, arched setting which may be frightening."
+    },
+    {
+      "category": "gun",
+      "t_start": 4095.25,
+      "t_end": 4096.75,
+      "confidence": 0.9,
+      "summary": "The character is holding a red toy-like firearm."
+    },
+    {
+      "category": "scary",
+      "t_start": 4172.25,
+      "t_end": 4173.75,
+      "confidence": 0.4,
+      "summary": "The gingerbread character has a frightened or distressed facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 4214.916666666667,
+      "t_end": 4228.75,
+      "confidence": 0.8,
+      "summary": "A character is shown with a terrified facial expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4222.25,
+      "t_end": 4224.083333333333,
+      "confidence": 0.8,
+      "summary": "The scene shows sparks and debris from an explosion or impact."
+    },
+    {
+      "category": "scary",
+      "t_start": 4239.916666666667,
+      "t_end": 4242.083333333333,
+      "confidence": 0.7,
+      "summary": "The character has a wide-eyed, startled expression in a dark setting."
+    },
+    {
+      "category": "gun",
+      "t_start": 4263.583333333333,
+      "t_end": 4265.083333333333,
+      "confidence": 1.0,
+      "summary": "A character is holding a handgun up in the air."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4315.25,
+      "t_end": 4324.083333333333,
+      "confidence": 1.0,
+      "summary": "A romantic kiss between two characters."
+    },
+    {
+      "category": "death",
+      "t_start": 4325.583333333333,
+      "t_end": 4330.75,
+      "confidence": 0.8,
+      "summary": "A character is lying motionless on a piano, appearing to be dead."
+    },
+    {
+      "category": "scary",
+      "t_start": 4338.916666666667,
+      "t_end": 4347.416666666667,
+      "confidence": 0.7,
+      "summary": "The character has a frightened/terror expression."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4347.583333333333,
+      "t_end": 4374.75,
+      "confidence": 1.0,
+      "summary": "A bright fire or small explosion is visible in the center frame."
+    },
+    {
+      "category": "scary",
+      "t_start": 4357.25,
+      "t_end": 4376.083333333333,
+      "confidence": 0.8,
+      "summary": "A large, dark creature is looming in front of a castle at night."
+    },
+    {
+      "category": "gun",
+      "t_start": 4367.25,
+      "t_end": 4368.75,
+      "confidence": 0.8,
+      "summary": "A small character in the background appears to be holding a firearm directed at the large character."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4374.916666666667,
+      "t_end": 4376.416666666667,
+      "confidence": 0.9,
+      "summary": "A romantic couple is kissing in the center of a dance floor."
+    },
+    {
+      "category": "scary",
+      "t_start": 4385.916666666667,
+      "t_end": 4400.083333333333,
+      "confidence": 0.8,
+      "summary": "A glowing-eyed monster figure appears in a dark setting."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4386.916666666667,
+      "t_end": 4388.416666666667,
+      "confidence": 1.0,
+      "summary": "A large fireball or explosion is visible in the center of the scene."
+    },
+    {
+      "category": "explosion",
+      "t_start": 4404.916666666667,
+      "t_end": 4406.416666666667,
+      "confidence": 0.8,
+      "summary": "A large cloud of smoke or an explosion is visible."
+    },
+    {
+      "category": "scary",
+      "t_start": 4411.916666666667,
+      "t_end": 4416.083333333333,
+      "confidence": 0.7,
+      "summary": "The character has an intense, frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 4427.916666666667,
+      "t_end": 4441.083333333333,
+      "confidence": 0.7,
+      "summary": "The character has a wide-eyed, intense expression that could be perceived as frightening."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4458.916666666667,
+      "t_end": 4460.416666666667,
+      "confidence": 0.8,
+      "summary": "A couple is seen kissing in the background."
+    },
+    {
+      "category": "scary",
+      "t_start": 4461.916666666667,
+      "t_end": 4469.75,
+      "confidence": 0.7,
+      "summary": "A large, dark, monstrous creature is in the foreground which may be frightening."
+    },
+    {
+      "category": "nudity",
+      "t_start": 4495.25,
+      "t_end": 4502.083333333333,
+      "confidence": 1.0,
+      "summary": "Character is shown with bare buttocks visible."
+    },
+    {
+      "category": "gun",
+      "t_start": 4503.25,
+      "t_end": 4504.75,
+      "confidence": 1.0,
+      "summary": "A gun barrel is visible in the immediate foreground pointing towards the character."
+    },
+    {
+      "category": "scary",
+      "t_start": 4507.25,
+      "t_end": 4508.75,
+      "confidence": 0.4,
+      "summary": "A group of armored knights creates a menacing presence."
+    },
+    {
+      "category": "death",
+      "t_start": 4518.25,
+      "t_end": 4519.75,
+      "confidence": 0.6,
+      "summary": "A character is lying motionless on the ground, suggesting death or injury."
+    },
+    {
+      "category": "scary",
+      "t_start": 4528.583333333333,
+      "t_end": 4530.083333333333,
+      "confidence": 0.4,
+      "summary": "The character has an intense, potentially frightening facial expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 4551.583333333333,
+      "t_end": 4563.083333333333,
+      "confidence": 0.5,
+      "summary": "A character in the background has a wide-eyed, frightened expression."
+    },
+    {
+      "category": "scary",
+      "t_start": 4589.583333333333,
+      "t_end": 4592.75,
+      "confidence": 0.4,
+      "summary": "The character in the background has a menacing or exaggerated expression."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4594.916666666667,
+      "t_end": 4604.75,
+      "confidence": 1.0,
+      "summary": "A romantic kiss between two characters."
+    },
+    {
+      "category": "scary",
+      "t_start": 4633.25,
+      "t_end": 4648.083333333333,
+      "confidence": 0.7,
+      "summary": "The character has an intense, aggressive facial expression."
+    },
+    {
+      "category": "death",
+      "t_start": 4659.583333333333,
+      "t_end": 4666.083333333333,
+      "confidence": 0.9,
+      "summary": "A character is lying motionless on the ground, suggesting death."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4666.25,
+      "t_end": 4667.75,
+      "confidence": 1.0,
+      "summary": "A romantic kiss is occurring between two characters."
+    },
+    {
+      "category": "scary",
+      "t_start": 4672.916666666667,
+      "t_end": 4674.416666666667,
+      "confidence": 0.6,
+      "summary": "The central character has a distressed, fearful expression."
+    },
+    {
+      "category": "gun",
+      "t_start": 4681.583333333333,
+      "t_end": 4683.083333333333,
+      "confidence": 1.0,
+      "summary": "A character is holding a firearm while riding the horse."
+    },
+    {
+      "category": "scary",
+      "t_start": 4796.583333333333,
+      "t_end": 4798.083333333333,
+      "confidence": 0.7,
+      "summary": "The character in the center has a frightened expression with a large monster/animal looming behind them."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4810.583333333333,
+      "t_end": 4812.083333333333,
+      "confidence": 1.0,
+      "summary": "A romantic kiss between two characters."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4840.583333333333,
+      "t_end": 4845.75,
+      "confidence": 1.0,
+      "summary": "A couple is kissing in the center of the frame."
+    },
+    {
+      "category": "scary",
+      "t_start": 4845.25,
+      "t_end": 4846.75,
+      "confidence": 0.4,
+      "summary": "The character Garfield has an intense, exaggerated facial expression that could be perceived as scary to very young children."
+    },
+    {
+      "category": "gun",
+      "t_start": 4870.916666666667,
+      "t_end": 4872.416666666667,
+      "confidence": 0.8,
+      "summary": "A character in the background is holding a long object that resembles a rifle or gun."
+    },
+    {
+      "category": "scary",
+      "t_start": 4896.916666666667,
+      "t_end": 4908.75,
+      "confidence": 0.8,
+      "summary": "A ghostly or eerie face is visible in the mirror, creating a scary effect."
+    },
+    {
+      "category": "kiss",
+      "t_start": 4904.25,
+      "t_end": 4905.75,
+      "confidence": 1.0,
+      "summary": "A character is shown kissing another character."
+    },
+    {
+      "category": "scary",
+      "t_start": 4960.25,
+      "t_end": 4963.416666666667,
+      "confidence": 0.4,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary."
+    },
+    {
+      "category": "scary",
+      "t_start": 5071.916666666667,
+      "t_end": 5086.75,
+      "confidence": 0.7,
+      "summary": "A dragon flying in the night may be perceived as scary by very young children."
+    },
+    {
+      "category": "explosion",
+      "t_start": 5089.25,
+      "t_end": 5091.083333333333,
+      "confidence": 1.0,
+      "summary": "A small explosion or fireball is visible on the ground near the characters."
+    },
+    {
+      "category": "scary",
+      "t_start": 5098.583333333333,
+      "t_end": 5104.416666666667,
+      "confidence": 0.8,
+      "summary": "The dragon has an intense, menacing expression."
+    }
+  ]
+}
