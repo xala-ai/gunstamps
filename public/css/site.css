@@ -115,3 +115,126 @@ tr:last-child td { border-bottom: 0; }
 }
 footer { padding-bottom: 3rem; font-size: 0.85rem; }
 [hidden] { display: none !important; }
+
+.detail-header { max-width: 960px; margin: 0 auto; padding: 1.25rem 1.5rem; }
+.crumb { margin: 0 0 0.75rem; }
+.detail-hero { display: flex; gap: 1.25rem; align-items: flex-start; flex-wrap: wrap; }
+.poster-lg {
+  width: 8.5rem;
+  height: 12.75rem;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #0c0b09;
+}
+.detail-hero-text { flex: 1; min-width: 16rem; }
+.detail-hero-text h1 { margin: 0 0 0.35rem; font-size: 1.75rem; }
+.safety-panel { margin-top: 0.85rem; }
+.safety-bar-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.55rem 0 0.35rem;
+}
+.safety-headline { margin: 0.5rem 0 0.15rem; color: var(--text); }
+.safety-detail { margin: 0.15rem 0 0; font-size: 0.9rem; }
+.pill {
+  display: inline-block;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1a1208;
+  background: #c9b8a4;
+}
+.pill.gun { background: var(--gun); color: #fff; }
+.pill.explosion { background: var(--explosion); color: #1a1208; }
+.pill.death { background: var(--death); color: #fff; }
+.pill.kiss { background: var(--kiss); color: #1a1208; }
+.pill.scary { background: var(--scary); color: #fff; }
+.pill.alcohol_smoke { background: var(--alcohol_smoke); color: #fff; }
+.pill.nudity { background: var(--nudity); color: #fff; }
+.pill.other { background: var(--other); color: #ddd; }
+
+.section-help { margin: -0.25rem 0 0.85rem; font-size: 0.9rem; }
+.timeline-wrap { position: relative; margin-top: 0.5rem; }
+.timeline {
+  position: relative;
+  height: 28px;
+  margin: 0.5rem 0 0.75rem;
+  background: #0e0c0a;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.timeline .track {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 9%,
+    #3a322b 9%,
+    #3a322b 10%
+  );
+}
+.seg {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 3px;
+  opacity: 0.95;
+}
+.seg.gun { background: var(--gun); }
+.seg.explosion { background: var(--explosion); }
+.seg.death { background: var(--death); }
+.seg.kiss { background: var(--kiss); }
+.seg.scary { background: var(--scary); }
+.seg.alcohol_smoke { background: var(--alcohol_smoke); }
+.seg.nudity { background: var(--nudity); }
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.seg-tooltip {
+  position: absolute;
+  z-index: 20;
+  width: 300px;
+  background: #1a1612;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+  padding: 0.5rem;
+  pointer-events: none;
+}
+.seg-tooltip.fixed {
+  position: fixed;
+  z-index: 1000;
+}
+.seg-tooltip img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  background: #0e0c0a;
+  border-radius: 6px;
+}
+.seg-tooltip-meta { margin-top: 0.5rem; }
+.seg-tooltip-meta p { margin: 0.35rem 0 0; color: var(--text); font-size: 0.9rem; }
+.seg-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #2a241e;
+  border: 1px solid var(--line);
+}
+.thumb-cell { width: 80px; }
+.scenes-table td { vertical-align: middle; }
+h2 { font-size: 1.15rem; margin: 1.75rem 0 0.5rem; }
+

@@ -8,12 +8,14 @@
   "detection_count": 404,
   "poster": "/posters/cars-2-2011.jpg",
   "safety": {
-    "rag": "red",
-    "rag_label": "Red",
+    "total_minutes": 108,
+    "unsafe_minutes": 54,
+    "safe_minutes": 54,
     "pct": 50.0,
     "pct_label": "50%",
-    "unsafe_minutes": 54,
-    "total_minutes": 108,
+    "rag": "red",
+    "rag_label": "Red",
+    "rag_blurb": "frequent scenes not safe for kids",
     "bar": [
       {
         "id": "gun",
@@ -76,631 +78,990 @@
         "tooltip": "Other\n50% of the movie"
       }
     ],
-    "headline": "50% of this movie contained scenes not safe for kids"
+    "flagged_seconds": 524.8333333333312,
+    "other_pct": 50.0,
+    "headline": "50% of this movie contained scenes not safe for kids",
+    "detail": "54 of 108 minutes contain at least 1 scene not safe for kids"
   },
   "segments": [
     {
+      "id": 178026,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 62.583333333333336,
       "t_end": 74.75,
       "confidence": 0.8,
-      "summary": "A bright light source or fireball is visible."
+      "frame_count": 4,
+      "summary": "A bright light source or fireball is visible.",
+      "thumb": "/thumbs/cars-2-2011/178026.jpg"
     },
     {
+      "id": 177994,
       "category": "gun",
+      "label": "gun",
       "t_start": 139.58333333333334,
       "t_end": 143.41666666666666,
       "confidence": 0.9,
-      "summary": "A red laser sight is visible pointing toward a vessel."
+      "frame_count": 3,
+      "summary": "A red laser sight is visible pointing toward a vessel.",
+      "thumb": "/thumbs/cars-2-2011/177994.jpg"
     },
     {
+      "id": 177995,
       "category": "gun",
+      "label": "gun",
       "t_start": 246.91666666666666,
       "t_end": 248.41666666666666,
       "confidence": 1.0,
-      "summary": "manual"
+      "frame_count": 1,
+      "summary": "manual",
+      "thumb": "/thumbs/cars-2-2011/177995.jpg"
     },
     {
+      "id": 177996,
       "category": "gun",
+      "label": "gun",
       "t_start": 269.5833333333333,
       "t_end": 276.4166666666667,
       "confidence": 1.0,
-      "summary": "manual"
+      "frame_count": 3,
+      "summary": "manual",
+      "thumb": "/thumbs/cars-2-2011/177996.jpg"
     },
     {
+      "id": 178027,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 282.25,
       "t_end": 289.75,
       "confidence": 1.0,
-      "summary": "A bright explosion or fireball is visible in the background behind the character."
+      "frame_count": 7,
+      "summary": "A bright explosion or fireball is visible in the background behind the character.",
+      "thumb": "/thumbs/cars-2-2011/178027.jpg"
     },
     {
+      "id": 177997,
       "category": "gun",
+      "label": "gun",
       "t_start": 288.25,
       "t_end": 289.75,
       "confidence": 1.0,
-      "summary": "manual"
+      "frame_count": 1,
+      "summary": "manual",
+      "thumb": "/thumbs/cars-2-2011/177997.jpg"
     },
     {
+      "id": 178028,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 351.9166666666667,
       "t_end": 358.4166666666667,
       "confidence": 1.0,
-      "summary": "A large fireball explosion is visible."
+      "frame_count": 13,
+      "summary": "A large fireball explosion is visible.",
+      "thumb": "/thumbs/cars-2-2011/178028.jpg"
     },
     {
+      "id": 177998,
       "category": "gun",
+      "label": "gun",
       "t_start": 405.25,
       "t_end": 413.75,
       "confidence": 1.0,
-      "summary": "The character is a stylized ship equipped with a large gun turret."
+      "frame_count": 8,
+      "summary": "The character is a stylized ship equipped with a large gun turret.",
+      "thumb": "/thumbs/cars-2-2011/177998.jpg"
     },
     {
+      "id": 178054,
       "category": "scary",
+      "label": "scary",
       "t_start": 407.25,
       "t_end": 408.75,
       "confidence": 0.4,
-      "summary": "The character has an intimidating or menacing expression in the dark."
+      "frame_count": 1,
+      "summary": "The character has an intimidating or menacing expression in the dark.",
+      "thumb": "/thumbs/cars-2-2011/178054.jpg"
     },
     {
+      "id": 178029,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 408.9166666666667,
       "t_end": 441.4166666666667,
       "confidence": 1.0,
-      "summary": "A large fireball explosion is visible in the water."
+      "frame_count": 24,
+      "summary": "A large fireball explosion is visible in the water.",
+      "thumb": "/thumbs/cars-2-2011/178029.jpg"
     },
     {
+      "id": 178030,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 450.5833333333333,
       "t_end": 459.4166666666667,
       "confidence": 1.0,
-      "summary": "The scene shows fire or explosions on the surface of water."
+      "frame_count": 7,
+      "summary": "The scene shows fire or explosions on the surface of water.",
+      "thumb": "/thumbs/cars-2-2011/178030.jpg"
     },
     {
+      "id": 178068,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 776.5833333333334,
       "t_end": 788.4166666666666,
       "confidence": 0.9,
-      "summary": "The scene features characters in a setting with cocktail glasses containing red liquid."
+      "frame_count": 9,
+      "summary": "The scene features characters in a setting with cocktail glasses containing red liquid.",
+      "thumb": "/thumbs/cars-2-2011/178068.jpg"
     },
     {
+      "id": 178069,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 849.25,
       "t_end": 856.0833333333334,
       "confidence": 0.8,
-      "summary": "The characters are presented with cocktail glasses containing drinks and garnishes."
+      "frame_count": 2,
+      "summary": "The characters are presented with cocktail glasses containing drinks and garnishes.",
+      "thumb": "/thumbs/cars-2-2011/178069.jpg"
     },
     {
+      "id": 178070,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 865.25,
       "t_end": 877.4166666666666,
       "confidence": 0.8,
-      "summary": "The characters are presented with cocktail glasses containing liquid."
+      "frame_count": 9,
+      "summary": "The characters are presented with cocktail glasses containing liquid.",
+      "thumb": "/thumbs/cars-2-2011/178070.jpg"
     },
     {
+      "id": 178071,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 898.5833333333334,
       "t_end": 903.75,
       "confidence": 0.8,
-      "summary": "The scene contains cocktail glasses that resemble alcoholic beverages."
+      "frame_count": 5,
+      "summary": "The scene contains cocktail glasses that resemble alcoholic beverages.",
+      "thumb": "/thumbs/cars-2-2011/178071.jpg"
     },
     {
+      "id": 178072,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 923.25,
       "t_end": 924.75,
       "confidence": 0.8,
-      "summary": "The characters are presented with cocktail glasses containing liquid."
+      "frame_count": 1,
+      "summary": "The characters are presented with cocktail glasses containing liquid.",
+      "thumb": "/thumbs/cars-2-2011/178072.jpg"
     },
     {
+      "id": 178073,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 1022.9166666666666,
       "t_end": 1024.4166666666665,
       "confidence": 0.5,
-      "summary": "The scene shows several bottles on a counter that resemble alcohol bottles."
+      "frame_count": 1,
+      "summary": "The scene shows several bottles on a counter that resemble alcohol bottles.",
+      "thumb": "/thumbs/cars-2-2011/178073.jpg"
     },
     {
+      "id": 178074,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 1047.25,
       "t_end": 1049.75,
       "confidence": 0.8,
-      "summary": "The scene features cocktail glasses on a bar counter."
+      "frame_count": 2,
+      "summary": "The scene features cocktail glasses on a bar counter.",
+      "thumb": "/thumbs/cars-2-2011/178074.jpg"
     },
     {
+      "id": 178075,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 1273.9166666666667,
       "t_end": 1284.0833333333333,
       "confidence": 1.0,
-      "summary": "A cocktail glass is visible on the table."
+      "frame_count": 2,
+      "summary": "A cocktail glass is visible on the table.",
+      "thumb": "/thumbs/cars-2-2011/178075.jpg"
     },
     {
+      "id": 178076,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 1298.9166666666667,
       "t_end": 1318.0833333333333,
       "confidence": 0.8,
-      "summary": "A cocktail glass is visible in the background."
+      "frame_count": 4,
+      "summary": "A cocktail glass is visible in the background.",
+      "thumb": "/thumbs/cars-2-2011/178076.jpg"
     },
     {
+      "id": 178077,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 1342.25,
       "t_end": 1353.75,
       "confidence": 0.8,
-      "summary": "A cocktail glass is visible on the table."
+      "frame_count": 4,
+      "summary": "A cocktail glass is visible on the table.",
+      "thumb": "/thumbs/cars-2-2011/178077.jpg"
     },
     {
+      "id": 177999,
       "category": "gun",
+      "label": "gun",
       "t_start": 1494.5833333333333,
       "t_end": 1496.0833333333333,
       "confidence": 1.0,
-      "summary": "manual"
+      "frame_count": 1,
+      "summary": "manual",
+      "thumb": "/thumbs/cars-2-2011/177999.jpg"
     },
     {
+      "id": 178055,
       "category": "scary",
+      "label": "scary",
       "t_start": 1494.5833333333333,
       "t_end": 1496.0833333333333,
       "confidence": 0.4,
-      "summary": "The character has an intense, menacing expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, menacing expression.",
+      "thumb": "/thumbs/cars-2-2011/178055.jpg"
     },
     {
+      "id": 178056,
       "category": "scary",
+      "label": "scary",
       "t_start": 1535.25,
       "t_end": 1536.75,
       "confidence": 0.7,
-      "summary": "The character has a distorted, frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has a distorted, frightening facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178056.jpg"
     },
     {
+      "id": 178000,
       "category": "gun",
+      "label": "gun",
       "t_start": 1869.25,
       "t_end": 1874.75,
       "confidence": 0.9,
-      "summary": "The image shows a vehicle viewed through a red targeting reticle or gun sight."
+      "frame_count": 3,
+      "summary": "The image shows a vehicle viewed through a red targeting reticle or gun sight.",
+      "thumb": "/thumbs/cars-2-2011/178000.jpg"
     },
     {
+      "id": 178001,
       "category": "gun",
+      "label": "gun",
       "t_start": 1892.9166666666667,
       "t_end": 1905.0833333333333,
       "confidence": 0.9,
-      "summary": "A character is holding a device that is shaped like a gun or a weaponized camera."
+      "frame_count": 4,
+      "summary": "A character is holding a device that is shaped like a gun or a weaponized camera.",
+      "thumb": "/thumbs/cars-2-2011/178001.jpg"
     },
     {
+      "id": 178002,
       "category": "gun",
+      "label": "gun",
       "t_start": 1921.5833333333333,
       "t_end": 1931.4166666666667,
       "confidence": 1.0,
-      "summary": "manual"
+      "frame_count": 3,
+      "summary": "manual",
+      "thumb": "/thumbs/cars-2-2011/178002.jpg"
     },
     {
+      "id": 178003,
       "category": "gun",
+      "label": "gun",
       "t_start": 1946.5833333333333,
       "t_end": 1948.0833333333333,
       "confidence": 0.8,
-      "summary": "A character is holding a device that resembles a gun or weaponized camera."
+      "frame_count": 1,
+      "summary": "A character is holding a device that resembles a gun or weaponized camera.",
+      "thumb": "/thumbs/cars-2-2011/178003.jpg"
     },
     {
+      "id": 178031,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1955.9166666666667,
       "t_end": 1962.0833333333333,
       "confidence": 1.0,
-      "summary": "A large explosion or blast of dust and smoke is filling the scene."
+      "frame_count": 13,
+      "summary": "A large explosion or blast of dust and smoke is filling the scene.",
+      "thumb": "/thumbs/cars-2-2011/178031.jpg"
     },
     {
+      "id": 178004,
       "category": "gun",
+      "label": "gun",
       "t_start": 2207.5833333333335,
       "t_end": 2209.75,
       "confidence": 0.9,
-      "summary": "A large pink stylized weapon/cannon is present in the foreground."
+      "frame_count": 3,
+      "summary": "A large pink stylized weapon/cannon is present in the foreground.",
+      "thumb": "/thumbs/cars-2-2011/178004.jpg"
     },
     {
+      "id": 178005,
       "category": "gun",
+      "label": "gun",
       "t_start": 2220.9166666666665,
       "t_end": 2232.0833333333335,
       "confidence": 1.0,
-      "summary": "A firearm is visible in the center of the frame."
+      "frame_count": 14,
+      "summary": "A firearm is visible in the center of the frame.",
+      "thumb": "/thumbs/cars-2-2011/178005.jpg"
     },
     {
+      "id": 178006,
       "category": "gun",
+      "label": "gun",
       "t_start": 2296.25,
       "t_end": 2297.75,
       "confidence": 0.9,
-      "summary": "A character is holding a firearm-like object."
+      "frame_count": 1,
+      "summary": "A character is holding a firearm-like object.",
+      "thumb": "/thumbs/cars-2-2011/178006.jpg"
     },
     {
+      "id": 178032,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2369.9166666666665,
       "t_end": 2389.4166666666665,
       "confidence": 1.0,
-      "summary": "A small flame or blast is visible behind the character."
+      "frame_count": 27,
+      "summary": "A small flame or blast is visible behind the character.",
+      "thumb": "/thumbs/cars-2-2011/178032.jpg"
     },
     {
+      "id": 178057,
       "category": "scary",
+      "label": "scary",
       "t_start": 2436.25,
       "t_end": 2437.75,
       "confidence": 0.6,
-      "summary": "The character has a creepy, distorted facial expression."
+      "frame_count": 1,
+      "summary": "The character has a creepy, distorted facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178057.jpg"
     },
     {
+      "id": 178078,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 2614.5833333333335,
       "t_end": 2618.0833333333335,
       "confidence": 0.9,
-      "summary": "The scene shows a bar area with many alcohol bottles on shelves."
+      "frame_count": 4,
+      "summary": "The scene shows a bar area with many alcohol bottles on shelves.",
+      "thumb": "/thumbs/cars-2-2011/178078.jpg"
     },
     {
+      "id": 178079,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 2631.25,
       "t_end": 2636.4166666666665,
       "confidence": 0.8,
-      "summary": "Alcohol bottles are visible on the shelves in the background."
+      "frame_count": 2,
+      "summary": "Alcohol bottles are visible on the shelves in the background.",
+      "thumb": "/thumbs/cars-2-2011/178079.jpg"
     },
     {
+      "id": 178007,
       "category": "gun",
+      "label": "gun",
       "t_start": 2693.5833333333335,
       "t_end": 2695.75,
       "confidence": 0.9,
-      "summary": "A weapon/cannon is attached to the side of the orange vehicle."
+      "frame_count": 3,
+      "summary": "A weapon/cannon is attached to the side of the orange vehicle.",
+      "thumb": "/thumbs/cars-2-2011/178007.jpg"
     },
     {
+      "id": 178033,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2702.5833333333335,
       "t_end": 2710.0833333333335,
       "confidence": 1.0,
-      "summary": "A projectile or object is emitting a blast or fireball effect."
+      "frame_count": 10,
+      "summary": "A projectile or object is emitting a blast or fireball effect.",
+      "thumb": "/thumbs/cars-2-2011/178033.jpg"
     },
     {
+      "id": 178008,
       "category": "gun",
+      "label": "gun",
       "t_start": 2751.5833333333335,
       "t_end": 2754.4166666666665,
       "confidence": 1.0,
-      "summary": "A gun is mounted to the side of the vehicle."
+      "frame_count": 5,
+      "summary": "A gun is mounted to the side of the vehicle.",
+      "thumb": "/thumbs/cars-2-2011/178008.jpg"
     },
     {
+      "id": 178058,
       "category": "scary",
+      "label": "scary",
       "t_start": 2830.25,
       "t_end": 2831.75,
       "confidence": 0.4,
-      "summary": "The character has an intense, slightly unsettling facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, slightly unsettling facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178058.jpg"
     },
     {
+      "id": 178080,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3331.9166666666665,
       "t_end": 3334.0833333333335,
       "confidence": 0.9,
-      "summary": "There are several bottles on the table that resemble alcohol containers."
+      "frame_count": 2,
+      "summary": "There are several bottles on the table that resemble alcohol containers.",
+      "thumb": "/thumbs/cars-2-2011/178080.jpg"
     },
     {
+      "id": 178059,
       "category": "scary",
+      "label": "scary",
       "t_start": 3486.25,
       "t_end": 3487.75,
       "confidence": 0.4,
-      "summary": "The character has a stylized monster-like face with sharp teeth."
+      "frame_count": 1,
+      "summary": "The character has a stylized monster-like face with sharp teeth.",
+      "thumb": "/thumbs/cars-2-2011/178059.jpg"
     },
     {
+      "id": 178034,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3495.5833333333335,
       "t_end": 3497.0833333333335,
       "confidence": 1.0,
-      "summary": "The vehicle has flames/fire coming from the exhaust area."
+      "frame_count": 1,
+      "summary": "The vehicle has flames/fire coming from the exhaust area.",
+      "thumb": "/thumbs/cars-2-2011/178034.jpg"
     },
     {
+      "id": 178009,
       "category": "gun",
+      "label": "gun",
       "t_start": 3564.9166666666665,
       "t_end": 3568.0833333333335,
       "confidence": 1.0,
-      "summary": "The walls are lined with various sci-fi blasters and weapons."
+      "frame_count": 6,
+      "summary": "The walls are lined with various sci-fi blasters and weapons.",
+      "thumb": "/thumbs/cars-2-2011/178009.jpg"
     },
     {
+      "id": 178035,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4031.9166666666665,
       "t_end": 4033.4166666666665,
       "confidence": 0.9,
-      "summary": "A green car is shown with fire and smoke around it, suggesting an explosion or crash."
+      "frame_count": 1,
+      "summary": "A green car is shown with fire and smoke around it, suggesting an explosion or crash.",
+      "thumb": "/thumbs/cars-2-2011/178035.jpg"
     },
     {
+      "id": 178010,
       "category": "gun",
+      "label": "gun",
       "t_start": 4040.5833333333335,
       "t_end": 4049.75,
       "confidence": 1.0,
-      "summary": "A red laser or projectile beam is visible crossing the frame."
+      "frame_count": 12,
+      "summary": "A red laser or projectile beam is visible crossing the frame.",
+      "thumb": "/thumbs/cars-2-2011/178010.jpg"
     },
     {
+      "id": 178011,
       "category": "gun",
+      "label": "gun",
       "t_start": 4125.583333333333,
       "t_end": 4134.083333333333,
       "confidence": 1.0,
-      "summary": "The device on the right is shaped like a large cannon or weapon."
+      "frame_count": 3,
+      "summary": "The device on the right is shaped like a large cannon or weapon.",
+      "thumb": "/thumbs/cars-2-2011/178011.jpg"
     },
     {
+      "id": 178012,
       "category": "gun",
+      "label": "gun",
       "t_start": 4203.25,
       "t_end": 4209.416666666667,
       "confidence": 1.0,
-      "summary": "A gun is visible on the television screen in the background."
+      "frame_count": 3,
+      "summary": "A gun is visible on the television screen in the background.",
+      "thumb": "/thumbs/cars-2-2011/178012.jpg"
     },
     {
+      "id": 178081,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 4222.25,
       "t_end": 4225.75,
       "confidence": 0.9,
-      "summary": "Characters are holding champagne bottles."
+      "frame_count": 4,
+      "summary": "Characters are holding champagne bottles.",
+      "thumb": "/thumbs/cars-2-2011/178081.jpg"
     },
     {
+      "id": 178013,
       "category": "gun",
+      "label": "gun",
       "t_start": 4222.916666666667,
       "t_end": 4224.416666666667,
       "confidence": 0.8,
-      "summary": "The characters are holding objects that resemble stylized, toy-like guns."
+      "frame_count": 1,
+      "summary": "The characters are holding objects that resemble stylized, toy-like guns.",
+      "thumb": "/thumbs/cars-2-2011/178013.jpg"
     },
     {
+      "id": 178060,
       "category": "scary",
+      "label": "scary",
       "t_start": 4298.583333333333,
       "t_end": 4300.083333333333,
       "confidence": 0.4,
-      "summary": "The character in the foreground has an intense, aggressive, or frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character in the foreground has an intense, aggressive, or frightening facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178060.jpg"
     },
     {
+      "id": 178014,
       "category": "gun",
+      "label": "gun",
       "t_start": 4302.916666666667,
       "t_end": 4322.416666666667,
       "confidence": 1.0,
-      "summary": "A large gatling-style gun is mounted in the side of a vehicle."
+      "frame_count": 12,
+      "summary": "A large gatling-style gun is mounted in the side of a vehicle.",
+      "thumb": "/thumbs/cars-2-2011/178014.jpg"
     },
     {
+      "id": 178036,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4307.916666666667,
       "t_end": 4322.75,
       "confidence": 1.0,
-      "summary": "A vehicle is shown amidst a large explosion or blast effect."
+      "frame_count": 23,
+      "summary": "A vehicle is shown amidst a large explosion or blast effect.",
+      "thumb": "/thumbs/cars-2-2011/178036.jpg"
     },
     {
+      "id": 178015,
       "category": "gun",
+      "label": "gun",
       "t_start": 4376.25,
       "t_end": 4377.75,
       "confidence": 0.8,
-      "summary": "A character is holding a large weapon/cannon-like device."
+      "frame_count": 1,
+      "summary": "A character is holding a large weapon/cannon-like device.",
+      "thumb": "/thumbs/cars-2-2011/178015.jpg"
     },
     {
+      "id": 178016,
       "category": "gun",
+      "label": "gun",
       "t_start": 4386.916666666667,
       "t_end": 4389.083333333333,
       "confidence": 1.0,
-      "summary": "A large, stylized weapon/cannon is in the foreground."
+      "frame_count": 3,
+      "summary": "A large, stylized weapon/cannon is in the foreground.",
+      "thumb": "/thumbs/cars-2-2011/178016.jpg"
     },
     {
+      "id": 178061,
       "category": "scary",
+      "label": "scary",
       "t_start": 4432.583333333333,
       "t_end": 4455.75,
       "confidence": 0.8,
-      "summary": "A character has a frightened/shocked expression in the dark."
+      "frame_count": 19,
+      "summary": "A character has a frightened/shocked expression in the dark.",
+      "thumb": "/thumbs/cars-2-2011/178061.jpg"
     },
     {
+      "id": 178062,
       "category": "scary",
+      "label": "scary",
       "t_start": 4479.916666666667,
       "t_end": 4481.416666666667,
       "confidence": 0.4,
-      "summary": "A character car has a frightened, wide-mouthed expression."
+      "frame_count": 1,
+      "summary": "A character car has a frightened, wide-mouthed expression.",
+      "thumb": "/thumbs/cars-2-2011/178062.jpg"
     },
     {
+      "id": 178017,
       "category": "gun",
+      "label": "gun",
       "t_start": 4508.916666666667,
       "t_end": 4510.416666666667,
       "confidence": 0.9,
-      "summary": "The character is equipped with a large cannon-like weapon."
+      "frame_count": 1,
+      "summary": "The character is equipped with a large cannon-like weapon.",
+      "thumb": "/thumbs/cars-2-2011/178017.jpg"
     },
     {
+      "id": 178063,
       "category": "scary",
+      "label": "scary",
       "t_start": 4545.583333333333,
       "t_end": 4547.083333333333,
       "confidence": 0.5,
-      "summary": "A character is tied up and trapped, which may be frightening to young children."
+      "frame_count": 1,
+      "summary": "A character is tied up and trapped, which may be frightening to young children.",
+      "thumb": "/thumbs/cars-2-2011/178063.jpg"
     },
     {
+      "id": 178018,
       "category": "gun",
+      "label": "gun",
       "t_start": 4590.25,
       "t_end": 4598.083333333333,
       "confidence": 0.9,
-      "summary": "A character vehicle is facing a large mechanical weapon/cannon."
+      "frame_count": 4,
+      "summary": "A character vehicle is facing a large mechanical weapon/cannon.",
+      "thumb": "/thumbs/cars-2-2011/178018.jpg"
     },
     {
+      "id": 178019,
       "category": "gun",
+      "label": "gun",
       "t_start": 4700.583333333333,
       "t_end": 4707.083333333333,
       "confidence": 0.9,
-      "summary": "The image shows the interior of a gun barrel or a glowing red circular aperture."
+      "frame_count": 5,
+      "summary": "The image shows the interior of a gun barrel or a glowing red circular aperture.",
+      "thumb": "/thumbs/cars-2-2011/178019.jpg"
     },
     {
+      "id": 178064,
       "category": "scary",
+      "label": "scary",
       "t_start": 4904.583333333333,
       "t_end": 4906.083333333333,
       "confidence": 0.6,
-      "summary": "The character has a distorted, frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has a distorted, frightening facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178064.jpg"
     },
     {
+      "id": 178037,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4912.916666666667,
       "t_end": 4914.416666666667,
       "confidence": 0.9,
-      "summary": "The screen displays 'ARMED', indicating an imminent explosion or bomb threat."
+      "frame_count": 1,
+      "summary": "The screen displays 'ARMED', indicating an imminent explosion or bomb threat.",
+      "thumb": "/thumbs/cars-2-2011/178037.jpg"
     },
     {
+      "id": 178065,
       "category": "scary",
+      "label": "scary",
       "t_start": 4988.25,
       "t_end": 4989.75,
       "confidence": 0.6,
-      "summary": "The character has an intense, aggressive, or frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, aggressive, or frightening facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178065.jpg"
     },
     {
+      "id": 178038,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4991.25,
       "t_end": 4997.75,
       "confidence": 1.0,
-      "summary": "A bright fireball or explosion is visible behind the character."
+      "frame_count": 2,
+      "summary": "A bright fireball or explosion is visible behind the character.",
+      "thumb": "/thumbs/cars-2-2011/178038.jpg"
     },
     {
+      "id": 178066,
       "category": "scary",
+      "label": "scary",
       "t_start": 5010.25,
       "t_end": 5011.75,
       "confidence": 0.7,
-      "summary": "The character has an exaggerated, frightened expression with a wide-open mouth."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, frightened expression with a wide-open mouth.",
+      "thumb": "/thumbs/cars-2-2011/178066.jpg"
     },
     {
+      "id": 178039,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5023.583333333333,
       "t_end": 5025.083333333333,
       "confidence": 1.0,
-      "summary": "A bright blue blast or explosion is visible in the background."
+      "frame_count": 1,
+      "summary": "A bright blue blast or explosion is visible in the background.",
+      "thumb": "/thumbs/cars-2-2011/178039.jpg"
     },
     {
+      "id": 178020,
       "category": "gun",
+      "label": "gun",
       "t_start": 5081.25,
       "t_end": 5084.75,
       "confidence": 1.0,
-      "summary": "The character features a large turret/weaponry structure on its side."
+      "frame_count": 5,
+      "summary": "The character features a large turret/weaponry structure on its side.",
+      "thumb": "/thumbs/cars-2-2011/178020.jpg"
     },
     {
+      "id": 178040,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5087.916666666667,
       "t_end": 5103.083333333333,
       "confidence": 1.0,
-      "summary": "A bright fireball/explosion is visible in the background."
+      "frame_count": 10,
+      "summary": "A bright fireball/explosion is visible in the background.",
+      "thumb": "/thumbs/cars-2-2011/178040.jpg"
     },
     {
+      "id": 178021,
       "category": "gun",
+      "label": "gun",
       "t_start": 5102.916666666667,
       "t_end": 5104.416666666667,
       "confidence": 1.0,
-      "summary": "A large firearm is visible in the foreground."
+      "frame_count": 1,
+      "summary": "A large firearm is visible in the foreground.",
+      "thumb": "/thumbs/cars-2-2011/178021.jpg"
     },
     {
+      "id": 178041,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5122.583333333333,
       "t_end": 5134.75,
       "confidence": 1.0,
-      "summary": "A bright fireball/explosion is visible behind the red car."
+      "frame_count": 4,
+      "summary": "A bright fireball/explosion is visible behind the red car.",
+      "thumb": "/thumbs/cars-2-2011/178041.jpg"
     },
     {
+      "id": 178082,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 5140.583333333333,
       "t_end": 5143.083333333333,
       "confidence": 1.0,
-      "summary": "A large glass of beer is prominent in the foreground."
+      "frame_count": 4,
+      "summary": "A large glass of beer is prominent in the foreground.",
+      "thumb": "/thumbs/cars-2-2011/178082.jpg"
     },
     {
+      "id": 178042,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5154.583333333333,
       "t_end": 5156.75,
       "confidence": 1.0,
-      "summary": "The image shows a C4 explosive device with a remote detonator."
+      "frame_count": 3,
+      "summary": "The image shows a C4 explosive device with a remote detonator.",
+      "thumb": "/thumbs/cars-2-2011/178042.jpg"
     },
     {
+      "id": 178022,
       "category": "gun",
+      "label": "gun",
       "t_start": 5159.916666666667,
       "t_end": 5161.75,
       "confidence": 0.9,
-      "summary": "A character in the background appears to be holding a firearm."
+      "frame_count": 2,
+      "summary": "A character in the background appears to be holding a firearm.",
+      "thumb": "/thumbs/cars-2-2011/178022.jpg"
     },
     {
+      "id": 178067,
       "category": "scary",
+      "label": "scary",
       "t_start": 5163.25,
       "t_end": 5164.75,
       "confidence": 0.4,
-      "summary": "The character has a frightened/distressed facial expression."
+      "frame_count": 1,
+      "summary": "The character has a frightened/distressed facial expression.",
+      "thumb": "/thumbs/cars-2-2011/178067.jpg"
     },
     {
+      "id": 178043,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5173.25,
       "t_end": 5191.083333333333,
       "confidence": 1.0,
-      "summary": "The image shows a C4 explosive charge with a timer."
+      "frame_count": 14,
+      "summary": "The image shows a C4 explosive charge with a timer.",
+      "thumb": "/thumbs/cars-2-2011/178043.jpg"
     },
     {
+      "id": 178044,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5226.25,
       "t_end": 5227.75,
       "confidence": 0.8,
-      "summary": "A vehicle is shown in a collision with bright sparks/explosion effects."
+      "frame_count": 1,
+      "summary": "A vehicle is shown in a collision with bright sparks/explosion effects.",
+      "thumb": "/thumbs/cars-2-2011/178044.jpg"
     },
     {
+      "id": 178045,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5323.25,
       "t_end": 5344.416666666667,
       "confidence": 1.0,
-      "summary": "A vehicle is experiencing a large fireball/explosion effect."
+      "frame_count": 10,
+      "summary": "A vehicle is experiencing a large fireball/explosion effect.",
+      "thumb": "/thumbs/cars-2-2011/178045.jpg"
     },
     {
+      "id": 178046,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5367.25,
       "t_end": 5368.75,
       "confidence": 0.9,
-      "summary": "The frame shows a C4 explosive charge with a timer."
+      "frame_count": 1,
+      "summary": "The frame shows a C4 explosive charge with a timer.",
+      "thumb": "/thumbs/cars-2-2011/178046.jpg"
     },
     {
+      "id": 178023,
       "category": "gun",
+      "label": "gun",
       "t_start": 5368.916666666667,
       "t_end": 5370.416666666667,
       "confidence": 0.0,
-      "summary": "A close-up shot of a vehicle's exhaust pipe."
+      "frame_count": 1,
+      "summary": "A close-up shot of a vehicle's exhaust pipe.",
+      "thumb": "/thumbs/cars-2-2011/178023.jpg"
     },
     {
+      "id": 178047,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5396.916666666667,
       "t_end": 5400.75,
       "confidence": 0.9,
-      "summary": "The image shows a C4 explosive device with a timer."
+      "frame_count": 6,
+      "summary": "The image shows a C4 explosive device with a timer.",
+      "thumb": "/thumbs/cars-2-2011/178047.jpg"
     },
     {
+      "id": 178048,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5451.916666666667,
       "t_end": 5454.083333333333,
       "confidence": 1.0,
-      "summary": "The frame shows a C4 explosive charge with a timer."
+      "frame_count": 2,
+      "summary": "The frame shows a C4 explosive charge with a timer.",
+      "thumb": "/thumbs/cars-2-2011/178048.jpg"
     },
     {
+      "id": 178049,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5463.25,
       "t_end": 5464.75,
       "confidence": 0.9,
-      "summary": "An explosive C4 charge with a digital timer is shown."
+      "frame_count": 1,
+      "summary": "An explosive C4 charge with a digital timer is shown.",
+      "thumb": "/thumbs/cars-2-2011/178049.jpg"
     },
     {
+      "id": 178050,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5473.583333333333,
       "t_end": 5481.75,
       "confidence": 0.9,
-      "summary": "The image shows a timer on an explosive device."
+      "frame_count": 5,
+      "summary": "The image shows a timer on an explosive device.",
+      "thumb": "/thumbs/cars-2-2011/178050.jpg"
     },
     {
+      "id": 178051,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5854.25,
       "t_end": 5865.083333333333,
       "confidence": 1.0,
-      "summary": "The vehicle is emitting a large fireball-like exhaust blast."
+      "frame_count": 4,
+      "summary": "The vehicle is emitting a large fireball-like exhaust blast.",
+      "thumb": "/thumbs/cars-2-2011/178051.jpg"
     },
     {
+      "id": 178052,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5891.25,
       "t_end": 5892.75,
       "confidence": 1.0,
-      "summary": "A bright fireball or explosion is visible behind the vehicles."
+      "frame_count": 1,
+      "summary": "A bright fireball or explosion is visible behind the vehicles.",
+      "thumb": "/thumbs/cars-2-2011/178052.jpg"
     },
     {
+      "id": 178024,
       "category": "gun",
+      "label": "gun",
       "t_start": 5964.583333333333,
       "t_end": 5966.083333333333,
       "confidence": 0.9,
-      "summary": "Multiple yellow toy-like guns are visible on the surface."
+      "frame_count": 1,
+      "summary": "Multiple yellow toy-like guns are visible on the surface.",
+      "thumb": "/thumbs/cars-2-2011/178024.jpg"
     },
     {
+      "id": 178025,
       "category": "gun",
+      "label": "gun",
       "t_start": 6063.916666666667,
       "t_end": 6065.416666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a gun on the Hawaii card."
+      "frame_count": 1,
+      "summary": "A character is holding a gun on the Hawaii card.",
+      "thumb": "/thumbs/cars-2-2011/178025.jpg"
     },
     {
+      "id": 178053,
       "category": "death",
+      "label": "death",
       "t_start": 6216.583333333333,
       "t_end": 6220.75,
       "confidence": 1.0,
-      "summary": "A memorial card is visible for two individuals."
+      "frame_count": 5,
+      "summary": "A memorial card is visible for two individuals.",
+      "thumb": "/thumbs/cars-2-2011/178053.jpg"
     }
   ]
 }

@@ -8,12 +8,14 @@
   "detection_count": 1047,
   "poster": "/posters/minions-2015.jpg",
   "safety": {
-    "rag": "red",
-    "rag_label": "Red",
+    "total_minutes": 86,
+    "unsafe_minutes": 75,
+    "safe_minutes": 11,
     "pct": 87.20930232558139,
     "pct_label": "87%",
-    "unsafe_minutes": 75,
-    "total_minutes": 86,
+    "rag": "red",
+    "rag_label": "Red",
+    "rag_blurb": "frequent scenes not safe for kids",
     "bar": [
       {
         "id": "gun",
@@ -96,1590 +98,2497 @@
         "tooltip": "Other\n13% of the movie"
       }
     ],
-    "headline": "87% of this movie contained scenes not safe for kids"
+    "flagged_seconds": 1307.3333333333328,
+    "other_pct": 12.790697674418604,
+    "headline": "87% of this movie contained scenes not safe for kids",
+    "detail": "75 of 86 minutes contain at least 1 scene not safe for kids"
   },
   "segments": [
     {
+      "id": 156696,
       "category": "scary",
+      "label": "scary",
       "t_start": 40.916666666666664,
       "t_end": 46.083333333333336,
       "confidence": 0.8,
-      "summary": "The stylized eye with sharp teeth is intentionally frightening."
+      "frame_count": 6,
+      "summary": "The stylized eye with sharp teeth is intentionally frightening.",
+      "thumb": "/thumbs/minions-2015/156696.jpg"
     },
     {
+      "id": 156697,
       "category": "scary",
+      "label": "scary",
       "t_start": 58.25,
       "t_end": 79.75,
       "confidence": 0.7,
-      "summary": "A stylized pink monster figure is present."
+      "frame_count": 8,
+      "summary": "A stylized pink monster figure is present.",
+      "thumb": "/thumbs/minions-2015/156697.jpg"
     },
     {
+      "id": 156698,
       "category": "scary",
+      "label": "scary",
       "t_start": 128.25,
       "t_end": 131.41666666666666,
       "confidence": 0.7,
-      "summary": "A dinosaur with an open mouth could be perceived as scary by very young children."
+      "frame_count": 4,
+      "summary": "A dinosaur with an open mouth could be perceived as scary by very young children.",
+      "thumb": "/thumbs/minions-2015/156698.jpg"
     },
     {
+      "id": 156699,
       "category": "scary",
+      "label": "scary",
       "t_start": 158.58333333333334,
       "t_end": 169.75,
       "confidence": 0.7,
-      "summary": "The dinosaur has an intense, slightly menacing expression."
+      "frame_count": 8,
+      "summary": "The dinosaur has an intense, slightly menacing expression.",
+      "thumb": "/thumbs/minions-2015/156699.jpg"
     },
     {
+      "id": 156645,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 175.58333333333334,
       "t_end": 177.08333333333334,
       "confidence": 0.9,
-      "summary": "A volcanic eruption or fireball is visible in the background."
+      "frame_count": 1,
+      "summary": "A volcanic eruption or fireball is visible in the background.",
+      "thumb": "/thumbs/minions-2015/156645.jpg"
     },
     {
+      "id": 156646,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 190.58333333333334,
       "t_end": 192.75,
       "confidence": 0.9,
-      "summary": "A large bright blast or explosion is visible in the background."
+      "frame_count": 2,
+      "summary": "A large bright blast or explosion is visible in the background.",
+      "thumb": "/thumbs/minions-2015/156646.jpg"
     },
     {
+      "id": 156684,
       "category": "death",
+      "label": "death",
       "t_start": 203.25,
       "t_end": 204.75,
       "confidence": 0.9,
-      "summary": "The image shows a cave painting of a skeleton."
+      "frame_count": 1,
+      "summary": "The image shows a cave painting of a skeleton.",
+      "thumb": "/thumbs/minions-2015/156684.jpg"
     },
     {
+      "id": 156770,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 215.58333333333334,
       "t_end": 234.41666666666666,
       "confidence": 1.0,
-      "summary": "A character is shown with bare buttocks."
+      "frame_count": 8,
+      "summary": "A character is shown with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156770.jpg"
     },
     {
+      "id": 156700,
       "category": "scary",
+      "label": "scary",
       "t_start": 227.25,
       "t_end": 231.08333333333334,
       "confidence": 0.8,
-      "summary": "An angry bear with bared teeth is shown in a threatening pose."
+      "frame_count": 4,
+      "summary": "An angry bear with bared teeth is shown in a threatening pose.",
+      "thumb": "/thumbs/minions-2015/156700.jpg"
     },
     {
+      "id": 156701,
       "category": "scary",
+      "label": "scary",
       "t_start": 248.25,
       "t_end": 249.75,
       "confidence": 0.7,
-      "summary": "A large, dark shadow monster is looming over small characters."
+      "frame_count": 1,
+      "summary": "A large, dark shadow monster is looming over small characters.",
+      "thumb": "/thumbs/minions-2015/156701.jpg"
     },
     {
+      "id": 156702,
       "category": "scary",
+      "label": "scary",
       "t_start": 279.25,
       "t_end": 290.4166666666667,
       "confidence": 0.7,
-      "summary": "The dark, tomb-like setting with a coffin creates a spooky atmosphere."
+      "frame_count": 3,
+      "summary": "The dark, tomb-like setting with a coffin creates a spooky atmosphere.",
+      "thumb": "/thumbs/minions-2015/156702.jpg"
     },
     {
+      "id": 156703,
       "category": "scary",
+      "label": "scary",
       "t_start": 301.25,
       "t_end": 310.0833333333333,
       "confidence": 0.7,
-      "summary": "The character has a frightened/terror expression."
+      "frame_count": 15,
+      "summary": "The character has a frightened/terror expression.",
+      "thumb": "/thumbs/minions-2015/156703.jpg"
     },
     {
+      "id": 156569,
       "category": "gun",
+      "label": "gun",
       "t_start": 312.25,
       "t_end": 337.0833333333333,
       "confidence": 1.0,
-      "summary": "A character is operating a large cannon."
+      "frame_count": 31,
+      "summary": "A character is operating a large cannon.",
+      "thumb": "/thumbs/minions-2015/156569.jpg"
     },
     {
+      "id": 156570,
       "category": "gun",
+      "label": "gun",
       "t_start": 503.5833333333333,
       "t_end": 505.0833333333333,
       "confidence": 0.9,
-      "summary": "One minion is holding a small firearm/blaster."
+      "frame_count": 1,
+      "summary": "One minion is holding a small firearm/blaster.",
+      "thumb": "/thumbs/minions-2015/156570.jpg"
     },
     {
+      "id": 156571,
       "category": "gun",
+      "label": "gun",
       "t_start": 552.5833333333334,
       "t_end": 554.0833333333334,
       "confidence": 0.9,
-      "summary": "Minions are holding various weapons/guns."
+      "frame_count": 1,
+      "summary": "Minions are holding various weapons/guns.",
+      "thumb": "/thumbs/minions-2015/156571.jpg"
     },
     {
+      "id": 156704,
       "category": "scary",
+      "label": "scary",
       "t_start": 553.25,
       "t_end": 554.75,
       "confidence": 0.3,
-      "summary": "The snow monsters have large, dark eyes and a slightly menacing presence in the dark setting."
+      "frame_count": 1,
+      "summary": "The snow monsters have large, dark eyes and a slightly menacing presence in the dark setting.",
+      "thumb": "/thumbs/minions-2015/156704.jpg"
     },
     {
+      "id": 156690,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 735.25,
       "t_end": 736.75,
       "confidence": 1.0,
-      "summary": "A character is kissing another character in a carriage."
+      "frame_count": 1,
+      "summary": "A character is kissing another character in a carriage.",
+      "thumb": "/thumbs/minions-2015/156690.jpg"
     },
     {
+      "id": 156572,
       "category": "gun",
+      "label": "gun",
       "t_start": 771.5833333333334,
       "t_end": 773.0833333333334,
       "confidence": 0.8,
-      "summary": "A character is holding a small black object that appears to be a gun."
+      "frame_count": 1,
+      "summary": "A character is holding a small black object that appears to be a gun.",
+      "thumb": "/thumbs/minions-2015/156572.jpg"
     },
     {
+      "id": 156573,
       "category": "gun",
+      "label": "gun",
       "t_start": 847.5833333333334,
       "t_end": 851.75,
       "confidence": 0.8,
-      "summary": "A Minion is holding a gadget that resembles a stylized gun/weapon."
+      "frame_count": 2,
+      "summary": "A Minion is holding a gadget that resembles a stylized gun/weapon.",
+      "thumb": "/thumbs/minions-2015/156573.jpg"
     },
     {
+      "id": 156574,
       "category": "gun",
+      "label": "gun",
       "t_start": 932.5833333333334,
       "t_end": 934.0833333333334,
       "confidence": 1.0,
-      "summary": "A minion is holding a firearm-shaped weapon."
+      "frame_count": 1,
+      "summary": "A minion is holding a firearm-shaped weapon.",
+      "thumb": "/thumbs/minions-2015/156574.jpg"
     },
     {
+      "id": 156705,
       "category": "scary",
+      "label": "scary",
       "t_start": 943.25,
       "t_end": 945.0833333333334,
       "confidence": 0.7,
-      "summary": "A stylized, menacing eye and hand silhouette on a screen creates a suspenseful/scary tone."
+      "frame_count": 2,
+      "summary": "A stylized, menacing eye and hand silhouette on a screen creates a suspenseful/scary tone.",
+      "thumb": "/thumbs/minions-2015/156705.jpg"
     },
     {
+      "id": 156706,
       "category": "scary",
+      "label": "scary",
       "t_start": 966.5833333333334,
       "t_end": 969.0833333333334,
       "confidence": 0.7,
-      "summary": "The character has an unsettling, distorted facial expression and the atmosphere is eerie."
+      "frame_count": 4,
+      "summary": "The character has an unsettling, distorted facial expression and the atmosphere is eerie.",
+      "thumb": "/thumbs/minions-2015/156706.jpg"
     },
     {
+      "id": 156575,
       "category": "gun",
+      "label": "gun",
       "t_start": 973.25,
       "t_end": 977.4166666666666,
       "confidence": 1.0,
-      "summary": "A character is holding a long, thin object that appears to be a gun or weapon."
+      "frame_count": 3,
+      "summary": "A character is holding a long, thin object that appears to be a gun or weapon.",
+      "thumb": "/thumbs/minions-2015/156575.jpg"
     },
     {
+      "id": 156707,
       "category": "scary",
+      "label": "scary",
       "t_start": 979.25,
       "t_end": 994.75,
       "confidence": 0.9,
-      "summary": "The character has a stylized, creepy horror-like expression."
+      "frame_count": 23,
+      "summary": "The character has a stylized, creepy horror-like expression.",
+      "thumb": "/thumbs/minions-2015/156707.jpg"
     },
     {
+      "id": 156685,
       "category": "death",
+      "label": "death",
       "t_start": 981.25,
       "t_end": 990.75,
       "confidence": 0.9,
-      "summary": "A character appears to be lying dead or incapacitated on the ground."
+      "frame_count": 12,
+      "summary": "A character appears to be lying dead or incapacitated on the ground.",
+      "thumb": "/thumbs/minions-2015/156685.jpg"
     },
     {
+      "id": 156576,
       "category": "gun",
+      "label": "gun",
       "t_start": 990.5833333333334,
       "t_end": 992.0833333333334,
       "confidence": 1.0,
-      "summary": "A character is holding a silhouette of a gun."
+      "frame_count": 1,
+      "summary": "A character is holding a silhouette of a gun.",
+      "thumb": "/thumbs/minions-2015/156576.jpg"
     },
     {
+      "id": 156577,
       "category": "gun",
+      "label": "gun",
       "t_start": 1106.9166666666667,
       "t_end": 1127.4166666666667,
       "confidence": 1.0,
-      "summary": "A Minion is holding a small firearm/blaster."
+      "frame_count": 3,
+      "summary": "A Minion is holding a small firearm/blaster.",
+      "thumb": "/thumbs/minions-2015/156577.jpg"
     },
     {
+      "id": 156647,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1151.9166666666667,
       "t_end": 1154.75,
       "confidence": 0.9,
-      "summary": "A large explosion or blast is visible through thick smoke."
+      "frame_count": 4,
+      "summary": "A large explosion or blast is visible through thick smoke.",
+      "thumb": "/thumbs/minions-2015/156647.jpg"
     },
     {
+      "id": 156578,
       "category": "gun",
+      "label": "gun",
       "t_start": 1158.5833333333333,
       "t_end": 1160.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a handgun."
+      "frame_count": 2,
+      "summary": "A character is holding a handgun.",
+      "thumb": "/thumbs/minions-2015/156578.jpg"
     },
     {
+      "id": 156708,
       "category": "scary",
+      "label": "scary",
       "t_start": 1169.25,
       "t_end": 1171.0833333333333,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, potentially frightening facial expression."
+      "frame_count": 2,
+      "summary": "The character has an exaggerated, potentially frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156708.jpg"
     },
     {
+      "id": 156579,
       "category": "gun",
+      "label": "gun",
       "t_start": 1191.9166666666667,
       "t_end": 1208.0833333333333,
       "confidence": 1.0,
-      "summary": "A character is holding a small firearm or weapon."
+      "frame_count": 11,
+      "summary": "A character is holding a small firearm or weapon.",
+      "thumb": "/thumbs/minions-2015/156579.jpg"
     },
     {
+      "id": 156771,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1213.5833333333333,
       "t_end": 1215.4166666666667,
       "confidence": 1.0,
-      "summary": "The character is shown with bare buttocks and partial nudity."
+      "frame_count": 2,
+      "summary": "The character is shown with bare buttocks and partial nudity.",
+      "thumb": "/thumbs/minions-2015/156771.jpg"
     },
     {
+      "id": 156580,
       "category": "gun",
+      "label": "gun",
       "t_start": 1219.9166666666667,
       "t_end": 1222.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a large, stylized firearm/weapon."
+      "frame_count": 3,
+      "summary": "A character is holding a large, stylized firearm/weapon.",
+      "thumb": "/thumbs/minions-2015/156580.jpg"
     },
     {
+      "id": 156581,
       "category": "gun",
+      "label": "gun",
       "t_start": 1253.9166666666667,
       "t_end": 1287.4166666666667,
       "confidence": 1.0,
-      "summary": "A red, stylized laser-like weapon is visible in the foreground."
+      "frame_count": 36,
+      "summary": "A red, stylized laser-like weapon is visible in the foreground.",
+      "thumb": "/thumbs/minions-2015/156581.jpg"
     },
     {
+      "id": 156648,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1257.5833333333333,
       "t_end": 1259.75,
       "confidence": 1.0,
-      "summary": "A large fireball or explosion is visible in the background through the windshield."
+      "frame_count": 2,
+      "summary": "A large fireball or explosion is visible in the background through the windshield.",
+      "thumb": "/thumbs/minions-2015/156648.jpg"
     },
     {
+      "id": 156649,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1286.25,
       "t_end": 1299.0833333333333,
       "confidence": 1.0,
-      "summary": "A large bright explosion is occurring in the scene."
+      "frame_count": 6,
+      "summary": "A large bright explosion is occurring in the scene.",
+      "thumb": "/thumbs/minions-2015/156649.jpg"
     },
     {
+      "id": 156582,
       "category": "gun",
+      "label": "gun",
       "t_start": 1306.25,
       "t_end": 1327.75,
       "confidence": 1.0,
-      "summary": "A Minion is holding a large rocket launcher/weapon."
+      "frame_count": 17,
+      "summary": "A Minion is holding a large rocket launcher/weapon.",
+      "thumb": "/thumbs/minions-2015/156582.jpg"
     },
     {
+      "id": 156583,
       "category": "gun",
+      "label": "gun",
       "t_start": 1402.5833333333333,
       "t_end": 1404.0833333333333,
       "confidence": 1.0,
-      "summary": "A character is holding a gun pointed towards the camera."
+      "frame_count": 1,
+      "summary": "A character is holding a gun pointed towards the camera.",
+      "thumb": "/thumbs/minions-2015/156583.jpg"
     },
     {
+      "id": 156772,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1407.9166666666667,
       "t_end": 1409.4166666666667,
       "confidence": 1.0,
-      "summary": "The cartoon character is depicted with bare buttocks."
+      "frame_count": 1,
+      "summary": "The cartoon character is depicted with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156772.jpg"
     },
     {
+      "id": 156584,
       "category": "gun",
+      "label": "gun",
       "t_start": 1440.9166666666667,
       "t_end": 1442.4166666666667,
       "confidence": 1.0,
-      "summary": "A stylized character is holding a firearm."
+      "frame_count": 1,
+      "summary": "A stylized character is holding a firearm.",
+      "thumb": "/thumbs/minions-2015/156584.jpg"
     },
     {
+      "id": 156585,
       "category": "gun",
+      "label": "gun",
       "t_start": 1458.5833333333333,
       "t_end": 1462.0833333333333,
       "confidence": 0.9,
-      "summary": "A tank with a visible cannon is present on the ridge."
+      "frame_count": 3,
+      "summary": "A tank with a visible cannon is present on the ridge.",
+      "thumb": "/thumbs/minions-2015/156585.jpg"
     },
     {
+      "id": 156650,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1483.9166666666667,
       "t_end": 1485.4166666666667,
       "confidence": 0.8,
-      "summary": "A bright light or blast is visible near the water and boat."
+      "frame_count": 1,
+      "summary": "A bright light or blast is visible near the water and boat.",
+      "thumb": "/thumbs/minions-2015/156650.jpg"
     },
     {
+      "id": 156586,
       "category": "gun",
+      "label": "gun",
       "t_start": 1518.9166666666667,
       "t_end": 1520.4166666666667,
       "confidence": 0.9,
-      "summary": "A character is holding a small firearm-shaped object to their head."
+      "frame_count": 1,
+      "summary": "A character is holding a small firearm-shaped object to their head.",
+      "thumb": "/thumbs/minions-2015/156586.jpg"
     },
     {
+      "id": 156587,
       "category": "gun",
+      "label": "gun",
       "t_start": 1543.5833333333333,
       "t_end": 1545.75,
       "confidence": 0.9,
-      "summary": "A character is holding a freeze-ray weapon."
+      "frame_count": 3,
+      "summary": "A character is holding a freeze-ray weapon.",
+      "thumb": "/thumbs/minions-2015/156587.jpg"
     },
     {
+      "id": 156651,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1549.5833333333333,
       "t_end": 1551.75,
       "confidence": 1.0,
-      "summary": "A character is breathing or emitting a large fireball/blast from its mouth."
+      "frame_count": 3,
+      "summary": "A character is breathing or emitting a large fireball/blast from its mouth.",
+      "thumb": "/thumbs/minions-2015/156651.jpg"
     },
     {
+      "id": 156709,
       "category": "scary",
+      "label": "scary",
       "t_start": 1572.5833333333333,
       "t_end": 1574.0833333333333,
       "confidence": 0.8,
-      "summary": "The stylized monster face is intentionally frightening."
+      "frame_count": 1,
+      "summary": "The stylized monster face is intentionally frightening.",
+      "thumb": "/thumbs/minions-2015/156709.jpg"
     },
     {
+      "id": 156710,
       "category": "scary",
+      "label": "scary",
       "t_start": 1582.9166666666667,
       "t_end": 1592.0833333333333,
       "confidence": 0.6,
-      "summary": "The character on the screen has a distorted, unsettling facial expression."
+      "frame_count": 3,
+      "summary": "The character on the screen has a distorted, unsettling facial expression.",
+      "thumb": "/thumbs/minions-2015/156710.jpg"
     },
     {
+      "id": 156711,
       "category": "scary",
+      "label": "scary",
       "t_start": 1611.5833333333333,
       "t_end": 1614.0833333333333,
       "confidence": 0.6,
-      "summary": "The poster features a skull-like face which may be frightening to young children."
+      "frame_count": 2,
+      "summary": "The poster features a skull-like face which may be frightening to young children.",
+      "thumb": "/thumbs/minions-2015/156711.jpg"
     },
     {
+      "id": 156773,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1628.25,
       "t_end": 1629.75,
       "confidence": 0.9,
-      "summary": "Characters are shown with bare buttocks in a comedic context."
+      "frame_count": 1,
+      "summary": "Characters are shown with bare buttocks in a comedic context.",
+      "thumb": "/thumbs/minions-2015/156773.jpg"
     },
     {
+      "id": 156588,
       "category": "gun",
+      "label": "gun",
       "t_start": 1628.5833333333333,
       "t_end": 1634.75,
       "confidence": 1.0,
-      "summary": "A Minion is holding a gun-shaped object."
+      "frame_count": 7,
+      "summary": "A Minion is holding a gun-shaped object.",
+      "thumb": "/thumbs/minions-2015/156588.jpg"
     },
     {
+      "id": 156652,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1655.9166666666667,
       "t_end": 1665.75,
       "confidence": 1.0,
-      "summary": "The frame shows a bright light burst or explosion effect."
+      "frame_count": 3,
+      "summary": "The frame shows a bright light burst or explosion effect.",
+      "thumb": "/thumbs/minions-2015/156652.jpg"
     },
     {
+      "id": 156589,
       "category": "gun",
+      "label": "gun",
       "t_start": 1667.25,
       "t_end": 1669.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm."
+      "frame_count": 2,
+      "summary": "A character is holding a firearm.",
+      "thumb": "/thumbs/minions-2015/156589.jpg"
     },
     {
+      "id": 156712,
       "category": "scary",
+      "label": "scary",
       "t_start": 1713.25,
       "t_end": 1725.0833333333333,
       "confidence": 0.7,
-      "summary": "The central character has a monster-like appearance and an intense expression."
+      "frame_count": 6,
+      "summary": "The central character has a monster-like appearance and an intense expression.",
+      "thumb": "/thumbs/minions-2015/156712.jpg"
     },
     {
+      "id": 156713,
       "category": "scary",
+      "label": "scary",
       "t_start": 1755.5833333333333,
       "t_end": 1757.0833333333333,
       "confidence": 0.8,
-      "summary": "The character has an exaggerated, frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156713.jpg"
     },
     {
+      "id": 156590,
       "category": "gun",
+      "label": "gun",
       "t_start": 1806.9166666666667,
       "t_end": 1808.4166666666667,
       "confidence": 1.0,
-      "summary": "The character is holding a black handgun."
+      "frame_count": 1,
+      "summary": "The character is holding a black handgun.",
+      "thumb": "/thumbs/minions-2015/156590.jpg"
     },
     {
+      "id": 156774,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1811.9166666666667,
       "t_end": 1813.4166666666667,
       "confidence": 0.8,
-      "summary": "A character is shown with bare buttocks during a fast-moving action sequence."
+      "frame_count": 1,
+      "summary": "A character is shown with bare buttocks during a fast-moving action sequence.",
+      "thumb": "/thumbs/minions-2015/156774.jpg"
     },
     {
+      "id": 156714,
       "category": "scary",
+      "label": "scary",
       "t_start": 1813.5833333333333,
       "t_end": 1821.0833333333333,
       "confidence": 0.5,
-      "summary": "A character is shown in a sudden, chaotic, and potentially frightening movement amidst a crowd."
+      "frame_count": 4,
+      "summary": "A character is shown in a sudden, chaotic, and potentially frightening movement amidst a crowd.",
+      "thumb": "/thumbs/minions-2015/156714.jpg"
     },
     {
+      "id": 156591,
       "category": "gun",
+      "label": "gun",
       "t_start": 1825.5833333333333,
       "t_end": 1827.0833333333333,
       "confidence": 1.0,
-      "summary": "A female character is holding a small handgun."
+      "frame_count": 1,
+      "summary": "A female character is holding a small handgun.",
+      "thumb": "/thumbs/minions-2015/156591.jpg"
     },
     {
+      "id": 156775,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1825.9166666666667,
       "t_end": 1837.4166666666667,
       "confidence": 1.0,
-      "summary": "The character is depicted with exposed breasts."
+      "frame_count": 13,
+      "summary": "The character is depicted with exposed breasts.",
+      "thumb": "/thumbs/minions-2015/156775.jpg"
     },
     {
+      "id": 156715,
       "category": "scary",
+      "label": "scary",
       "t_start": 1831.25,
       "t_end": 1837.75,
       "confidence": 0.5,
-      "summary": "The character has a distorted, intense facial expression that could be perceived as scary."
+      "frame_count": 2,
+      "summary": "The character has a distorted, intense facial expression that could be perceived as scary.",
+      "thumb": "/thumbs/minions-2015/156715.jpg"
     },
     {
+      "id": 156691,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 1850.25,
       "t_end": 1851.75,
       "confidence": 1.0,
-      "summary": "A character is seen kissing another character."
+      "frame_count": 1,
+      "summary": "A character is seen kissing another character.",
+      "thumb": "/thumbs/minions-2015/156691.jpg"
     },
     {
+      "id": 156592,
       "category": "gun",
+      "label": "gun",
       "t_start": 1850.5833333333333,
       "t_end": 1852.0833333333333,
       "confidence": 0.8,
-      "summary": "A character is holding a long, thin object that resembles a firearm or weapon."
+      "frame_count": 1,
+      "summary": "A character is holding a long, thin object that resembles a firearm or weapon.",
+      "thumb": "/thumbs/minions-2015/156592.jpg"
     },
     {
+      "id": 156776,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 1856.5833333333333,
       "t_end": 1867.75,
       "confidence": 1.0,
-      "summary": "The character is shown with bare buttocks visible."
+      "frame_count": 6,
+      "summary": "The character is shown with bare buttocks visible.",
+      "thumb": "/thumbs/minions-2015/156776.jpg"
     },
     {
+      "id": 156716,
       "category": "scary",
+      "label": "scary",
       "t_start": 1861.25,
       "t_end": 1863.0833333333333,
       "confidence": 0.4,
-      "summary": "The green monster character has a slightly intense or menacing expression."
+      "frame_count": 2,
+      "summary": "The green monster character has a slightly intense or menacing expression.",
+      "thumb": "/thumbs/minions-2015/156716.jpg"
     },
     {
+      "id": 156717,
       "category": "scary",
+      "label": "scary",
       "t_start": 1887.5833333333333,
       "t_end": 1889.0833333333333,
       "confidence": 0.3,
-      "summary": "The character has an intense, angry, and potentially frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, angry, and potentially frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156717.jpg"
     },
     {
+      "id": 156718,
       "category": "scary",
+      "label": "scary",
       "t_start": 1912.9166666666667,
       "t_end": 1919.0833333333333,
       "confidence": 0.5,
-      "summary": "The character has an intense, menacing expression directed at the minions."
+      "frame_count": 2,
+      "summary": "The character has an intense, menacing expression directed at the minions.",
+      "thumb": "/thumbs/minions-2015/156718.jpg"
     },
     {
+      "id": 156719,
       "category": "scary",
+      "label": "scary",
       "t_start": 1928.25,
       "t_end": 1931.0833333333333,
       "confidence": 0.7,
-      "summary": "The character on the left has a stylized horror/ghoul face."
+      "frame_count": 3,
+      "summary": "The character on the left has a stylized horror/ghoul face.",
+      "thumb": "/thumbs/minions-2015/156719.jpg"
     },
     {
+      "id": 156593,
       "category": "gun",
+      "label": "gun",
       "t_start": 1941.5833333333333,
       "t_end": 1943.0833333333333,
       "confidence": 0.8,
-      "summary": "A gloved hand is holding a blue cylindrical object that appears to be a firearm or weapon component."
+      "frame_count": 1,
+      "summary": "A gloved hand is holding a blue cylindrical object that appears to be a firearm or weapon component.",
+      "thumb": "/thumbs/minions-2015/156593.jpg"
     },
     {
+      "id": 156594,
       "category": "gun",
+      "label": "gun",
       "t_start": 1996.25,
       "t_end": 1997.75,
       "confidence": 0.9,
-      "summary": "A Minion is holding a large, stylized gadget/weapon that resembles a gun."
+      "frame_count": 1,
+      "summary": "A Minion is holding a large, stylized gadget/weapon that resembles a gun.",
+      "thumb": "/thumbs/minions-2015/156594.jpg"
     },
     {
+      "id": 156720,
       "category": "scary",
+      "label": "scary",
       "t_start": 2012.25,
       "t_end": 2016.4166666666667,
       "confidence": 0.7,
-      "summary": "The image features a skull-like shape in a dark, misty environment which may be perceived as scary."
+      "frame_count": 4,
+      "summary": "The image features a skull-like shape in a dark, misty environment which may be perceived as scary.",
+      "thumb": "/thumbs/minions-2015/156720.jpg"
     },
     {
+      "id": 156721,
       "category": "scary",
+      "label": "scary",
       "t_start": 2030.9166666666667,
       "t_end": 2033.0833333333333,
       "confidence": 0.6,
-      "summary": "The central character has a menacing, aggressive facial expression."
+      "frame_count": 2,
+      "summary": "The central character has a menacing, aggressive facial expression.",
+      "thumb": "/thumbs/minions-2015/156721.jpg"
     },
     {
+      "id": 156653,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2038.5833333333333,
       "t_end": 2041.4166666666667,
       "confidence": 0.9,
-      "summary": "A bright light or blast effect is visible on the side of the red object."
+      "frame_count": 3,
+      "summary": "A bright light or blast effect is visible on the side of the red object.",
+      "thumb": "/thumbs/minions-2015/156653.jpg"
     },
     {
+      "id": 156765,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 2046.25,
       "t_end": 2049.75,
       "confidence": 0.8,
-      "summary": "A Minion is holding a cocktail glass."
+      "frame_count": 2,
+      "summary": "A Minion is holding a cocktail glass.",
+      "thumb": "/thumbs/minions-2015/156765.jpg"
     },
     {
+      "id": 156692,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 2070.5833333333335,
       "t_end": 2072.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is seen kissing another character."
+      "frame_count": 1,
+      "summary": "A character is seen kissing another character.",
+      "thumb": "/thumbs/minions-2015/156692.jpg"
     },
     {
+      "id": 156693,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 2104.5833333333335,
       "t_end": 2114.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is kissing another character."
+      "frame_count": 3,
+      "summary": "A character is kissing another character.",
+      "thumb": "/thumbs/minions-2015/156693.jpg"
     },
     {
+      "id": 156595,
       "category": "gun",
+      "label": "gun",
       "t_start": 2105.9166666666665,
       "t_end": 2107.4166666666665,
       "confidence": 0.8,
-      "summary": "A character is holding a dark object that appears to be a gun."
+      "frame_count": 1,
+      "summary": "A character is holding a dark object that appears to be a gun.",
+      "thumb": "/thumbs/minions-2015/156595.jpg"
     },
     {
+      "id": 156777,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2140.5833333333335,
       "t_end": 2142.4166666666665,
       "confidence": 0.9,
-      "summary": "A white statue/character is shown with bare buttocks/nakedness."
+      "frame_count": 2,
+      "summary": "A white statue/character is shown with bare buttocks/nakedness.",
+      "thumb": "/thumbs/minions-2015/156777.jpg"
     },
     {
+      "id": 156778,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2156.5833333333335,
       "t_end": 2161.4166666666665,
       "confidence": 1.0,
-      "summary": "The character on the right is depicted with bare buttocks."
+      "frame_count": 11,
+      "summary": "The character on the right is depicted with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156778.jpg"
     },
     {
+      "id": 156596,
       "category": "gun",
+      "label": "gun",
       "t_start": 2165.5833333333335,
       "t_end": 2170.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a gun to another character's head."
+      "frame_count": 6,
+      "summary": "A character is holding a gun to another character's head.",
+      "thumb": "/thumbs/minions-2015/156596.jpg"
     },
     {
+      "id": 156597,
       "category": "gun",
+      "label": "gun",
       "t_start": 2276.5833333333335,
       "t_end": 2298.0833333333335,
       "confidence": 1.0,
-      "summary": "The character is holding a stylized sci-fi ray gun."
+      "frame_count": 11,
+      "summary": "The character is holding a stylized sci-fi ray gun.",
+      "thumb": "/thumbs/minions-2015/156597.jpg"
     },
     {
+      "id": 156598,
       "category": "gun",
+      "label": "gun",
       "t_start": 2310.25,
       "t_end": 2311.75,
       "confidence": 0.9,
-      "summary": "Minions are holding stylized, glowing sci-fi blasters."
+      "frame_count": 1,
+      "summary": "Minions are holding stylized, glowing sci-fi blasters.",
+      "thumb": "/thumbs/minions-2015/156598.jpg"
     },
     {
+      "id": 156722,
       "category": "scary",
+      "label": "scary",
       "t_start": 2381.25,
       "t_end": 2383.75,
       "confidence": 0.8,
-      "summary": "The character has a menacing, wide-mouthed expression typical of a cartoon villain."
+      "frame_count": 4,
+      "summary": "The character has a menacing, wide-mouthed expression typical of a cartoon villain.",
+      "thumb": "/thumbs/minions-2015/156722.jpg"
     },
     {
+      "id": 156723,
       "category": "scary",
+      "label": "scary",
       "t_start": 2395.9166666666665,
       "t_end": 2397.4166666666665,
       "confidence": 0.7,
-      "summary": "The character has a menacing, scary facial expression."
+      "frame_count": 1,
+      "summary": "The character has a menacing, scary facial expression.",
+      "thumb": "/thumbs/minions-2015/156723.jpg"
     },
     {
+      "id": 156599,
       "category": "gun",
+      "label": "gun",
       "t_start": 2403.25,
       "t_end": 2404.75,
       "confidence": 1.0,
-      "summary": "A drawing within the frame depicts a character holding a gun."
+      "frame_count": 1,
+      "summary": "A drawing within the frame depicts a character holding a gun.",
+      "thumb": "/thumbs/minions-2015/156599.jpg"
     },
     {
+      "id": 156724,
       "category": "scary",
+      "label": "scary",
       "t_start": 2413.9166666666665,
       "t_end": 2428.0833333333335,
       "confidence": 0.8,
-      "summary": "The wolf character has a stylized, slightly menacing expression."
+      "frame_count": 12,
+      "summary": "The wolf character has a stylized, slightly menacing expression.",
+      "thumb": "/thumbs/minions-2015/156724.jpg"
     },
     {
+      "id": 156654,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2428.5833333333335,
       "t_end": 2434.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is looking at a cloud of smoke or a small blast."
+      "frame_count": 2,
+      "summary": "A character is looking at a cloud of smoke or a small blast.",
+      "thumb": "/thumbs/minions-2015/156654.jpg"
     },
     {
+      "id": 156725,
       "category": "scary",
+      "label": "scary",
       "t_start": 2447.5833333333335,
       "t_end": 2449.0833333333335,
       "confidence": 0.7,
-      "summary": "The female character has an exaggerated, intense, and potentially frightening facial expression."
+      "frame_count": 1,
+      "summary": "The female character has an exaggerated, intense, and potentially frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156725.jpg"
     },
     {
+      "id": 156600,
       "category": "gun",
+      "label": "gun",
       "t_start": 2466.25,
       "t_end": 2467.75,
       "confidence": 1.0,
-      "summary": "A minion is holding a gun-shaped object."
+      "frame_count": 1,
+      "summary": "A minion is holding a gun-shaped object.",
+      "thumb": "/thumbs/minions-2015/156600.jpg"
     },
     {
+      "id": 156726,
       "category": "scary",
+      "label": "scary",
       "t_start": 2500.5833333333335,
       "t_end": 2502.75,
       "confidence": 0.6,
-      "summary": "The character has a frightened, wide-eyed expression."
+      "frame_count": 2,
+      "summary": "The character has a frightened, wide-eyed expression.",
+      "thumb": "/thumbs/minions-2015/156726.jpg"
     },
     {
+      "id": 156601,
       "category": "gun",
+      "label": "gun",
       "t_start": 2501.5833333333335,
       "t_end": 2509.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is pointing a large, stylized firearm at another character."
+      "frame_count": 6,
+      "summary": "A character is pointing a large, stylized firearm at another character.",
+      "thumb": "/thumbs/minions-2015/156601.jpg"
     },
     {
+      "id": 156602,
       "category": "gun",
+      "label": "gun",
       "t_start": 2523.9166666666665,
       "t_end": 2525.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm."
+      "frame_count": 1,
+      "summary": "A character is holding a firearm.",
+      "thumb": "/thumbs/minions-2015/156602.jpg"
     },
     {
+      "id": 156655,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2539.25,
       "t_end": 2541.0833333333335,
       "confidence": 0.9,
-      "summary": "A bright orange fireball or blast is visible in the center."
+      "frame_count": 2,
+      "summary": "A bright orange fireball or blast is visible in the center.",
+      "thumb": "/thumbs/minions-2015/156655.jpg"
     },
     {
+      "id": 156727,
       "category": "scary",
+      "label": "scary",
       "t_start": 2547.25,
       "t_end": 2569.0833333333335,
       "confidence": 0.7,
-      "summary": "The characters have exaggerated, intense, and potentially frightening expressions."
+      "frame_count": 10,
+      "summary": "The characters have exaggerated, intense, and potentially frightening expressions.",
+      "thumb": "/thumbs/minions-2015/156727.jpg"
     },
     {
+      "id": 156603,
       "category": "gun",
+      "label": "gun",
       "t_start": 2585.9166666666665,
       "t_end": 2604.75,
       "confidence": 1.0,
-      "summary": "A small character is holding a colorful toy-like gun."
+      "frame_count": 7,
+      "summary": "A small character is holding a colorful toy-like gun.",
+      "thumb": "/thumbs/minions-2015/156603.jpg"
     },
     {
+      "id": 156779,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2586.9166666666665,
       "t_end": 2603.75,
       "confidence": 1.0,
-      "summary": "The character's buttocks are exposed due to clothing being pulled down."
+      "frame_count": 7,
+      "summary": "The character's buttocks are exposed due to clothing being pulled down.",
+      "thumb": "/thumbs/minions-2015/156779.jpg"
     },
     {
+      "id": 156728,
       "category": "scary",
+      "label": "scary",
       "t_start": 2588.9166666666665,
       "t_end": 2590.4166666666665,
       "confidence": 0.7,
-      "summary": "The character is displaying a terror pose/expression."
+      "frame_count": 1,
+      "summary": "The character is displaying a terror pose/expression.",
+      "thumb": "/thumbs/minions-2015/156728.jpg"
     },
     {
+      "id": 156656,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2615.5833333333335,
       "t_end": 2629.75,
       "confidence": 1.0,
-      "summary": "A small explosion is occurring near one of the minions."
+      "frame_count": 16,
+      "summary": "A small explosion is occurring near one of the minions.",
+      "thumb": "/thumbs/minions-2015/156656.jpg"
     },
     {
+      "id": 156604,
       "category": "gun",
+      "label": "gun",
       "t_start": 2622.25,
       "t_end": 2625.0833333333335,
       "confidence": 0.9,
-      "summary": "The object appears to be a stylized, glowing sci-fi weapon or blaster."
+      "frame_count": 4,
+      "summary": "The object appears to be a stylized, glowing sci-fi weapon or blaster.",
+      "thumb": "/thumbs/minions-2015/156604.jpg"
     },
     {
+      "id": 156605,
       "category": "gun",
+      "label": "gun",
       "t_start": 2634.5833333333335,
       "t_end": 2636.4166666666665,
       "confidence": 0.9,
-      "summary": "A minion is holding a red rocket-shaped projectile/weapon."
+      "frame_count": 2,
+      "summary": "A minion is holding a red rocket-shaped projectile/weapon.",
+      "thumb": "/thumbs/minions-2015/156605.jpg"
     },
     {
+      "id": 156657,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2638.5833333333335,
       "t_end": 2640.0833333333335,
       "confidence": 0.9,
-      "summary": "A small explosion or fireball is visible at the bottom of the frame."
+      "frame_count": 1,
+      "summary": "A small explosion or fireball is visible at the bottom of the frame.",
+      "thumb": "/thumbs/minions-2015/156657.jpg"
     },
     {
+      "id": 156729,
       "category": "scary",
+      "label": "scary",
       "t_start": 2647.5833333333335,
       "t_end": 2649.0833333333335,
       "confidence": 0.4,
-      "summary": "The character has an intense, potentially frightening expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, potentially frightening expression.",
+      "thumb": "/thumbs/minions-2015/156729.jpg"
     },
     {
+      "id": 156606,
       "category": "gun",
+      "label": "gun",
       "t_start": 2652.25,
       "t_end": 2659.0833333333335,
       "confidence": 1.0,
-      "summary": "A Minion is holding a small firearm/ray gun."
+      "frame_count": 2,
+      "summary": "A Minion is holding a small firearm/ray gun.",
+      "thumb": "/thumbs/minions-2015/156606.jpg"
     },
     {
+      "id": 156607,
       "category": "gun",
+      "label": "gun",
       "t_start": 2682.25,
       "t_end": 2683.75,
       "confidence": 0.8,
-      "summary": "A Minion is holding a stylized, toy-like red gadget/weapon."
+      "frame_count": 1,
+      "summary": "A Minion is holding a stylized, toy-like red gadget/weapon.",
+      "thumb": "/thumbs/minions-2015/156607.jpg"
     },
     {
+      "id": 156658,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2687.5833333333335,
       "t_end": 2689.0833333333335,
       "confidence": 1.0,
-      "summary": "A large bright explosion is visible in the center of the frame."
+      "frame_count": 1,
+      "summary": "A large bright explosion is visible in the center of the frame.",
+      "thumb": "/thumbs/minions-2015/156658.jpg"
     },
     {
+      "id": 156608,
       "category": "gun",
+      "label": "gun",
       "t_start": 2693.9166666666665,
       "t_end": 2695.4166666666665,
       "confidence": 1.0,
-      "summary": "One minion is holding a small firearm/blaster."
+      "frame_count": 1,
+      "summary": "One minion is holding a small firearm/blaster.",
+      "thumb": "/thumbs/minions-2015/156608.jpg"
     },
     {
+      "id": 156730,
       "category": "scary",
+      "label": "scary",
       "t_start": 2701.9166666666665,
       "t_end": 2703.4166666666665,
       "confidence": 0.7,
-      "summary": "The Minions appear frightened in a dark, suspenseful setting."
+      "frame_count": 1,
+      "summary": "The Minions appear frightened in a dark, suspenseful setting.",
+      "thumb": "/thumbs/minions-2015/156730.jpg"
     },
     {
+      "id": 156780,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2718.25,
       "t_end": 2719.75,
       "confidence": 1.0,
-      "summary": "The character in the foreground is shown with bare buttocks."
+      "frame_count": 1,
+      "summary": "The character in the foreground is shown with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156780.jpg"
     },
     {
+      "id": 156609,
       "category": "gun",
+      "label": "gun",
       "t_start": 2734.25,
       "t_end": 2736.75,
       "confidence": 0.8,
-      "summary": "A character is holding a small handheld device that resembles a gun or blaster."
+      "frame_count": 2,
+      "summary": "A character is holding a small handheld device that resembles a gun or blaster.",
+      "thumb": "/thumbs/minions-2015/156609.jpg"
     },
     {
+      "id": 156610,
       "category": "gun",
+      "label": "gun",
       "t_start": 2770.9166666666665,
       "t_end": 2779.75,
       "confidence": 1.0,
-      "summary": "A character is holding a handgun pointed towards the side."
+      "frame_count": 6,
+      "summary": "A character is holding a handgun pointed towards the side.",
+      "thumb": "/thumbs/minions-2015/156610.jpg"
     },
     {
+      "id": 156731,
       "category": "scary",
+      "label": "scary",
       "t_start": 2794.5833333333335,
       "t_end": 2796.0833333333335,
       "confidence": 0.6,
-      "summary": "The character has a frightened expression in a dark, moody setting."
+      "frame_count": 1,
+      "summary": "The character has a frightened expression in a dark, moody setting.",
+      "thumb": "/thumbs/minions-2015/156731.jpg"
     },
     {
+      "id": 156611,
       "category": "gun",
+      "label": "gun",
       "t_start": 2801.9166666666665,
       "t_end": 2803.4166666666665,
       "confidence": 0.7,
-      "summary": "A minion is holding a large, stylized gadget/weapon-like device towards a character."
+      "frame_count": 1,
+      "summary": "A minion is holding a large, stylized gadget/weapon-like device towards a character.",
+      "thumb": "/thumbs/minions-2015/156611.jpg"
     },
     {
+      "id": 156732,
       "category": "scary",
+      "label": "scary",
       "t_start": 2810.5833333333335,
       "t_end": 2812.0833333333335,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, intense facial expression of terror or shouting."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, intense facial expression of terror or shouting.",
+      "thumb": "/thumbs/minions-2015/156732.jpg"
     },
     {
+      "id": 156612,
       "category": "gun",
+      "label": "gun",
       "t_start": 2813.9166666666665,
       "t_end": 2815.4166666666665,
       "confidence": 1.0,
-      "summary": "A Minion is holding a silver gun-shaped object."
+      "frame_count": 1,
+      "summary": "A Minion is holding a silver gun-shaped object.",
+      "thumb": "/thumbs/minions-2015/156612.jpg"
     },
     {
+      "id": 156733,
       "category": "scary",
+      "label": "scary",
       "t_start": 2837.25,
       "t_end": 2847.0833333333335,
       "confidence": 0.7,
-      "summary": "The female character has a terrified facial expression."
+      "frame_count": 5,
+      "summary": "The female character has a terrified facial expression.",
+      "thumb": "/thumbs/minions-2015/156733.jpg"
     },
     {
+      "id": 156781,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2884.5833333333335,
       "t_end": 2886.0833333333335,
       "confidence": 0.5,
-      "summary": "The television screen shows a character with bare shoulders/upper torso."
+      "frame_count": 1,
+      "summary": "The television screen shows a character with bare shoulders/upper torso.",
+      "thumb": "/thumbs/minions-2015/156781.jpg"
     },
     {
+      "id": 156734,
       "category": "scary",
+      "label": "scary",
       "t_start": 2896.5833333333335,
       "t_end": 2901.75,
       "confidence": 0.4,
-      "summary": "The character has an intense, menacing facial expression."
+      "frame_count": 2,
+      "summary": "The character has an intense, menacing facial expression.",
+      "thumb": "/thumbs/minions-2015/156734.jpg"
     },
     {
+      "id": 156613,
       "category": "gun",
+      "label": "gun",
       "t_start": 2973.25,
       "t_end": 2979.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a small handgun near a Minion."
+      "frame_count": 3,
+      "summary": "A character is holding a small handgun near a Minion.",
+      "thumb": "/thumbs/minions-2015/156613.jpg"
     },
     {
+      "id": 156782,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2986.9166666666665,
       "t_end": 2988.4166666666665,
       "confidence": 1.0,
-      "summary": "Character is shown with bare buttocks visible."
+      "frame_count": 1,
+      "summary": "Character is shown with bare buttocks visible.",
+      "thumb": "/thumbs/minions-2015/156782.jpg"
     },
     {
+      "id": 156614,
       "category": "gun",
+      "label": "gun",
       "t_start": 2991.9166666666665,
       "t_end": 2993.4166666666665,
       "confidence": 1.0,
-      "summary": "Characters are holding long firearms/rifles."
+      "frame_count": 1,
+      "summary": "Characters are holding long firearms/rifles.",
+      "thumb": "/thumbs/minions-2015/156614.jpg"
     },
     {
+      "id": 156615,
       "category": "gun",
+      "label": "gun",
       "t_start": 3077.9166666666665,
       "t_end": 3079.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a handgun while standing on the stairs."
+      "frame_count": 1,
+      "summary": "A character is holding a handgun while standing on the stairs.",
+      "thumb": "/thumbs/minions-2015/156615.jpg"
     },
     {
+      "id": 156783,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3097.25,
       "t_end": 3101.4166666666665,
       "confidence": 1.0,
-      "summary": "The character is shown with bare buttocks."
+      "frame_count": 4,
+      "summary": "The character is shown with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156783.jpg"
     },
     {
+      "id": 156616,
       "category": "gun",
+      "label": "gun",
       "t_start": 3124.25,
       "t_end": 3149.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a large, stylized multi-barrel firearm towards the camera."
+      "frame_count": 26,
+      "summary": "A character is holding a large, stylized multi-barrel firearm towards the camera.",
+      "thumb": "/thumbs/minions-2015/156616.jpg"
     },
     {
+      "id": 156735,
       "category": "scary",
+      "label": "scary",
       "t_start": 3124.9166666666665,
       "t_end": 3130.75,
       "confidence": 0.7,
-      "summary": "The character has a frightened/terror expression."
+      "frame_count": 5,
+      "summary": "The character has a frightened/terror expression.",
+      "thumb": "/thumbs/minions-2015/156735.jpg"
     },
     {
+      "id": 156736,
       "category": "scary",
+      "label": "scary",
       "t_start": 3144.25,
       "t_end": 3145.75,
       "confidence": 0.4,
-      "summary": "The female character has an intense, angry, and somewhat frightening facial expression."
+      "frame_count": 1,
+      "summary": "The female character has an intense, angry, and somewhat frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156736.jpg"
     },
     {
+      "id": 156737,
       "category": "scary",
+      "label": "scary",
       "t_start": 3155.25,
       "t_end": 3158.75,
       "confidence": 0.8,
-      "summary": "The character has an exaggerated, slightly unsettling facial expression."
+      "frame_count": 2,
+      "summary": "The character has an exaggerated, slightly unsettling facial expression.",
+      "thumb": "/thumbs/minions-2015/156737.jpg"
     },
     {
+      "id": 156617,
       "category": "gun",
+      "label": "gun",
       "t_start": 3161.9166666666665,
       "t_end": 3182.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is holding a futuristic-looking firearm."
+      "frame_count": 28,
+      "summary": "A character is holding a futuristic-looking firearm.",
+      "thumb": "/thumbs/minions-2015/156617.jpg"
     },
     {
+      "id": 156738,
       "category": "scary",
+      "label": "scary",
       "t_start": 3167.9166666666665,
       "t_end": 3175.4166666666665,
       "confidence": 0.8,
-      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary."
+      "frame_count": 10,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary.",
+      "thumb": "/thumbs/minions-2015/156738.jpg"
     },
     {
+      "id": 156618,
       "category": "gun",
+      "label": "gun",
       "t_start": 3200.9166666666665,
       "t_end": 3202.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a gun in the foreground."
+      "frame_count": 1,
+      "summary": "A character is holding a gun in the foreground.",
+      "thumb": "/thumbs/minions-2015/156618.jpg"
     },
     {
+      "id": 156739,
       "category": "scary",
+      "label": "scary",
       "t_start": 3276.5833333333335,
       "t_end": 3320.0833333333335,
       "confidence": 0.9,
-      "summary": "The character has a frightened expression looking at a weapon/tool."
+      "frame_count": 29,
+      "summary": "The character has a frightened expression looking at a weapon/tool.",
+      "thumb": "/thumbs/minions-2015/156739.jpg"
     },
     {
+      "id": 156740,
       "category": "scary",
+      "label": "scary",
       "t_start": 3329.9166666666665,
       "t_end": 3355.0833333333335,
       "confidence": 0.8,
-      "summary": "The character's expression and the dark framing suggest a frightening or intense moment."
+      "frame_count": 11,
+      "summary": "The character's expression and the dark framing suggest a frightening or intense moment.",
+      "thumb": "/thumbs/minions-2015/156740.jpg"
     },
     {
+      "id": 156741,
       "category": "scary",
+      "label": "scary",
       "t_start": 3365.9166666666665,
       "t_end": 3404.75,
       "confidence": 0.8,
-      "summary": "The character has a frightened expression and a large, looming shadow."
+      "frame_count": 21,
+      "summary": "The character has a frightened expression and a large, looming shadow.",
+      "thumb": "/thumbs/minions-2015/156741.jpg"
     },
     {
+      "id": 156619,
       "category": "gun",
+      "label": "gun",
       "t_start": 3374.5833333333335,
       "t_end": 3376.75,
       "confidence": 1.0,
-      "summary": "A character is holding a long firearm/weapon in the foreground."
+      "frame_count": 2,
+      "summary": "A character is holding a long firearm/weapon in the foreground.",
+      "thumb": "/thumbs/minions-2015/156619.jpg"
     },
     {
+      "id": 156659,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3392.25,
       "t_end": 3393.75,
       "confidence": 0.8,
-      "summary": "A bright white light suggests an explosion or intense flash."
+      "frame_count": 1,
+      "summary": "A bright white light suggests an explosion or intense flash.",
+      "thumb": "/thumbs/minions-2015/156659.jpg"
     },
     {
+      "id": 156660,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3405.25,
       "t_end": 3406.75,
       "confidence": 1.0,
-      "summary": "A large fireball or explosion is visible in the background behind the character."
+      "frame_count": 1,
+      "summary": "A large fireball or explosion is visible in the background behind the character.",
+      "thumb": "/thumbs/minions-2015/156660.jpg"
     },
     {
+      "id": 156620,
       "category": "gun",
+      "label": "gun",
       "t_start": 3455.5833333333335,
       "t_end": 3466.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is holding a stylized revolver."
+      "frame_count": 3,
+      "summary": "A character is holding a stylized revolver.",
+      "thumb": "/thumbs/minions-2015/156620.jpg"
     },
     {
+      "id": 156661,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3457.25,
       "t_end": 3462.4166666666665,
       "confidence": 1.0,
-      "summary": "There is a bright fireball/explosion effect in the center of the building."
+      "frame_count": 6,
+      "summary": "There is a bright fireball/explosion effect in the center of the building.",
+      "thumb": "/thumbs/minions-2015/156661.jpg"
     },
     {
+      "id": 156694,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 3472.5833333333335,
       "t_end": 3475.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is giving another character a romantic kiss."
+      "frame_count": 4,
+      "summary": "A character is giving another character a romantic kiss.",
+      "thumb": "/thumbs/minions-2015/156694.jpg"
     },
     {
+      "id": 156621,
       "category": "gun",
+      "label": "gun",
       "t_start": 3537.25,
       "t_end": 3548.0833333333335,
       "confidence": 1.0,
-      "summary": "A minion is holding a firearm-shaped weapon."
+      "frame_count": 4,
+      "summary": "A minion is holding a firearm-shaped weapon.",
+      "thumb": "/thumbs/minions-2015/156621.jpg"
     },
     {
+      "id": 156686,
       "category": "death",
+      "label": "death",
       "t_start": 3547.9166666666665,
       "t_end": 3551.75,
       "confidence": 0.9,
-      "summary": "The scene depicts a funeral with a coffin and mourning characters."
+      "frame_count": 5,
+      "summary": "The scene depicts a funeral with a coffin and mourning characters.",
+      "thumb": "/thumbs/minions-2015/156686.jpg"
     },
     {
+      "id": 156662,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3556.5833333333335,
       "t_end": 3561.4166666666665,
       "confidence": 0.9,
-      "summary": "There is a fire or explosion visible in the background."
+      "frame_count": 3,
+      "summary": "There is a fire or explosion visible in the background.",
+      "thumb": "/thumbs/minions-2015/156662.jpg"
     },
     {
+      "id": 156687,
       "category": "death",
+      "label": "death",
       "t_start": 3569.9166666666665,
       "t_end": 3571.4166666666665,
       "confidence": 0.8,
-      "summary": "The text on the sign implies a death has occurred."
+      "frame_count": 1,
+      "summary": "The text on the sign implies a death has occurred.",
+      "thumb": "/thumbs/minions-2015/156687.jpg"
     },
     {
+      "id": 156622,
       "category": "gun",
+      "label": "gun",
       "t_start": 3652.5833333333335,
       "t_end": 3654.0833333333335,
       "confidence": 0.8,
-      "summary": "A minion is holding a long, dark object that resembles a gun or weapon."
+      "frame_count": 1,
+      "summary": "A minion is holding a long, dark object that resembles a gun or weapon.",
+      "thumb": "/thumbs/minions-2015/156622.jpg"
     },
     {
+      "id": 156784,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3713.5833333333335,
       "t_end": 3716.0833333333335,
       "confidence": 1.0,
-      "summary": "A character is shown with bare buttocks from a top-down perspective."
+      "frame_count": 3,
+      "summary": "A character is shown with bare buttocks from a top-down perspective.",
+      "thumb": "/thumbs/minions-2015/156784.jpg"
     },
     {
+      "id": 156785,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3744.9166666666665,
       "t_end": 3746.4166666666665,
       "confidence": 1.0,
-      "summary": "A character in the background is shown with bare buttocks."
+      "frame_count": 1,
+      "summary": "A character in the background is shown with bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156785.jpg"
     },
     {
+      "id": 156688,
       "category": "death",
+      "label": "death",
       "t_start": 3766.9166666666665,
       "t_end": 3768.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is depicted hanging by a rope, implying death or suicide."
+      "frame_count": 1,
+      "summary": "A character is depicted hanging by a rope, implying death or suicide.",
+      "thumb": "/thumbs/minions-2015/156688.jpg"
     },
     {
+      "id": 156742,
       "category": "scary",
+      "label": "scary",
       "t_start": 3766.9166666666665,
       "t_end": 3768.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is depicted hanging by a rope, implying death or suicide."
+      "frame_count": 1,
+      "summary": "A character is depicted hanging by a rope, implying death or suicide.",
+      "thumb": "/thumbs/minions-2015/156742.jpg"
     },
     {
+      "id": 156743,
       "category": "scary",
+      "label": "scary",
       "t_start": 3790.25,
       "t_end": 3800.4166666666665,
       "confidence": 0.7,
-      "summary": "The character has an intense, wide-eyed expression that could be perceived as frightening."
+      "frame_count": 4,
+      "summary": "The character has an intense, wide-eyed expression that could be perceived as frightening.",
+      "thumb": "/thumbs/minions-2015/156743.jpg"
     },
     {
+      "id": 156786,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3802.25,
       "t_end": 3819.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is shown with a bare chest and torso area."
+      "frame_count": 8,
+      "summary": "A character is shown with a bare chest and torso area.",
+      "thumb": "/thumbs/minions-2015/156786.jpg"
     },
     {
+      "id": 156663,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3818.5833333333335,
       "t_end": 3820.0833333333335,
       "confidence": 0.9,
-      "summary": "A large purple explosion or energy blast is visible in the center."
+      "frame_count": 1,
+      "summary": "A large purple explosion or energy blast is visible in the center.",
+      "thumb": "/thumbs/minions-2015/156663.jpg"
     },
     {
+      "id": 156744,
       "category": "scary",
+      "label": "scary",
       "t_start": 3822.25,
       "t_end": 3833.4166666666665,
       "confidence": 0.7,
-      "summary": "The character has an intense, exaggeratedly angry or menacing facial expression."
+      "frame_count": 14,
+      "summary": "The character has an intense, exaggeratedly angry or menacing facial expression.",
+      "thumb": "/thumbs/minions-2015/156744.jpg"
     },
     {
+      "id": 156787,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3829.5833333333335,
       "t_end": 3834.75,
       "confidence": 1.0,
-      "summary": "A character's bare buttocks are visible on the right side of the frame."
+      "frame_count": 2,
+      "summary": "A character's bare buttocks are visible on the right side of the frame.",
+      "thumb": "/thumbs/minions-2015/156787.jpg"
     },
     {
+      "id": 156664,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3847.9166666666665,
       "t_end": 3849.4166666666665,
       "confidence": 0.9,
-      "summary": "A character or object is causing a large explosion/impact against a window."
+      "frame_count": 1,
+      "summary": "A character or object is causing a large explosion/impact against a window.",
+      "thumb": "/thumbs/minions-2015/156664.jpg"
     },
     {
+      "id": 156788,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3848.9166666666665,
       "t_end": 3858.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is shown with bare buttocks visible."
+      "frame_count": 2,
+      "summary": "A character is shown with bare buttocks visible.",
+      "thumb": "/thumbs/minions-2015/156788.jpg"
     },
     {
+      "id": 156745,
       "category": "scary",
+      "label": "scary",
       "t_start": 3858.9166666666665,
       "t_end": 3876.0833333333335,
       "confidence": 0.8,
-      "summary": "A large, menacing creature is visible in the dark street."
+      "frame_count": 16,
+      "summary": "A large, menacing creature is visible in the dark street.",
+      "thumb": "/thumbs/minions-2015/156745.jpg"
     },
     {
+      "id": 156623,
       "category": "gun",
+      "label": "gun",
       "t_start": 3876.9166666666665,
       "t_end": 3880.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm in a dark alley."
+      "frame_count": 2,
+      "summary": "A character is holding a firearm in a dark alley.",
+      "thumb": "/thumbs/minions-2015/156623.jpg"
     },
     {
+      "id": 156665,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3886.5833333333335,
       "t_end": 3888.0833333333335,
       "confidence": 0.9,
-      "summary": "A character is reacting to a large explosion or blast."
+      "frame_count": 1,
+      "summary": "A character is reacting to a large explosion or blast.",
+      "thumb": "/thumbs/minions-2015/156665.jpg"
     },
     {
+      "id": 156746,
       "category": "scary",
+      "label": "scary",
       "t_start": 3893.9166666666665,
       "t_end": 3915.75,
       "confidence": 0.9,
-      "summary": "The character has an intense, aggressive facial expression and pose."
+      "frame_count": 14,
+      "summary": "The character has an intense, aggressive facial expression and pose.",
+      "thumb": "/thumbs/minions-2015/156746.jpg"
     },
     {
+      "id": 156624,
       "category": "gun",
+      "label": "gun",
       "t_start": 3902.25,
       "t_end": 3903.75,
       "confidence": 0.9,
-      "summary": "A clown character is holding a gun and has a frightening appearance."
+      "frame_count": 1,
+      "summary": "A clown character is holding a gun and has a frightening appearance.",
+      "thumb": "/thumbs/minions-2015/156624.jpg"
     },
     {
+      "id": 156766,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3902.5833333333335,
       "t_end": 3904.0833333333335,
       "confidence": 0.7,
-      "summary": "A character is holding a dark bottle that appears to be alcohol."
+      "frame_count": 1,
+      "summary": "A character is holding a dark bottle that appears to be alcohol.",
+      "thumb": "/thumbs/minions-2015/156766.jpg"
     },
     {
+      "id": 156666,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3905.5833333333335,
       "t_end": 3909.75,
       "confidence": 1.0,
-      "summary": "A character is surrounded by explosions or fiery blasts."
+      "frame_count": 5,
+      "summary": "A character is surrounded by explosions or fiery blasts.",
+      "thumb": "/thumbs/minions-2015/156666.jpg"
     },
     {
+      "id": 156789,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3909.25,
       "t_end": 3926.0833333333335,
       "confidence": 1.0,
-      "summary": "The image shows a character's bare buttocks."
+      "frame_count": 22,
+      "summary": "The image shows a character's bare buttocks.",
+      "thumb": "/thumbs/minions-2015/156789.jpg"
     },
     {
+      "id": 156747,
       "category": "scary",
+      "label": "scary",
       "t_start": 3943.25,
       "t_end": 3945.75,
       "confidence": 0.8,
-      "summary": "The green creature has a frightening, aggressive facial expression."
+      "frame_count": 4,
+      "summary": "The green creature has a frightening, aggressive facial expression.",
+      "thumb": "/thumbs/minions-2015/156747.jpg"
     },
     {
+      "id": 156689,
       "category": "death",
+      "label": "death",
       "t_start": 3945.25,
       "t_end": 3946.75,
       "confidence": 0.7,
-      "summary": "The image shows what appears to be animal remains or feathers on a cobblestone street."
+      "frame_count": 1,
+      "summary": "The image shows what appears to be animal remains or feathers on a cobblestone street.",
+      "thumb": "/thumbs/minions-2015/156689.jpg"
     },
     {
+      "id": 156748,
       "category": "scary",
+      "label": "scary",
       "t_start": 3981.5833333333335,
       "t_end": 3986.0833333333335,
       "confidence": 0.7,
-      "summary": "A character's face is visible through a window in a potentially frightening manner."
+      "frame_count": 4,
+      "summary": "A character's face is visible through a window in a potentially frightening manner.",
+      "thumb": "/thumbs/minions-2015/156748.jpg"
     },
     {
+      "id": 156767,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3985.5833333333335,
       "t_end": 4012.75,
       "confidence": 1.0,
-      "summary": "The scene takes place in a bar setting with alcohol bottles visible in the background."
+      "frame_count": 19,
+      "summary": "The scene takes place in a bar setting with alcohol bottles visible in the background.",
+      "thumb": "/thumbs/minions-2015/156767.jpg"
     },
     {
+      "id": 156749,
       "category": "scary",
+      "label": "scary",
       "t_start": 4021.25,
       "t_end": 4048.75,
       "confidence": 0.8,
-      "summary": "The character on the television screen has a frightening, wide-mouthed expression."
+      "frame_count": 31,
+      "summary": "The character on the television screen has a frightening, wide-mouthed expression.",
+      "thumb": "/thumbs/minions-2015/156749.jpg"
     },
     {
+      "id": 156768,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 4048.25,
       "t_end": 4049.75,
       "confidence": 0.9,
-      "summary": "Characters are sitting at a bar with beer mugs present."
+      "frame_count": 1,
+      "summary": "Characters are sitting at a bar with beer mugs present.",
+      "thumb": "/thumbs/minions-2015/156768.jpg"
     },
     {
+      "id": 156625,
       "category": "gun",
+      "label": "gun",
       "t_start": 4057.25,
       "t_end": 4058.75,
       "confidence": 0.9,
-      "summary": "A minion is holding a small firearm-shaped object."
+      "frame_count": 1,
+      "summary": "A minion is holding a small firearm-shaped object.",
+      "thumb": "/thumbs/minions-2015/156625.jpg"
     },
     {
+      "id": 156790,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4067.9166666666665,
       "t_end": 4070.4166666666665,
       "confidence": 1.0,
-      "summary": "The frame shows a close-up of bare buttocks in the foreground."
+      "frame_count": 3,
+      "summary": "The frame shows a close-up of bare buttocks in the foreground.",
+      "thumb": "/thumbs/minions-2015/156790.jpg"
     },
     {
+      "id": 156791,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4079.5833333333335,
       "t_end": 4083.4166666666665,
       "confidence": 1.0,
-      "summary": "Character is shown from behind with bare buttocks exposed."
+      "frame_count": 3,
+      "summary": "Character is shown from behind with bare buttocks exposed.",
+      "thumb": "/thumbs/minions-2015/156791.jpg"
     },
     {
+      "id": 156626,
       "category": "gun",
+      "label": "gun",
       "t_start": 4082.5833333333335,
       "t_end": 4090.75,
       "confidence": 1.0,
-      "summary": "The frame features a stylized, glowing sci-fi weapon/gun."
+      "frame_count": 6,
+      "summary": "The frame features a stylized, glowing sci-fi weapon/gun.",
+      "thumb": "/thumbs/minions-2015/156626.jpg"
     },
     {
+      "id": 156667,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4083.25,
       "t_end": 4084.75,
       "confidence": 1.0,
-      "summary": "A bright orange fireball or explosion is visible."
+      "frame_count": 1,
+      "summary": "A bright orange fireball or explosion is visible.",
+      "thumb": "/thumbs/minions-2015/156667.jpg"
     },
     {
+      "id": 156750,
       "category": "scary",
+      "label": "scary",
       "t_start": 4083.9166666666665,
       "t_end": 4085.4166666666665,
       "confidence": 0.7,
-      "summary": "The presence of multiple knives in a dark, shadowy setting creates a threatening or scary atmosphere."
+      "frame_count": 1,
+      "summary": "The presence of multiple knives in a dark, shadowy setting creates a threatening or scary atmosphere.",
+      "thumb": "/thumbs/minions-2015/156750.jpg"
     },
     {
+      "id": 156792,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4093.5833333333335,
       "t_end": 4103.75,
       "confidence": 1.0,
-      "summary": "The frame shows a character's bare buttocks during a physical struggle."
+      "frame_count": 9,
+      "summary": "The frame shows a character's bare buttocks during a physical struggle.",
+      "thumb": "/thumbs/minions-2015/156792.jpg"
     },
     {
+      "id": 156627,
       "category": "gun",
+      "label": "gun",
       "t_start": 4102.916666666667,
       "t_end": 4108.083333333333,
       "confidence": 1.0,
-      "summary": "The character is holding a stylized, sci-fi looking firearm."
+      "frame_count": 4,
+      "summary": "The character is holding a stylized, sci-fi looking firearm.",
+      "thumb": "/thumbs/minions-2015/156627.jpg"
     },
     {
+      "id": 156751,
       "category": "scary",
+      "label": "scary",
       "t_start": 4104.583333333333,
       "t_end": 4111.083333333333,
       "confidence": 0.7,
-      "summary": "A character is shown with an exaggerated, frightening facial expression."
+      "frame_count": 4,
+      "summary": "A character is shown with an exaggerated, frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156751.jpg"
     },
     {
+      "id": 156793,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4114.583333333333,
       "t_end": 4116.083333333333,
       "confidence": 1.0,
-      "summary": "The character is shown in a state of partial nudity."
+      "frame_count": 1,
+      "summary": "The character is shown in a state of partial nudity.",
+      "thumb": "/thumbs/minions-2015/156793.jpg"
     },
     {
+      "id": 156752,
       "category": "scary",
+      "label": "scary",
       "t_start": 4138.25,
       "t_end": 4139.75,
       "confidence": 0.4,
-      "summary": "The character has a distressed, wide-eyed expression that could be perceived as frightening to very young children."
+      "frame_count": 1,
+      "summary": "The character has a distressed, wide-eyed expression that could be perceived as frightening to very young children.",
+      "thumb": "/thumbs/minions-2015/156752.jpg"
     },
     {
+      "id": 156668,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4154.25,
       "t_end": 4161.75,
       "confidence": 0.9,
-      "summary": "A wall or structure is being destroyed by an explosion or blast."
+      "frame_count": 9,
+      "summary": "A wall or structure is being destroyed by an explosion or blast.",
+      "thumb": "/thumbs/minions-2015/156668.jpg"
     },
     {
+      "id": 156753,
       "category": "scary",
+      "label": "scary",
       "t_start": 4170.583333333333,
       "t_end": 4172.083333333333,
       "confidence": 0.4,
-      "summary": "The clown character has a somewhat intense or frightening expression."
+      "frame_count": 1,
+      "summary": "The clown character has a somewhat intense or frightening expression.",
+      "thumb": "/thumbs/minions-2015/156753.jpg"
     },
     {
+      "id": 156628,
       "category": "gun",
+      "label": "gun",
       "t_start": 4177.25,
       "t_end": 4178.75,
       "confidence": 1.0,
-      "summary": "A large pile of red firearms/guns is visible on the street."
+      "frame_count": 1,
+      "summary": "A large pile of red firearms/guns is visible on the street.",
+      "thumb": "/thumbs/minions-2015/156628.jpg"
     },
     {
+      "id": 156669,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4177.916666666667,
       "t_end": 4180.416666666667,
       "confidence": 1.0,
-      "summary": "Large pile of dynamite and TNT barrels present."
+      "frame_count": 4,
+      "summary": "Large pile of dynamite and TNT barrels present.",
+      "thumb": "/thumbs/minions-2015/156669.jpg"
     },
     {
+      "id": 156754,
       "category": "scary",
+      "label": "scary",
       "t_start": 4187.916666666667,
       "t_end": 4189.416666666667,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, slightly unsettling facial expression."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, slightly unsettling facial expression.",
+      "thumb": "/thumbs/minions-2015/156754.jpg"
     },
     {
+      "id": 156670,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4206.25,
       "t_end": 4207.75,
       "confidence": 0.9,
-      "summary": "TNT crates and explosives are visible on the ground."
+      "frame_count": 1,
+      "summary": "TNT crates and explosives are visible on the ground.",
+      "thumb": "/thumbs/minions-2015/156670.jpg"
     },
     {
+      "id": 156769,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 4222.916666666667,
       "t_end": 4224.416666666667,
       "confidence": 1.0,
-      "summary": "The character is holding a lit cigarette to her mouth."
+      "frame_count": 1,
+      "summary": "The character is holding a lit cigarette to her mouth.",
+      "thumb": "/thumbs/minions-2015/156769.jpg"
     },
     {
+      "id": 156755,
       "category": "scary",
+      "label": "scary",
       "t_start": 4229.583333333333,
       "t_end": 4231.083333333333,
       "confidence": 0.3,
-      "summary": "The female character has a stylized, slightly menacing expression."
+      "frame_count": 1,
+      "summary": "The female character has a stylized, slightly menacing expression.",
+      "thumb": "/thumbs/minions-2015/156755.jpg"
     },
     {
+      "id": 156671,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4230.25,
       "t_end": 4233.416666666667,
       "confidence": 0.9,
-      "summary": "A lit fuse leads toward TNT barrels, implying an imminent explosion."
+      "frame_count": 6,
+      "summary": "A lit fuse leads toward TNT barrels, implying an imminent explosion.",
+      "thumb": "/thumbs/minions-2015/156671.jpg"
     },
     {
+      "id": 156672,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4243.916666666667,
       "t_end": 4258.75,
       "confidence": 1.0,
-      "summary": "An explosion is occurring on the street in front of a large building."
+      "frame_count": 22,
+      "summary": "An explosion is occurring on the street in front of a large building.",
+      "thumb": "/thumbs/minions-2015/156672.jpg"
     },
     {
+      "id": 156629,
       "category": "gun",
+      "label": "gun",
       "t_start": 4257.916666666667,
       "t_end": 4259.416666666667,
       "confidence": 0.9,
-      "summary": "The character is holding a red, gun-shaped object."
+      "frame_count": 1,
+      "summary": "The character is holding a red, gun-shaped object.",
+      "thumb": "/thumbs/minions-2015/156629.jpg"
     },
     {
+      "id": 156756,
       "category": "scary",
+      "label": "scary",
       "t_start": 4259.583333333333,
       "t_end": 4261.083333333333,
       "confidence": 0.7,
-      "summary": "The character has a menacing, intense expression typical of a villain."
+      "frame_count": 1,
+      "summary": "The character has a menacing, intense expression typical of a villain.",
+      "thumb": "/thumbs/minions-2015/156756.jpg"
     },
     {
+      "id": 156630,
       "category": "gun",
+      "label": "gun",
       "t_start": 4284.583333333333,
       "t_end": 4286.75,
       "confidence": 0.9,
-      "summary": "The character is flanked by two large sci-fi energy cannons/weapons."
+      "frame_count": 2,
+      "summary": "The character is flanked by two large sci-fi energy cannons/weapons.",
+      "thumb": "/thumbs/minions-2015/156630.jpg"
     },
     {
+      "id": 156673,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4285.25,
       "t_end": 4288.416666666667,
       "confidence": 1.0,
-      "summary": "A stylized weapon is firing a blast/explosion."
+      "frame_count": 3,
+      "summary": "A stylized weapon is firing a blast/explosion.",
+      "thumb": "/thumbs/minions-2015/156673.jpg"
     },
     {
+      "id": 156757,
       "category": "scary",
+      "label": "scary",
       "t_start": 4300.25,
       "t_end": 4301.75,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, intense facial expression that could be perceived as frightening."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as frightening.",
+      "thumb": "/thumbs/minions-2015/156757.jpg"
     },
     {
+      "id": 156674,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4315.25,
       "t_end": 4316.75,
       "confidence": 0.8,
-      "summary": "A small explosion or blast is visible in the background skyline."
+      "frame_count": 1,
+      "summary": "A small explosion or blast is visible in the background skyline.",
+      "thumb": "/thumbs/minions-2015/156674.jpg"
     },
     {
+      "id": 156758,
       "category": "scary",
+      "label": "scary",
       "t_start": 4324.25,
       "t_end": 4327.416666666667,
       "confidence": 0.7,
-      "summary": "The character has an exaggerated, intense, and potentially frightening facial expression."
+      "frame_count": 5,
+      "summary": "The character has an exaggerated, intense, and potentially frightening facial expression.",
+      "thumb": "/thumbs/minions-2015/156758.jpg"
     },
     {
+      "id": 156631,
       "category": "gun",
+      "label": "gun",
       "t_start": 4331.583333333333,
       "t_end": 4351.75,
       "confidence": 1.0,
-      "summary": "The character is flanked by two large, glowing mechanical weapons/cannons."
+      "frame_count": 23,
+      "summary": "The character is flanked by two large, glowing mechanical weapons/cannons.",
+      "thumb": "/thumbs/minions-2015/156631.jpg"
     },
     {
+      "id": 156675,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4335.916666666667,
       "t_end": 4359.416666666667,
       "confidence": 1.0,
-      "summary": "A character is surrounded by bright fire or energy blasts."
+      "frame_count": 24,
+      "summary": "A character is surrounded by bright fire or energy blasts.",
+      "thumb": "/thumbs/minions-2015/156675.jpg"
     },
     {
+      "id": 156759,
       "category": "scary",
+      "label": "scary",
       "t_start": 4348.916666666667,
       "t_end": 4352.416666666667,
       "confidence": 0.8,
-      "summary": "Character has a manic, scary expression and is positioned behind large mechanical weapons."
+      "frame_count": 2,
+      "summary": "Character has a manic, scary expression and is positioned behind large mechanical weapons.",
+      "thumb": "/thumbs/minions-2015/156759.jpg"
     },
     {
+      "id": 156676,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4399.583333333333,
       "t_end": 4401.083333333333,
       "confidence": 0.9,
-      "summary": "A small explosion or blast is visible in the background near the red object."
+      "frame_count": 1,
+      "summary": "A small explosion or blast is visible in the background near the red object.",
+      "thumb": "/thumbs/minions-2015/156676.jpg"
     },
     {
+      "id": 156632,
       "category": "gun",
+      "label": "gun",
       "t_start": 4404.25,
       "t_end": 4411.416666666667,
       "confidence": 0.9,
-      "summary": "A character is holding a stylized sci-fi blaster emitting blue energy."
+      "frame_count": 7,
+      "summary": "A character is holding a stylized sci-fi blaster emitting blue energy.",
+      "thumb": "/thumbs/minions-2015/156632.jpg"
     },
     {
+      "id": 156677,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4426.916666666667,
       "t_end": 4428.416666666667,
       "confidence": 0.9,
-      "summary": "A bright blue energy blast or explosion is occurring near a building."
+      "frame_count": 1,
+      "summary": "A bright blue energy blast or explosion is occurring near a building.",
+      "thumb": "/thumbs/minions-2015/156677.jpg"
     },
     {
+      "id": 156695,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4427.583333333333,
       "t_end": 4429.083333333333,
       "confidence": 1.0,
-      "summary": "A character is shown kissing another character."
+      "frame_count": 1,
+      "summary": "A character is shown kissing another character.",
+      "thumb": "/thumbs/minions-2015/156695.jpg"
     },
     {
+      "id": 156633,
       "category": "gun",
+      "label": "gun",
       "t_start": 4434.25,
       "t_end": 4437.75,
       "confidence": 0.9,
-      "summary": "A character is holding a small red gun-shaped object."
+      "frame_count": 3,
+      "summary": "A character is holding a small red gun-shaped object.",
+      "thumb": "/thumbs/minions-2015/156633.jpg"
     },
     {
+      "id": 156678,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4438.25,
       "t_end": 4440.75,
       "confidence": 1.0,
-      "summary": "A large explosion or blast is occurring in the foreground."
+      "frame_count": 3,
+      "summary": "A large explosion or blast is occurring in the foreground.",
+      "thumb": "/thumbs/minions-2015/156678.jpg"
     },
     {
+      "id": 156679,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4454.583333333333,
       "t_end": 4458.75,
       "confidence": 1.0,
-      "summary": "A large explosion or blast cloud is visible in the sky."
+      "frame_count": 9,
+      "summary": "A large explosion or blast cloud is visible in the sky.",
+      "thumb": "/thumbs/minions-2015/156679.jpg"
     },
     {
+      "id": 156634,
       "category": "gun",
+      "label": "gun",
       "t_start": 4469.25,
       "t_end": 4470.75,
       "confidence": 1.0,
-      "summary": "Minions are holding silver-colored guns."
+      "frame_count": 1,
+      "summary": "Minions are holding silver-colored guns.",
+      "thumb": "/thumbs/minions-2015/156634.jpg"
     },
     {
+      "id": 156680,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4479.25,
       "t_end": 4483.416666666667,
       "confidence": 1.0,
-      "summary": "A large cloud of smoke/explosion is visible in the sky."
+      "frame_count": 9,
+      "summary": "A large cloud of smoke/explosion is visible in the sky.",
+      "thumb": "/thumbs/minions-2015/156680.jpg"
     },
     {
+      "id": 156635,
       "category": "gun",
+      "label": "gun",
       "t_start": 4530.25,
       "t_end": 4531.75,
       "confidence": 1.0,
-      "summary": "A character is holding a gun in the foreground."
+      "frame_count": 1,
+      "summary": "A character is holding a gun in the foreground.",
+      "thumb": "/thumbs/minions-2015/156635.jpg"
     },
     {
+      "id": 156636,
       "category": "gun",
+      "label": "gun",
       "t_start": 4639.916666666667,
       "t_end": 4644.083333333333,
       "confidence": 1.0,
-      "summary": "One minion is holding a gun-shaped weapon pointed at another."
+      "frame_count": 2,
+      "summary": "One minion is holding a gun-shaped weapon pointed at another.",
+      "thumb": "/thumbs/minions-2015/156636.jpg"
     },
     {
+      "id": 156637,
       "category": "gun",
+      "label": "gun",
       "t_start": 4654.916666666667,
       "t_end": 4656.416666666667,
       "confidence": 0.9,
-      "summary": "A minion is holding a dark, gun-shaped object towards the camera."
+      "frame_count": 1,
+      "summary": "A minion is holding a dark, gun-shaped object towards the camera.",
+      "thumb": "/thumbs/minions-2015/156637.jpg"
     },
     {
+      "id": 156794,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4655.583333333333,
       "t_end": 4657.083333333333,
       "confidence": 0.7,
-      "summary": "Characters are shown with bare backs/shoulders in a way that implies nudity."
+      "frame_count": 1,
+      "summary": "Characters are shown with bare backs/shoulders in a way that implies nudity.",
+      "thumb": "/thumbs/minions-2015/156794.jpg"
     },
     {
+      "id": 156760,
       "category": "scary",
+      "label": "scary",
       "t_start": 4757.25,
       "t_end": 4761.75,
       "confidence": 0.7,
-      "summary": "The character on the right has an exaggeratedly intense and frightening expression."
+      "frame_count": 3,
+      "summary": "The character on the right has an exaggeratedly intense and frightening expression.",
+      "thumb": "/thumbs/minions-2015/156760.jpg"
     },
     {
+      "id": 156638,
       "category": "gun",
+      "label": "gun",
       "t_start": 4776.916666666667,
       "t_end": 4778.75,
       "confidence": 1.0,
-      "summary": "A character is holding a stylized, sci-fi looking firearm."
+      "frame_count": 2,
+      "summary": "A character is holding a stylized, sci-fi looking firearm.",
+      "thumb": "/thumbs/minions-2015/156638.jpg"
     },
     {
+      "id": 156761,
       "category": "scary",
+      "label": "scary",
       "t_start": 4781.583333333333,
       "t_end": 4792.083333333333,
       "confidence": 0.6,
-      "summary": "Characters trapped in ice with distressed/frightened expressions."
+      "frame_count": 5,
+      "summary": "Characters trapped in ice with distressed/frightened expressions.",
+      "thumb": "/thumbs/minions-2015/156761.jpg"
     },
     {
+      "id": 156639,
       "category": "gun",
+      "label": "gun",
       "t_start": 4803.583333333333,
       "t_end": 4805.416666666667,
       "confidence": 0.9,
-      "summary": "A character is holding a large, stylized cannon-like weapon."
+      "frame_count": 2,
+      "summary": "A character is holding a large, stylized cannon-like weapon.",
+      "thumb": "/thumbs/minions-2015/156639.jpg"
     },
     {
+      "id": 156681,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4822.916666666667,
       "t_end": 4824.416666666667,
       "confidence": 0.9,
-      "summary": "A plane is flying through a large trail of fire or explosions."
+      "frame_count": 1,
+      "summary": "A plane is flying through a large trail of fire or explosions.",
+      "thumb": "/thumbs/minions-2015/156681.jpg"
     },
     {
+      "id": 156640,
       "category": "gun",
+      "label": "gun",
       "t_start": 4830.583333333333,
       "t_end": 4839.75,
       "confidence": 1.0,
-      "summary": "A blurred firearm is visible in the foreground."
+      "frame_count": 2,
+      "summary": "A blurred firearm is visible in the foreground.",
+      "thumb": "/thumbs/minions-2015/156640.jpg"
     },
     {
+      "id": 156762,
       "category": "scary",
+      "label": "scary",
       "t_start": 4843.25,
       "t_end": 4847.75,
       "confidence": 0.7,
-      "summary": "Characters trapped in ice with distressed expressions may be frightening to young children."
+      "frame_count": 5,
+      "summary": "Characters trapped in ice with distressed expressions may be frightening to young children.",
+      "thumb": "/thumbs/minions-2015/156762.jpg"
     },
     {
+      "id": 156682,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4854.916666666667,
       "t_end": 4860.75,
       "confidence": 1.0,
-      "summary": "Large plumes of dark smoke indicate an explosion in the sky."
+      "frame_count": 4,
+      "summary": "Large plumes of dark smoke indicate an explosion in the sky.",
+      "thumb": "/thumbs/minions-2015/156682.jpg"
     },
     {
+      "id": 156641,
       "category": "gun",
+      "label": "gun",
       "t_start": 4855.916666666667,
       "t_end": 4857.416666666667,
       "confidence": 1.0,
-      "summary": "A Minion is holding a small firearm that is firing."
+      "frame_count": 1,
+      "summary": "A Minion is holding a small firearm that is firing.",
+      "thumb": "/thumbs/minions-2015/156641.jpg"
     },
     {
+      "id": 156763,
       "category": "scary",
+      "label": "scary",
       "t_start": 4868.25,
       "t_end": 4869.75,
       "confidence": 0.4,
-      "summary": "The character has an intense, menacing glare."
+      "frame_count": 1,
+      "summary": "The character has an intense, menacing glare.",
+      "thumb": "/thumbs/minions-2015/156763.jpg"
     },
     {
+      "id": 156642,
       "category": "gun",
+      "label": "gun",
       "t_start": 4908.583333333333,
       "t_end": 4915.083333333333,
       "confidence": 1.0,
-      "summary": "The character is holding a small, toy-like yellow gun."
+      "frame_count": 3,
+      "summary": "The character is holding a small, toy-like yellow gun.",
+      "thumb": "/thumbs/minions-2015/156642.jpg"
     },
     {
+      "id": 156683,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4967.583333333333,
       "t_end": 4975.083333333333,
       "confidence": 1.0,
-      "summary": "A cloud of dust or smoke suggests a recent impact or explosion."
+      "frame_count": 16,
+      "summary": "A cloud of dust or smoke suggests a recent impact or explosion.",
+      "thumb": "/thumbs/minions-2015/156683.jpg"
     },
     {
+      "id": 156643,
       "category": "gun",
+      "label": "gun",
       "t_start": 4970.583333333333,
       "t_end": 4975.083333333333,
       "confidence": 1.0,
-      "summary": "A minion is holding a gun next to a large cloud of smoke/explosion."
+      "frame_count": 4,
+      "summary": "A minion is holding a gun next to a large cloud of smoke/explosion.",
+      "thumb": "/thumbs/minions-2015/156643.jpg"
     },
     {
+      "id": 156764,
       "category": "scary",
+      "label": "scary",
       "t_start": 4995.25,
       "t_end": 5000.083333333333,
       "confidence": 0.7,
-      "summary": "The character in the painting has an exaggerated, intense facial expression."
+      "frame_count": 9,
+      "summary": "The character in the painting has an exaggerated, intense facial expression.",
+      "thumb": "/thumbs/minions-2015/156764.jpg"
     },
     {
+      "id": 156644,
       "category": "gun",
+      "label": "gun",
       "t_start": 5019.916666666667,
       "t_end": 5021.416666666667,
       "confidence": 0.8,
-      "summary": "The character is holding a yellow object that appears to be a stylized toy gun or launcher."
+      "frame_count": 1,
+      "summary": "The character is holding a yellow object that appears to be a stylized toy gun or launcher.",
+      "thumb": "/thumbs/minions-2015/156644.jpg"
     }
   ]
 }

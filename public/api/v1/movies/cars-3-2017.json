@@ -8,12 +8,14 @@
   "detection_count": 128,
   "poster": "/posters/cars-3-2017.jpg",
   "safety": {
-    "rag": "amber",
-    "rag_label": "Amber",
+    "total_minutes": 103,
+    "unsafe_minutes": 24,
+    "safe_minutes": 79,
     "pct": 23.300970873786408,
     "pct_label": "23%",
-    "unsafe_minutes": 24,
-    "total_minutes": 103,
+    "rag": "amber",
+    "rag_label": "Amber",
+    "rag_blurb": "some scenes need guidance",
     "bar": [
       {
         "id": "gun",
@@ -66,239 +68,374 @@
         "tooltip": "Other\n77% of the movie"
       }
     ],
-    "headline": "23% of this movie contained scenes not safe for kids"
+    "flagged_seconds": 211.50000000000048,
+    "other_pct": 76.69902912621359,
+    "headline": "23% of this movie contained scenes not safe for kids",
+    "detail": "24 of 103 minutes contain at least 1 scene not safe for kids"
   },
   "segments": [
     {
+      "id": 173097,
       "category": "gun",
+      "label": "gun",
       "t_start": 196.58333333333334,
       "t_end": 198.75,
       "confidence": 0.8,
-      "summary": "A blue character is holding a small projectile launcher or gun-like device."
+      "frame_count": 3,
+      "summary": "A blue character is holding a small projectile launcher or gun-like device.",
+      "thumb": "/thumbs/cars-3-2017/173097.jpg"
     },
     {
+      "id": 173103,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 259.5833333333333,
       "t_end": 261.0833333333333,
       "confidence": 1.0,
-      "summary": "A large fireball/explosion is visible behind the characters."
+      "frame_count": 1,
+      "summary": "A large fireball/explosion is visible behind the characters.",
+      "thumb": "/thumbs/cars-3-2017/173103.jpg"
     },
     {
+      "id": 173104,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 726.25,
       "t_end": 727.75,
       "confidence": 1.0,
-      "summary": "A large fireball/explosion is visible behind the characters."
+      "frame_count": 1,
+      "summary": "A large fireball/explosion is visible behind the characters.",
+      "thumb": "/thumbs/cars-3-2017/173104.jpg"
     },
     {
+      "id": 173105,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 810.9166666666666,
       "t_end": 820.75,
       "confidence": 1.0,
-      "summary": "A large vehicle or object is shown exploding with smoke and fire."
+      "frame_count": 8,
+      "summary": "A large vehicle or object is shown exploding with smoke and fire.",
+      "thumb": "/thumbs/cars-3-2017/173105.jpg"
     },
     {
+      "id": 173098,
       "category": "gun",
+      "label": "gun",
       "t_start": 875.9166666666666,
       "t_end": 877.4166666666666,
       "confidence": 0.9,
-      "summary": "A blurred silhouette of a gun is visible in the foreground."
+      "frame_count": 1,
+      "summary": "A blurred silhouette of a gun is visible in the foreground.",
+      "thumb": "/thumbs/cars-3-2017/173098.jpg"
     },
     {
+      "id": 173099,
       "category": "gun",
+      "label": "gun",
       "t_start": 926.9166666666666,
       "t_end": 928.4166666666666,
       "confidence": 0.8,
-      "summary": "A close-up of a mechanical device that appears to be a firearm or weapon component."
+      "frame_count": 1,
+      "summary": "A close-up of a mechanical device that appears to be a firearm or weapon component.",
+      "thumb": "/thumbs/cars-3-2017/173099.jpg"
     },
     {
+      "id": 173106,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2021.25,
       "t_end": 2051.4166666666665,
       "confidence": 1.0,
-      "summary": "The frame features a large, bright explosion or fireball effect."
+      "frame_count": 9,
+      "summary": "The frame features a large, bright explosion or fireball effect.",
+      "thumb": "/thumbs/cars-3-2017/173106.jpg"
     },
     {
+      "id": 173107,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2635.5833333333335,
       "t_end": 2662.0833333333335,
       "confidence": 1.0,
-      "summary": "The frame shows bright orange explosions or fireballs in a dark setting."
+      "frame_count": 40,
+      "summary": "The frame shows bright orange explosions or fireballs in a dark setting.",
+      "thumb": "/thumbs/cars-3-2017/173107.jpg"
     },
     {
+      "id": 173116,
       "category": "scary",
+      "label": "scary",
       "t_start": 2680.25,
       "t_end": 2692.75,
       "confidence": 0.6,
-      "summary": "The character has a dark, menacing expression in a low-light setting."
+      "frame_count": 4,
+      "summary": "The character has a dark, menacing expression in a low-light setting.",
+      "thumb": "/thumbs/cars-3-2017/173116.jpg"
     },
     {
+      "id": 173117,
       "category": "scary",
+      "label": "scary",
       "t_start": 2702.9166666666665,
       "t_end": 2704.4166666666665,
       "confidence": 0.4,
-      "summary": "The character has an intense, menacing expression in a dark setting."
+      "frame_count": 1,
+      "summary": "The character has an intense, menacing expression in a dark setting.",
+      "thumb": "/thumbs/cars-3-2017/173117.jpg"
     },
     {
+      "id": 173108,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2708.5833333333335,
       "t_end": 2710.4166666666665,
       "confidence": 1.0,
-      "summary": "Large fireballs or explosions are visible in the background."
+      "frame_count": 2,
+      "summary": "Large fireballs or explosions are visible in the background.",
+      "thumb": "/thumbs/cars-3-2017/173108.jpg"
     },
     {
+      "id": 173118,
       "category": "scary",
+      "label": "scary",
       "t_start": 2720.5833333333335,
       "t_end": 2722.0833333333335,
       "confidence": 0.4,
-      "summary": "The characters have intense, wide-eyed expressions that could be perceived as frightening."
+      "frame_count": 1,
+      "summary": "The characters have intense, wide-eyed expressions that could be perceived as frightening.",
+      "thumb": "/thumbs/cars-3-2017/173118.jpg"
     },
     {
+      "id": 173109,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2732.5833333333335,
       "t_end": 2751.0833333333335,
       "confidence": 1.0,
-      "summary": "A vehicle is shown exploding in the background."
+      "frame_count": 12,
+      "summary": "A vehicle is shown exploding in the background.",
+      "thumb": "/thumbs/cars-3-2017/173109.jpg"
     },
     {
+      "id": 173119,
       "category": "scary",
+      "label": "scary",
       "t_start": 2740.25,
       "t_end": 2741.75,
       "confidence": 0.7,
-      "summary": "The character has a distressed and frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has a distressed and frightening facial expression.",
+      "thumb": "/thumbs/cars-3-2017/173119.jpg"
     },
     {
+      "id": 173120,
       "category": "scary",
+      "label": "scary",
       "t_start": 2805.9166666666665,
       "t_end": 2807.4166666666665,
       "confidence": 0.4,
-      "summary": "The character has a terrified expression due to the large object above it."
+      "frame_count": 1,
+      "summary": "The character has a terrified expression due to the large object above it.",
+      "thumb": "/thumbs/cars-3-2017/173120.jpg"
     },
     {
+      "id": 173110,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2855.5833333333335,
       "t_end": 2870.0833333333335,
       "confidence": 1.0,
-      "summary": "Large fireballs or explosions are visible on both sides of the frame."
+      "frame_count": 4,
+      "summary": "Large fireballs or explosions are visible on both sides of the frame.",
+      "thumb": "/thumbs/cars-3-2017/173110.jpg"
     },
     {
+      "id": 173111,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2881.25,
       "t_end": 2885.0833333333335,
       "confidence": 1.0,
-      "summary": "A bright fireball or energy blast is visible."
+      "frame_count": 4,
+      "summary": "A bright fireball or energy blast is visible.",
+      "thumb": "/thumbs/cars-3-2017/173111.jpg"
     },
     {
+      "id": 173100,
       "category": "gun",
+      "label": "gun",
       "t_start": 2891.5833333333335,
       "t_end": 2893.0833333333335,
       "confidence": 1.0,
-      "summary": "The frame shows the barrel of a tank or heavy artillery weapon."
+      "frame_count": 1,
+      "summary": "The frame shows the barrel of a tank or heavy artillery weapon.",
+      "thumb": "/thumbs/cars-3-2017/173100.jpg"
     },
     {
+      "id": 173112,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2927.5833333333335,
       "t_end": 2940.0833333333335,
       "confidence": 1.0,
-      "summary": "A vehicle is on fire with visible flames."
+      "frame_count": 5,
+      "summary": "A vehicle is on fire with visible flames.",
+      "thumb": "/thumbs/cars-3-2017/173112.jpg"
     },
     {
+      "id": 173121,
       "category": "scary",
+      "label": "scary",
       "t_start": 2929.9166666666665,
       "t_end": 2931.4166666666665,
       "confidence": 0.4,
-      "summary": "The character has a distressed and intense facial expression."
+      "frame_count": 1,
+      "summary": "The character has a distressed and intense facial expression.",
+      "thumb": "/thumbs/cars-3-2017/173121.jpg"
     },
     {
+      "id": 173113,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2958.5833333333335,
       "t_end": 2960.0833333333335,
       "confidence": 1.0,
-      "summary": "A large white blast or explosion is visible."
+      "frame_count": 1,
+      "summary": "A large white blast or explosion is visible.",
+      "thumb": "/thumbs/cars-3-2017/173113.jpg"
     },
     {
+      "id": 173122,
       "category": "scary",
+      "label": "scary",
       "t_start": 3361.9166666666665,
       "t_end": 3383.75,
       "confidence": 0.6,
-      "summary": "The character has a distorted, unsettling facial expression."
+      "frame_count": 9,
+      "summary": "The character has a distorted, unsettling facial expression.",
+      "thumb": "/thumbs/cars-3-2017/173122.jpg"
     },
     {
+      "id": 173123,
       "category": "scary",
+      "label": "scary",
       "t_start": 3392.9166666666665,
       "t_end": 3399.0833333333335,
       "confidence": 0.6,
-      "summary": "The character has a menacing or intense expression in a dark setting."
+      "frame_count": 3,
+      "summary": "The character has a menacing or intense expression in a dark setting.",
+      "thumb": "/thumbs/cars-3-2017/173123.jpg"
     },
     {
+      "id": 173124,
       "category": "scary",
+      "label": "scary",
       "t_start": 3418.5833333333335,
       "t_end": 3420.0833333333335,
       "confidence": 0.4,
-      "summary": "The character on the screen has a frightened or intense expression."
+      "frame_count": 1,
+      "summary": "The character on the screen has a frightened or intense expression.",
+      "thumb": "/thumbs/cars-3-2017/173124.jpg"
     },
     {
+      "id": 173125,
       "category": "scary",
+      "label": "scary",
       "t_start": 3448.25,
       "t_end": 3469.0833333333335,
       "confidence": 0.6,
-      "summary": "The character on the screen has a slightly menacing or intense expression."
+      "frame_count": 4,
+      "summary": "The character on the screen has a slightly menacing or intense expression.",
+      "thumb": "/thumbs/cars-3-2017/173125.jpg"
     },
     {
+      "id": 173128,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3736.25,
       "t_end": 3738.0833333333335,
       "confidence": 0.5,
-      "summary": "The sign indicates a bar and grill which implies alcohol service."
+      "frame_count": 2,
+      "summary": "The sign indicates a bar and grill which implies alcohol service.",
+      "thumb": "/thumbs/cars-3-2017/173128.jpg"
     },
     {
+      "id": 173126,
       "category": "scary",
+      "label": "scary",
       "t_start": 3926.5833333333335,
       "t_end": 3928.0833333333335,
       "confidence": 0.4,
-      "summary": "The glowing eyes in the dark background create a sense of tension or a jump-scare element."
+      "frame_count": 1,
+      "summary": "The glowing eyes in the dark background create a sense of tension or a jump-scare element.",
+      "thumb": "/thumbs/cars-3-2017/173126.jpg"
     },
     {
+      "id": 173129,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3953.25,
       "t_end": 3954.75,
       "confidence": 0.3,
-      "summary": "The sign indicates a bar and grill, implying alcohol presence."
+      "frame_count": 1,
+      "summary": "The sign indicates a bar and grill, implying alcohol presence.",
+      "thumb": "/thumbs/cars-3-2017/173129.jpg"
     },
     {
+      "id": 173101,
       "category": "gun",
+      "label": "gun",
       "t_start": 4163.25,
       "t_end": 4164.75,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm-shaped object."
+      "frame_count": 1,
+      "summary": "A character is holding a firearm-shaped object.",
+      "thumb": "/thumbs/cars-3-2017/173101.jpg"
     },
     {
+      "id": 173102,
       "category": "gun",
+      "label": "gun",
       "t_start": 4587.916666666667,
       "t_end": 4589.416666666667,
       "confidence": 0.9,
-      "summary": "A character is holding a gun-shaped object/weapon in the foreground."
+      "frame_count": 1,
+      "summary": "A character is holding a gun-shaped object/weapon in the foreground.",
+      "thumb": "/thumbs/cars-3-2017/173102.jpg"
     },
     {
+      "id": 173114,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5327.916666666667,
       "t_end": 5329.416666666667,
       "confidence": 1.0,
-      "summary": "The frame shows a bright light or explosion effect."
+      "frame_count": 1,
+      "summary": "The frame shows a bright light or explosion effect.",
+      "thumb": "/thumbs/cars-3-2017/173114.jpg"
     },
     {
+      "id": 173115,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5628.25,
       "t_end": 5629.75,
       "confidence": 1.0,
-      "summary": "A bright orange blast or explosion is visible in the landscape."
+      "frame_count": 1,
+      "summary": "A bright orange blast or explosion is visible in the landscape.",
+      "thumb": "/thumbs/cars-3-2017/173115.jpg"
     },
     {
+      "id": 173127,
       "category": "scary",
+      "label": "scary",
       "t_start": 6056.916666666667,
       "t_end": 6058.416666666667,
       "confidence": 0.4,
-      "summary": "A pair of eyes peering out from the darkness can be perceived as scary."
+      "frame_count": 1,
+      "summary": "A pair of eyes peering out from the darkness can be perceived as scary.",
+      "thumb": "/thumbs/cars-3-2017/173127.jpg"
     }
   ]
 }

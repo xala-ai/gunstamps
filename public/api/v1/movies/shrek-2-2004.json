@@ -8,12 +8,14 @@
   "detection_count": 637,
   "poster": "/posters/shrek-2-2004.jpg",
   "safety": {
-    "rag": "red",
-    "rag_label": "Red",
+    "total_minutes": 93,
+    "unsafe_minutes": 67,
+    "safe_minutes": 26,
     "pct": 72.04301075268818,
     "pct_label": "72%",
-    "unsafe_minutes": 67,
-    "total_minutes": 93,
+    "rag": "red",
+    "rag_label": "Red",
+    "rag_blurb": "frequent scenes not safe for kids",
     "bar": [
       {
         "id": "gun",
@@ -96,1051 +98,1650 @@
         "tooltip": "Other\n28% of the movie"
       }
     ],
-    "headline": "72% of this movie contained scenes not safe for kids"
+    "flagged_seconds": 853.8333333333305,
+    "other_pct": 27.956989247311828,
+    "headline": "72% of this movie contained scenes not safe for kids",
+    "detail": "67 of 93 minutes contain at least 1 scene not safe for kids"
   },
   "segments": [
     {
+      "id": 199859,
       "category": "scary",
+      "label": "scary",
       "t_start": 68.58333333333333,
       "t_end": 74.75,
       "confidence": 0.6,
-      "summary": "The green monster character and the text describing a 'frightful enchantment' create a mildly scary atmosphere."
+      "frame_count": 4,
+      "summary": "The green monster character and the text describing a 'frightful enchantment' create a mildly scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199859.jpg"
     },
     {
+      "id": 199822,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 93.91666666666667,
       "t_end": 95.41666666666667,
       "confidence": 0.9,
-      "summary": "A large bright blast or explosion is visible in the background."
+      "frame_count": 1,
+      "summary": "A large bright blast or explosion is visible in the background.",
+      "thumb": "/thumbs/shrek-2-2004/199822.jpg"
     },
     {
+      "id": 199800,
       "category": "gun",
+      "label": "gun",
       "t_start": 96.91666666666667,
       "t_end": 98.41666666666667,
       "confidence": 0.7,
-      "summary": "A silhouette of a character on horseback appears to be holding a firearm."
+      "frame_count": 1,
+      "summary": "A silhouette of a character on horseback appears to be holding a firearm.",
+      "thumb": "/thumbs/shrek-2-2004/199800.jpg"
     },
     {
+      "id": 199860,
       "category": "scary",
+      "label": "scary",
       "t_start": 103.25,
       "t_end": 104.75,
       "confidence": 0.4,
-      "summary": "The dark, hellish environment with red mist and lava creates a scary atmosphere."
+      "frame_count": 1,
+      "summary": "The dark, hellish environment with red mist and lava creates a scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199860.jpg"
     },
     {
+      "id": 199861,
       "category": "scary",
+      "label": "scary",
       "t_start": 126.25,
       "t_end": 136.75,
       "confidence": 0.4,
-      "summary": "The dark, shadowy castle setting and ominous atmosphere create a scary tone."
+      "frame_count": 2,
+      "summary": "The dark, shadowy castle setting and ominous atmosphere create a scary tone.",
+      "thumb": "/thumbs/shrek-2-2004/199861.jpg"
     },
     {
+      "id": 199862,
       "category": "scary",
+      "label": "scary",
       "t_start": 151.91666666666666,
       "t_end": 153.41666666666666,
       "confidence": 0.5,
-      "summary": "The character has a frightened, wide-eyed expression."
+      "frame_count": 1,
+      "summary": "The character has a frightened, wide-eyed expression.",
+      "thumb": "/thumbs/shrek-2-2004/199862.jpg"
     },
     {
+      "id": 199839,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 160.58333333333334,
       "t_end": 162.08333333333334,
       "confidence": 1.0,
-      "summary": "Two characters are sharing a romantic kiss in front of a gingerbread house."
+      "frame_count": 1,
+      "summary": "Two characters are sharing a romantic kiss in front of a gingerbread house.",
+      "thumb": "/thumbs/shrek-2-2004/199839.jpg"
     },
     {
+      "id": 199840,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 209.58333333333334,
       "t_end": 211.08333333333334,
       "confidence": 1.0,
-      "summary": "A character is kissing another character on the beach."
+      "frame_count": 1,
+      "summary": "A character is kissing another character on the beach.",
+      "thumb": "/thumbs/shrek-2-2004/199840.jpg"
     },
     {
+      "id": 199863,
       "category": "scary",
+      "label": "scary",
       "t_start": 253.58333333333334,
       "t_end": 255.08333333333334,
       "confidence": 0.6,
-      "summary": "The character's expression and pose suggest fear or a frightening moment."
+      "frame_count": 1,
+      "summary": "The character's expression and pose suggest fear or a frightening moment.",
+      "thumb": "/thumbs/shrek-2-2004/199863.jpg"
     },
     {
+      "id": 199841,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 260.25,
       "t_end": 261.75,
       "confidence": 1.0,
-      "summary": "The characters are sharing a romantic kiss."
+      "frame_count": 1,
+      "summary": "The characters are sharing a romantic kiss.",
+      "thumb": "/thumbs/shrek-2-2004/199841.jpg"
     },
     {
+      "id": 199934,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 262.5833333333333,
       "t_end": 264.0833333333333,
       "confidence": 0.7,
-      "summary": "A character is holding a glass bottle that appears to contain an alcoholic beverage."
+      "frame_count": 1,
+      "summary": "A character is holding a glass bottle that appears to contain an alcoholic beverage.",
+      "thumb": "/thumbs/shrek-2-2004/199934.jpg"
     },
     {
+      "id": 199842,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 282.25,
       "t_end": 287.4166666666667,
       "confidence": 1.0,
-      "summary": "The characters are sharing a romantic kiss."
+      "frame_count": 5,
+      "summary": "The characters are sharing a romantic kiss.",
+      "thumb": "/thumbs/shrek-2-2004/199842.jpg"
     },
     {
+      "id": 199843,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 299.5833333333333,
       "t_end": 301.0833333333333,
       "confidence": 1.0,
-      "summary": "Shrek and Fiona are kissing."
+      "frame_count": 1,
+      "summary": "Shrek and Fiona are kissing.",
+      "thumb": "/thumbs/shrek-2-2004/199843.jpg"
     },
     {
+      "id": 199945,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 307.9166666666667,
       "t_end": 310.75,
       "confidence": 1.0,
-      "summary": "A character is shown lying down with bare buttocks exposed."
+      "frame_count": 3,
+      "summary": "A character is shown lying down with bare buttocks exposed.",
+      "thumb": "/thumbs/shrek-2-2004/199945.jpg"
     },
     {
+      "id": 199844,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 313.5833333333333,
       "t_end": 315.0833333333333,
       "confidence": 1.0,
-      "summary": "The characters are sharing a romantic kiss."
+      "frame_count": 1,
+      "summary": "The characters are sharing a romantic kiss.",
+      "thumb": "/thumbs/shrek-2-2004/199844.jpg"
     },
     {
+      "id": 199864,
       "category": "scary",
+      "label": "scary",
       "t_start": 371.25,
       "t_end": 372.75,
       "confidence": 0.6,
-      "summary": "The character has an exaggerated, unsettling grin in a dark setting."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, unsettling grin in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199864.jpg"
     },
     {
+      "id": 199829,
       "category": "death",
+      "label": "death",
       "t_start": 388.9166666666667,
       "t_end": 390.4166666666667,
       "confidence": 0.8,
-      "summary": "An animal appears to be dead on the ground."
+      "frame_count": 1,
+      "summary": "An animal appears to be dead on the ground.",
+      "thumb": "/thumbs/shrek-2-2004/199829.jpg"
     },
     {
+      "id": 199845,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 406.5833333333333,
       "t_end": 415.75,
       "confidence": 1.0,
-      "summary": "The characters are engaged in a romantic kiss."
+      "frame_count": 2,
+      "summary": "The characters are engaged in a romantic kiss.",
+      "thumb": "/thumbs/shrek-2-2004/199845.jpg"
     },
     {
+      "id": 199935,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 423.5833333333333,
       "t_end": 425.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is drinking from a long pipe or vessel."
+      "frame_count": 2,
+      "summary": "A character is drinking from a long pipe or vessel.",
+      "thumb": "/thumbs/shrek-2-2004/199935.jpg"
     },
     {
+      "id": 199801,
       "category": "gun",
+      "label": "gun",
       "t_start": 457.5833333333333,
       "t_end": 459.0833333333333,
       "confidence": 1.0,
-      "summary": "Characters are holding long muskets/firearms."
+      "frame_count": 1,
+      "summary": "Characters are holding long muskets/firearms.",
+      "thumb": "/thumbs/shrek-2-2004/199801.jpg"
     },
     {
+      "id": 199865,
       "category": "scary",
+      "label": "scary",
       "t_start": 664.25,
       "t_end": 665.75,
       "confidence": 0.7,
-      "summary": "The green character has a frightening, aggressive expression with an open mouth."
+      "frame_count": 1,
+      "summary": "The green character has a frightening, aggressive expression with an open mouth.",
+      "thumb": "/thumbs/shrek-2-2004/199865.jpg"
     },
     {
+      "id": 199802,
       "category": "gun",
+      "label": "gun",
       "t_start": 707.5833333333334,
       "t_end": 709.0833333333334,
       "confidence": 0.9,
-      "summary": "A character is holding a small handgun/pistol."
+      "frame_count": 1,
+      "summary": "A character is holding a small handgun/pistol.",
+      "thumb": "/thumbs/shrek-2-2004/199802.jpg"
     },
     {
+      "id": 199866,
       "category": "scary",
+      "label": "scary",
       "t_start": 713.5833333333334,
       "t_end": 715.0833333333334,
       "confidence": 0.4,
-      "summary": "The large creature with a gaping mouth could be perceived as scary."
+      "frame_count": 1,
+      "summary": "The large creature with a gaping mouth could be perceived as scary.",
+      "thumb": "/thumbs/shrek-2-2004/199866.jpg"
     },
     {
+      "id": 199867,
       "category": "scary",
+      "label": "scary",
       "t_start": 904.5833333333334,
       "t_end": 906.0833333333334,
       "confidence": 0.4,
-      "summary": "A winged creature looms in the background creating a potentially scary atmosphere."
+      "frame_count": 1,
+      "summary": "A winged creature looms in the background creating a potentially scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199867.jpg"
     },
     {
+      "id": 199868,
       "category": "scary",
+      "label": "scary",
       "t_start": 1002.5833333333334,
       "t_end": 1004.0833333333334,
       "confidence": 0.8,
-      "summary": "A large creature with an open mouth is lunging toward the characters."
+      "frame_count": 1,
+      "summary": "A large creature with an open mouth is lunging toward the characters.",
+      "thumb": "/thumbs/shrek-2-2004/199868.jpg"
     },
     {
+      "id": 199869,
       "category": "scary",
+      "label": "scary",
       "t_start": 1077.5833333333333,
       "t_end": 1083.0833333333333,
       "confidence": 0.7,
-      "summary": "The character has an intense, menacing facial expression."
+      "frame_count": 2,
+      "summary": "The character has an intense, menacing facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199869.jpg"
     },
     {
+      "id": 199870,
       "category": "scary",
+      "label": "scary",
       "t_start": 1112.5833333333333,
       "t_end": 1114.0833333333333,
       "confidence": 0.4,
-      "summary": "The dark lighting and character's approach create a suspenseful/scary atmosphere."
+      "frame_count": 1,
+      "summary": "The dark lighting and character's approach create a suspenseful/scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199870.jpg"
     },
     {
+      "id": 199871,
       "category": "scary",
+      "label": "scary",
       "t_start": 1202.25,
       "t_end": 1203.75,
       "confidence": 0.6,
-      "summary": "The character in the background has a frightened, wide-eyed expression."
+      "frame_count": 1,
+      "summary": "The character in the background has a frightened, wide-eyed expression.",
+      "thumb": "/thumbs/shrek-2-2004/199871.jpg"
     },
     {
+      "id": 199803,
       "category": "gun",
+      "label": "gun",
       "t_start": 1238.5833333333333,
       "t_end": 1240.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a handgun while sitting on a carriage."
+      "frame_count": 2,
+      "summary": "A character is holding a handgun while sitting on a carriage.",
+      "thumb": "/thumbs/shrek-2-2004/199803.jpg"
     },
     {
+      "id": 199872,
       "category": "scary",
+      "label": "scary",
       "t_start": 1375.9166666666667,
       "t_end": 1378.0833333333333,
       "confidence": 0.6,
-      "summary": "The character has an intense, aggressive facial expression."
+      "frame_count": 3,
+      "summary": "The character has an intense, aggressive facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199872.jpg"
     },
     {
+      "id": 199873,
       "category": "scary",
+      "label": "scary",
       "t_start": 1409.5833333333333,
       "t_end": 1411.0833333333333,
       "confidence": 0.7,
-      "summary": "The character has a frightened expression in a dark setting."
+      "frame_count": 1,
+      "summary": "The character has a frightened expression in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199873.jpg"
     },
     {
+      "id": 199874,
       "category": "scary",
+      "label": "scary",
       "t_start": 1541.9166666666667,
       "t_end": 1550.4166666666667,
       "confidence": 0.7,
-      "summary": "The female character has an intense, frightening facial expression."
+      "frame_count": 3,
+      "summary": "The female character has an intense, frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199874.jpg"
     },
     {
+      "id": 199846,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 1554.5833333333333,
       "t_end": 1556.0833333333333,
       "confidence": 1.0,
-      "summary": "A romantic kiss is occurring between two characters."
+      "frame_count": 1,
+      "summary": "A romantic kiss is occurring between two characters.",
+      "thumb": "/thumbs/shrek-2-2004/199846.jpg"
     },
     {
+      "id": 199875,
       "category": "scary",
+      "label": "scary",
       "t_start": 1564.5833333333333,
       "t_end": 1566.75,
       "confidence": 0.7,
-      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary."
+      "frame_count": 3,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary.",
+      "thumb": "/thumbs/shrek-2-2004/199875.jpg"
     },
     {
+      "id": 199804,
       "category": "gun",
+      "label": "gun",
       "t_start": 1588.9166666666667,
       "t_end": 1590.4166666666667,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm/gun."
+      "frame_count": 1,
+      "summary": "A character is holding a firearm/gun.",
+      "thumb": "/thumbs/shrek-2-2004/199804.jpg"
     },
     {
+      "id": 199876,
       "category": "scary",
+      "label": "scary",
       "t_start": 1602.5833333333333,
       "t_end": 1604.0833333333333,
       "confidence": 0.4,
-      "summary": "The character has an intense, potentially frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, potentially frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199876.jpg"
     },
     {
+      "id": 199877,
       "category": "scary",
+      "label": "scary",
       "t_start": 1631.9166666666667,
       "t_end": 1636.4166666666667,
       "confidence": 0.8,
-      "summary": "A dark, silhouette figure against a full moon creates a spooky atmosphere."
+      "frame_count": 2,
+      "summary": "A dark, silhouette figure against a full moon creates a spooky atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199877.jpg"
     },
     {
+      "id": 199878,
       "category": "scary",
+      "label": "scary",
       "t_start": 1655.9166666666667,
       "t_end": 1683.75,
       "confidence": 0.8,
-      "summary": "A single eye peering through a dark peephole creates a suspenseful/scary atmosphere."
+      "frame_count": 30,
+      "summary": "A single eye peering through a dark peephole creates a suspenseful/scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199878.jpg"
     },
     {
+      "id": 199879,
       "category": "scary",
+      "label": "scary",
       "t_start": 1696.25,
       "t_end": 1705.4166666666667,
       "confidence": 0.7,
-      "summary": "The character on the left has an intense, frightening facial expression."
+      "frame_count": 7,
+      "summary": "The character on the left has an intense, frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199879.jpg"
     },
     {
+      "id": 199880,
       "category": "scary",
+      "label": "scary",
       "t_start": 1714.9166666666667,
       "t_end": 1761.75,
       "confidence": 0.9,
-      "summary": "The character has an intense, potentially menacing expression."
+      "frame_count": 93,
+      "summary": "The character has an intense, potentially menacing expression.",
+      "thumb": "/thumbs/shrek-2-2004/199880.jpg"
     },
     {
+      "id": 199881,
       "category": "scary",
+      "label": "scary",
       "t_start": 1772.9166666666667,
       "t_end": 1774.75,
       "confidence": 0.8,
-      "summary": "A dark, shadowy figure is looming over a character in bed."
+      "frame_count": 2,
+      "summary": "A dark, shadowy figure is looming over a character in bed.",
+      "thumb": "/thumbs/shrek-2-2004/199881.jpg"
     },
     {
+      "id": 199882,
       "category": "scary",
+      "label": "scary",
       "t_start": 1797.25,
       "t_end": 1815.75,
       "confidence": 0.7,
-      "summary": "A large green monster is shown in a dark room, which may be frightening to young children."
+      "frame_count": 9,
+      "summary": "A large green monster is shown in a dark room, which may be frightening to young children.",
+      "thumb": "/thumbs/shrek-2-2004/199882.jpg"
     },
     {
+      "id": 199830,
       "category": "death",
+      "label": "death",
       "t_start": 1821.5833333333333,
       "t_end": 1826.75,
       "confidence": 0.7,
-      "summary": "A character is holding a large weapon while another character lies motionless on the ground."
+      "frame_count": 4,
+      "summary": "A character is holding a large weapon while another character lies motionless on the ground.",
+      "thumb": "/thumbs/shrek-2-2004/199830.jpg"
     },
     {
+      "id": 199805,
       "category": "gun",
+      "label": "gun",
       "t_start": 1821.5833333333333,
       "t_end": 1823.0833333333333,
       "confidence": 0.7,
-      "summary": "A character is holding a large weapon while another character lies motionless on the ground."
+      "frame_count": 1,
+      "summary": "A character is holding a large weapon while another character lies motionless on the ground.",
+      "thumb": "/thumbs/shrek-2-2004/199805.jpg"
     },
     {
+      "id": 199883,
       "category": "scary",
+      "label": "scary",
       "t_start": 2027.9166666666667,
       "t_end": 2030.0833333333333,
       "confidence": 0.4,
-      "summary": "The character has a frightened/aggressive expression with bared teeth."
+      "frame_count": 2,
+      "summary": "The character has a frightened/aggressive expression with bared teeth.",
+      "thumb": "/thumbs/shrek-2-2004/199883.jpg"
     },
     {
+      "id": 199884,
       "category": "scary",
+      "label": "scary",
       "t_start": 2055.5833333333335,
       "t_end": 2065.4166666666665,
       "confidence": 0.6,
-      "summary": "The character has an exaggerated, intense facial expression."
+      "frame_count": 2,
+      "summary": "The character has an exaggerated, intense facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199884.jpg"
     },
     {
+      "id": 199885,
       "category": "scary",
+      "label": "scary",
       "t_start": 2113.25,
       "t_end": 2120.0833333333335,
       "confidence": 0.7,
-      "summary": "The character appears to be in a state of terror or distress."
+      "frame_count": 6,
+      "summary": "The character appears to be in a state of terror or distress.",
+      "thumb": "/thumbs/shrek-2-2004/199885.jpg"
     },
     {
+      "id": 199886,
       "category": "scary",
+      "label": "scary",
       "t_start": 2277.5833333333335,
       "t_end": 2279.0833333333335,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, intense, and potentially frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an exaggerated, intense, and potentially frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199886.jpg"
     },
     {
+      "id": 199946,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 2497.25,
       "t_end": 2500.75,
       "confidence": 0.9,
-      "summary": "A large painting on the wall depicts a nude figure."
+      "frame_count": 3,
+      "summary": "A large painting on the wall depicts a nude figure.",
+      "thumb": "/thumbs/shrek-2-2004/199946.jpg"
     },
     {
+      "id": 199887,
       "category": "scary",
+      "label": "scary",
       "t_start": 2509.9166666666665,
       "t_end": 2511.4166666666665,
       "confidence": 0.4,
-      "summary": "Figures in hooded robes in a dark setting create a potentially scary atmosphere."
+      "frame_count": 1,
+      "summary": "Figures in hooded robes in a dark setting create a potentially scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199887.jpg"
     },
     {
+      "id": 199806,
       "category": "gun",
+      "label": "gun",
       "t_start": 2525.25,
       "t_end": 2526.75,
       "confidence": 0.9,
-      "summary": "Shrek is holding a small firearm/blaster."
+      "frame_count": 1,
+      "summary": "Shrek is holding a small firearm/blaster.",
+      "thumb": "/thumbs/shrek-2-2004/199806.jpg"
     },
     {
+      "id": 199888,
       "category": "scary",
+      "label": "scary",
       "t_start": 2534.9166666666665,
       "t_end": 2551.0833333333335,
       "confidence": 0.7,
-      "summary": "The purple mist and dark setting create a spooky, potentially scary atmosphere."
+      "frame_count": 6,
+      "summary": "The purple mist and dark setting create a spooky, potentially scary atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199888.jpg"
     },
     {
+      "id": 199889,
       "category": "scary",
+      "label": "scary",
       "t_start": 2569.9166666666665,
       "t_end": 2571.4166666666665,
       "confidence": 0.6,
-      "summary": "A shadowy, monster-like figure is visible in the background."
+      "frame_count": 1,
+      "summary": "A shadowy, monster-like figure is visible in the background.",
+      "thumb": "/thumbs/shrek-2-2004/199889.jpg"
     },
     {
+      "id": 199890,
       "category": "scary",
+      "label": "scary",
       "t_start": 2603.9166666666665,
       "t_end": 2605.4166666666665,
       "confidence": 0.4,
-      "summary": "The character has an intense, aggressive, or frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, aggressive, or frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199890.jpg"
     },
     {
+      "id": 199891,
       "category": "scary",
+      "label": "scary",
       "t_start": 2649.5833333333335,
       "t_end": 2659.4166666666665,
       "confidence": 0.6,
-      "summary": "A creature with glowing eyes in a dark setting may be perceived as scary."
+      "frame_count": 7,
+      "summary": "A creature with glowing eyes in a dark setting may be perceived as scary.",
+      "thumb": "/thumbs/shrek-2-2004/199891.jpg"
     },
     {
+      "id": 199892,
       "category": "scary",
+      "label": "scary",
       "t_start": 2668.25,
       "t_end": 2670.0833333333335,
       "confidence": 0.7,
-      "summary": "The character appears to be in a state of terror or shock."
+      "frame_count": 2,
+      "summary": "The character appears to be in a state of terror or shock.",
+      "thumb": "/thumbs/shrek-2-2004/199892.jpg"
     },
     {
+      "id": 199807,
       "category": "gun",
+      "label": "gun",
       "t_start": 2685.25,
       "t_end": 2687.4166666666665,
       "confidence": 1.0,
-      "summary": "A character is holding a small firearm/pistol."
+      "frame_count": 2,
+      "summary": "A character is holding a small firearm/pistol.",
+      "thumb": "/thumbs/shrek-2-2004/199807.jpg"
     },
     {
+      "id": 199893,
       "category": "scary",
+      "label": "scary",
       "t_start": 2725.9166666666665,
       "t_end": 2729.0833333333335,
       "confidence": 0.7,
-      "summary": "The cat has an intense, menacing expression."
+      "frame_count": 3,
+      "summary": "The cat has an intense, menacing expression.",
+      "thumb": "/thumbs/shrek-2-2004/199893.jpg"
     },
     {
+      "id": 199894,
       "category": "scary",
+      "label": "scary",
       "t_start": 2745.5833333333335,
       "t_end": 2777.0833333333335,
       "confidence": 0.7,
-      "summary": "The character has a menacing, intense expression in a dark setting."
+      "frame_count": 8,
+      "summary": "The character has a menacing, intense expression in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199894.jpg"
     },
     {
+      "id": 199808,
       "category": "gun",
+      "label": "gun",
       "t_start": 2807.25,
       "t_end": 2811.75,
       "confidence": 1.0,
-      "summary": "A group of characters is holding firearms."
+      "frame_count": 3,
+      "summary": "A group of characters is holding firearms.",
+      "thumb": "/thumbs/shrek-2-2004/199808.jpg"
     },
     {
+      "id": 199895,
       "category": "scary",
+      "label": "scary",
       "t_start": 2817.5833333333335,
       "t_end": 2819.0833333333335,
       "confidence": 0.8,
-      "summary": "The characters have distorted, frightening facial expressions."
+      "frame_count": 1,
+      "summary": "The characters have distorted, frightening facial expressions.",
+      "thumb": "/thumbs/shrek-2-2004/199895.jpg"
     },
     {
+      "id": 199896,
       "category": "scary",
+      "label": "scary",
       "t_start": 2830.25,
       "t_end": 2831.75,
       "confidence": 0.7,
-      "summary": "The dinosaur has an aggressive, frightening expression."
+      "frame_count": 1,
+      "summary": "The dinosaur has an aggressive, frightening expression.",
+      "thumb": "/thumbs/shrek-2-2004/199896.jpg"
     },
     {
+      "id": 199897,
       "category": "scary",
+      "label": "scary",
       "t_start": 2841.25,
       "t_end": 2842.75,
       "confidence": 0.4,
-      "summary": "The character has a frightened or distressed facial expression."
+      "frame_count": 1,
+      "summary": "The character has a frightened or distressed facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199897.jpg"
     },
     {
+      "id": 199898,
       "category": "scary",
+      "label": "scary",
       "t_start": 2862.5833333333335,
       "t_end": 2867.0833333333335,
       "confidence": 0.7,
-      "summary": "The character has a frightened, intense expression."
+      "frame_count": 6,
+      "summary": "The character has a frightened, intense expression.",
+      "thumb": "/thumbs/shrek-2-2004/199898.jpg"
     },
     {
+      "id": 199936,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 2911.25,
       "t_end": 2912.75,
       "confidence": 0.7,
-      "summary": "The character is holding a small bottle that appears to contain alcohol."
+      "frame_count": 1,
+      "summary": "The character is holding a small bottle that appears to contain alcohol.",
+      "thumb": "/thumbs/shrek-2-2004/199936.jpg"
     },
     {
+      "id": 199937,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 2987.25,
       "t_end": 2988.75,
       "confidence": 0.6,
-      "summary": "The character is holding a small bottle that resembles an alcoholic beverage."
+      "frame_count": 1,
+      "summary": "The character is holding a small bottle that resembles an alcoholic beverage.",
+      "thumb": "/thumbs/shrek-2-2004/199937.jpg"
     },
     {
+      "id": 199899,
       "category": "scary",
+      "label": "scary",
       "t_start": 3018.5833333333335,
       "t_end": 3026.0833333333335,
       "confidence": 0.6,
-      "summary": "The character has a wide-mouthed, distressed expression in a dark setting."
+      "frame_count": 5,
+      "summary": "The character has a wide-mouthed, distressed expression in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199899.jpg"
     },
     {
+      "id": 199823,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 3032.25,
       "t_end": 3034.0833333333335,
       "confidence": 0.9,
-      "summary": "A large bright light or explosion is visible."
+      "frame_count": 2,
+      "summary": "A large bright light or explosion is visible.",
+      "thumb": "/thumbs/shrek-2-2004/199823.jpg"
     },
     {
+      "id": 199900,
       "category": "scary",
+      "label": "scary",
       "t_start": 3044.9166666666665,
       "t_end": 3061.0833333333335,
       "confidence": 0.7,
-      "summary": "The dark, rainy atmosphere and looming figure create a scary/suspenseful mood."
+      "frame_count": 7,
+      "summary": "The dark, rainy atmosphere and looming figure create a scary/suspenseful mood.",
+      "thumb": "/thumbs/shrek-2-2004/199900.jpg"
     },
     {
+      "id": 199901,
       "category": "scary",
+      "label": "scary",
       "t_start": 3079.25,
       "t_end": 3080.75,
       "confidence": 0.4,
-      "summary": "The character has a frightened or distressed expression in a dark setting."
+      "frame_count": 1,
+      "summary": "The character has a frightened or distressed expression in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199901.jpg"
     },
     {
+      "id": 199847,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 3087.25,
       "t_end": 3088.75,
       "confidence": 1.0,
-      "summary": "Shrek and Fiona are sharing a romantic kiss."
+      "frame_count": 1,
+      "summary": "Shrek and Fiona are sharing a romantic kiss.",
+      "thumb": "/thumbs/shrek-2-2004/199847.jpg"
     },
     {
+      "id": 199831,
       "category": "death",
+      "label": "death",
       "t_start": 3087.9166666666665,
       "t_end": 3092.0833333333335,
       "confidence": 0.9,
-      "summary": "A character is lying motionless on the ground, implying death."
+      "frame_count": 6,
+      "summary": "A character is lying motionless on the ground, implying death.",
+      "thumb": "/thumbs/shrek-2-2004/199831.jpg"
     },
     {
+      "id": 199902,
       "category": "scary",
+      "label": "scary",
       "t_start": 3097.9166666666665,
       "t_end": 3099.4166666666665,
       "confidence": 0.4,
-      "summary": "A dark, rainy atmosphere with a shadowy hand creates a sense of tension or fear."
+      "frame_count": 1,
+      "summary": "A dark, rainy atmosphere with a shadowy hand creates a sense of tension or fear.",
+      "thumb": "/thumbs/shrek-2-2004/199902.jpg"
     },
     {
+      "id": 199832,
       "category": "death",
+      "label": "death",
       "t_start": 3140.9166666666665,
       "t_end": 3146.0833333333335,
       "confidence": 0.8,
-      "summary": "A character is lying motionless on the floor, implying death or injury."
+      "frame_count": 2,
+      "summary": "A character is lying motionless on the floor, implying death or injury.",
+      "thumb": "/thumbs/shrek-2-2004/199832.jpg"
     },
     {
+      "id": 199903,
       "category": "scary",
+      "label": "scary",
       "t_start": 3244.9166666666665,
       "t_end": 3246.4166666666665,
       "confidence": 0.4,
-      "summary": "The creature on the left has a wide, gaping mouth that could be perceived as frightening."
+      "frame_count": 1,
+      "summary": "The creature on the left has a wide, gaping mouth that could be perceived as frightening.",
+      "thumb": "/thumbs/shrek-2-2004/199903.jpg"
     },
     {
+      "id": 199809,
       "category": "gun",
+      "label": "gun",
       "t_start": 3256.25,
       "t_end": 3259.4166666666665,
       "confidence": 1.0,
-      "summary": "The character is holding a small firearm/pistol."
+      "frame_count": 2,
+      "summary": "The character is holding a small firearm/pistol.",
+      "thumb": "/thumbs/shrek-2-2004/199809.jpg"
     },
     {
+      "id": 199810,
       "category": "gun",
+      "label": "gun",
       "t_start": 3269.5833333333335,
       "t_end": 3279.75,
       "confidence": 1.0,
-      "summary": "The character is holding a stylized flintlock-style pistol."
+      "frame_count": 4,
+      "summary": "The character is holding a stylized flintlock-style pistol.",
+      "thumb": "/thumbs/shrek-2-2004/199810.jpg"
     },
     {
+      "id": 199833,
       "category": "death",
+      "label": "death",
       "t_start": 3331.25,
       "t_end": 3337.0833333333335,
       "confidence": 0.8,
-      "summary": "An animal is lying motionless on the ground, appearing to be dead."
+      "frame_count": 6,
+      "summary": "An animal is lying motionless on the ground, appearing to be dead.",
+      "thumb": "/thumbs/shrek-2-2004/199833.jpg"
     },
     {
+      "id": 199938,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3342.9166666666665,
       "t_end": 3344.4166666666665,
       "confidence": 0.5,
-      "summary": "A character is holding a mug that appears to contain alcohol."
+      "frame_count": 1,
+      "summary": "A character is holding a mug that appears to contain alcohol.",
+      "thumb": "/thumbs/shrek-2-2004/199938.jpg"
     },
     {
+      "id": 199811,
       "category": "gun",
+      "label": "gun",
       "t_start": 3343.9166666666665,
       "t_end": 3346.75,
       "confidence": 1.0,
-      "summary": "A character is holding a small firearm/blaster."
+      "frame_count": 2,
+      "summary": "A character is holding a small firearm/blaster.",
+      "thumb": "/thumbs/shrek-2-2004/199811.jpg"
     },
     {
+      "id": 199939,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3358.9166666666665,
       "t_end": 3360.4166666666665,
       "confidence": 0.9,
-      "summary": "The character appears to be smoking a pipe or cigarette."
+      "frame_count": 1,
+      "summary": "The character appears to be smoking a pipe or cigarette.",
+      "thumb": "/thumbs/shrek-2-2004/199939.jpg"
     },
     {
+      "id": 199812,
       "category": "gun",
+      "label": "gun",
       "t_start": 3370.25,
       "t_end": 3371.75,
       "confidence": 0.8,
-      "summary": "Two characters in the background appear to be holding guns."
+      "frame_count": 1,
+      "summary": "Two characters in the background appear to be holding guns.",
+      "thumb": "/thumbs/shrek-2-2004/199812.jpg"
     },
     {
+      "id": 199848,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 3376.25,
       "t_end": 3377.75,
       "confidence": 0.9,
-      "summary": "Two characters are seen kissing in the distance."
+      "frame_count": 1,
+      "summary": "Two characters are seen kissing in the distance.",
+      "thumb": "/thumbs/shrek-2-2004/199848.jpg"
     },
     {
+      "id": 199813,
       "category": "gun",
+      "label": "gun",
       "t_start": 3413.9166666666665,
       "t_end": 3415.4166666666665,
       "confidence": 0.7,
-      "summary": "A blurry foreground object appears to be a gun barrel being pointed towards the camera."
+      "frame_count": 1,
+      "summary": "A blurry foreground object appears to be a gun barrel being pointed towards the camera.",
+      "thumb": "/thumbs/shrek-2-2004/199813.jpg"
     },
     {
+      "id": 199904,
       "category": "scary",
+      "label": "scary",
       "t_start": 3444.9166666666665,
       "t_end": 3447.0833333333335,
       "confidence": 0.7,
-      "summary": "The character has a frightened, wide-eyed expression."
+      "frame_count": 2,
+      "summary": "The character has a frightened, wide-eyed expression.",
+      "thumb": "/thumbs/shrek-2-2004/199904.jpg"
     },
     {
+      "id": 199947,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 3501.9166666666665,
       "t_end": 3503.4166666666665,
       "confidence": 1.0,
-      "summary": "The character is shown with bare buttocks visible."
+      "frame_count": 1,
+      "summary": "The character is shown with bare buttocks visible.",
+      "thumb": "/thumbs/shrek-2-2004/199947.jpg"
     },
     {
+      "id": 199905,
       "category": "scary",
+      "label": "scary",
       "t_start": 3560.5833333333335,
       "t_end": 3565.75,
       "confidence": 0.7,
-      "summary": "The characters have exaggerated expressions of terror/shock."
+      "frame_count": 7,
+      "summary": "The characters have exaggerated expressions of terror/shock.",
+      "thumb": "/thumbs/shrek-2-2004/199905.jpg"
     },
     {
+      "id": 199849,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 3570.25,
       "t_end": 3571.75,
       "confidence": 1.0,
-      "summary": "Two characters are seen kissing on a balcony."
+      "frame_count": 1,
+      "summary": "Two characters are seen kissing on a balcony.",
+      "thumb": "/thumbs/shrek-2-2004/199849.jpg"
     },
     {
+      "id": 199850,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 3603.25,
       "t_end": 3604.75,
       "confidence": 1.0,
-      "summary": "A character is seen kissing another on a balcony."
+      "frame_count": 1,
+      "summary": "A character is seen kissing another on a balcony.",
+      "thumb": "/thumbs/shrek-2-2004/199850.jpg"
     },
     {
+      "id": 199906,
       "category": "scary",
+      "label": "scary",
       "t_start": 3647.25,
       "t_end": 3651.0833333333335,
       "confidence": 0.4,
-      "summary": "The presence of skulls and dark lighting creates a spooky atmosphere."
+      "frame_count": 2,
+      "summary": "The presence of skulls and dark lighting creates a spooky atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199906.jpg"
     },
     {
+      "id": 199940,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3659.5833333333335,
       "t_end": 3664.4166666666665,
       "confidence": 0.5,
-      "summary": "There are bottles and small cups on the bar suggesting alcohol consumption."
+      "frame_count": 2,
+      "summary": "There are bottles and small cups on the bar suggesting alcohol consumption.",
+      "thumb": "/thumbs/shrek-2-2004/199940.jpg"
     },
     {
+      "id": 199907,
       "category": "scary",
+      "label": "scary",
       "t_start": 3682.25,
       "t_end": 3683.75,
       "confidence": 0.4,
-      "summary": "The character has a frightened expression and there is a skull in the background."
+      "frame_count": 1,
+      "summary": "The character has a frightened expression and there is a skull in the background.",
+      "thumb": "/thumbs/shrek-2-2004/199907.jpg"
     },
     {
+      "id": 199941,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3684.25,
       "t_end": 3699.75,
       "confidence": 0.5,
-      "summary": "A character is sitting at a bar with a mug present."
+      "frame_count": 6,
+      "summary": "A character is sitting at a bar with a mug present.",
+      "thumb": "/thumbs/shrek-2-2004/199941.jpg"
     },
     {
+      "id": 199942,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3714.25,
       "t_end": 3724.75,
       "confidence": 0.8,
-      "summary": "A bottle and a small drinking glass are visible on the table."
+      "frame_count": 7,
+      "summary": "A bottle and a small drinking glass are visible on the table.",
+      "thumb": "/thumbs/shrek-2-2004/199942.jpg"
     },
     {
+      "id": 199943,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 3776.5833333333335,
       "t_end": 3781.75,
       "confidence": 0.5,
-      "summary": "A character is holding a small red bottle that appears to be alcohol."
+      "frame_count": 2,
+      "summary": "A character is holding a small red bottle that appears to be alcohol.",
+      "thumb": "/thumbs/shrek-2-2004/199943.jpg"
     },
     {
+      "id": 199908,
       "category": "scary",
+      "label": "scary",
       "t_start": 3784.5833333333335,
       "t_end": 3787.0833333333335,
       "confidence": 0.4,
-      "summary": "The character has an exaggeratedly frightened or intense facial expression."
+      "frame_count": 2,
+      "summary": "The character has an exaggeratedly frightened or intense facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199908.jpg"
     },
     {
+      "id": 199834,
       "category": "death",
+      "label": "death",
       "t_start": 3849.5833333333335,
       "t_end": 3853.4166666666665,
       "confidence": 0.8,
-      "summary": "A character is lying motionless on the red carpet, implying death or injury."
+      "frame_count": 8,
+      "summary": "A character is lying motionless on the red carpet, implying death or injury.",
+      "thumb": "/thumbs/shrek-2-2004/199834.jpg"
     },
     {
+      "id": 199814,
       "category": "gun",
+      "label": "gun",
       "t_start": 3859.25,
       "t_end": 3861.75,
       "confidence": 0.9,
-      "summary": "A character is holding a small object that appears to be a gun."
+      "frame_count": 2,
+      "summary": "A character is holding a small object that appears to be a gun.",
+      "thumb": "/thumbs/shrek-2-2004/199814.jpg"
     },
     {
+      "id": 199909,
       "category": "scary",
+      "label": "scary",
       "t_start": 3877.9166666666665,
       "t_end": 3900.4166666666665,
       "confidence": 0.8,
-      "summary": "The character's expression and lighting create a creepy, unsettling atmosphere."
+      "frame_count": 18,
+      "summary": "The character's expression and lighting create a creepy, unsettling atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199909.jpg"
     },
     {
+      "id": 199815,
       "category": "gun",
+      "label": "gun",
       "t_start": 3911.9166666666665,
       "t_end": 3914.75,
       "confidence": 1.0,
-      "summary": "A character is being held at gunpoint by a figure in armor."
+      "frame_count": 3,
+      "summary": "A character is being held at gunpoint by a figure in armor.",
+      "thumb": "/thumbs/shrek-2-2004/199815.jpg"
     },
     {
+      "id": 199910,
       "category": "scary",
+      "label": "scary",
       "t_start": 3916.25,
       "t_end": 3919.75,
       "confidence": 0.7,
-      "summary": "The metallic figures looming over the animal create a frightening atmosphere."
+      "frame_count": 5,
+      "summary": "The metallic figures looming over the animal create a frightening atmosphere.",
+      "thumb": "/thumbs/shrek-2-2004/199910.jpg"
     },
     {
+      "id": 199835,
       "category": "death",
+      "label": "death",
       "t_start": 3916.5833333333335,
       "t_end": 3918.0833333333335,
       "confidence": 0.8,
-      "summary": "A character in armor is attacking or finishing off a fallen character."
+      "frame_count": 1,
+      "summary": "A character in armor is attacking or finishing off a fallen character.",
+      "thumb": "/thumbs/shrek-2-2004/199835.jpg"
     },
     {
+      "id": 199911,
       "category": "scary",
+      "label": "scary",
       "t_start": 3939.5833333333335,
       "t_end": 3951.75,
       "confidence": 0.7,
-      "summary": "The character has a frightened/terror expression."
+      "frame_count": 11,
+      "summary": "The character has a frightened/terror expression.",
+      "thumb": "/thumbs/shrek-2-2004/199911.jpg"
     },
     {
+      "id": 199944,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 4037.5833333333335,
       "t_end": 4039.0833333333335,
       "confidence": 0.5,
-      "summary": "A character is holding a glass that appears to contain alcohol."
+      "frame_count": 1,
+      "summary": "A character is holding a glass that appears to contain alcohol.",
+      "thumb": "/thumbs/shrek-2-2004/199944.jpg"
     },
     {
+      "id": 199912,
       "category": "scary",
+      "label": "scary",
       "t_start": 4047.5833333333335,
       "t_end": 4154.416666666667,
       "confidence": 0.8,
-      "summary": "A ghostly figure appears in a dark, arched setting which may be frightening."
+      "frame_count": 58,
+      "summary": "A ghostly figure appears in a dark, arched setting which may be frightening.",
+      "thumb": "/thumbs/shrek-2-2004/199912.jpg"
     },
     {
+      "id": 199816,
       "category": "gun",
+      "label": "gun",
       "t_start": 4095.25,
       "t_end": 4096.75,
       "confidence": 0.9,
-      "summary": "The character is holding a red toy-like firearm."
+      "frame_count": 1,
+      "summary": "The character is holding a red toy-like firearm.",
+      "thumb": "/thumbs/shrek-2-2004/199816.jpg"
     },
     {
+      "id": 199913,
       "category": "scary",
+      "label": "scary",
       "t_start": 4172.25,
       "t_end": 4173.75,
       "confidence": 0.4,
-      "summary": "The gingerbread character has a frightened or distressed facial expression."
+      "frame_count": 1,
+      "summary": "The gingerbread character has a frightened or distressed facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199913.jpg"
     },
     {
+      "id": 199914,
       "category": "scary",
+      "label": "scary",
       "t_start": 4214.916666666667,
       "t_end": 4228.75,
       "confidence": 0.8,
-      "summary": "A character is shown with a terrified facial expression."
+      "frame_count": 6,
+      "summary": "A character is shown with a terrified facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199914.jpg"
     },
     {
+      "id": 199824,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4222.25,
       "t_end": 4224.083333333333,
       "confidence": 0.8,
-      "summary": "The scene shows sparks and debris from an explosion or impact."
+      "frame_count": 2,
+      "summary": "The scene shows sparks and debris from an explosion or impact.",
+      "thumb": "/thumbs/shrek-2-2004/199824.jpg"
     },
     {
+      "id": 199915,
       "category": "scary",
+      "label": "scary",
       "t_start": 4239.916666666667,
       "t_end": 4242.083333333333,
       "confidence": 0.7,
-      "summary": "The character has a wide-eyed, startled expression in a dark setting."
+      "frame_count": 2,
+      "summary": "The character has a wide-eyed, startled expression in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199915.jpg"
     },
     {
+      "id": 199817,
       "category": "gun",
+      "label": "gun",
       "t_start": 4263.583333333333,
       "t_end": 4265.083333333333,
       "confidence": 1.0,
-      "summary": "A character is holding a handgun up in the air."
+      "frame_count": 1,
+      "summary": "A character is holding a handgun up in the air.",
+      "thumb": "/thumbs/shrek-2-2004/199817.jpg"
     },
     {
+      "id": 199851,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4315.25,
       "t_end": 4324.083333333333,
       "confidence": 1.0,
-      "summary": "A romantic kiss between two characters."
+      "frame_count": 4,
+      "summary": "A romantic kiss between two characters.",
+      "thumb": "/thumbs/shrek-2-2004/199851.jpg"
     },
     {
+      "id": 199836,
       "category": "death",
+      "label": "death",
       "t_start": 4325.583333333333,
       "t_end": 4330.75,
       "confidence": 0.8,
-      "summary": "A character is lying motionless on a piano, appearing to be dead."
+      "frame_count": 5,
+      "summary": "A character is lying motionless on a piano, appearing to be dead.",
+      "thumb": "/thumbs/shrek-2-2004/199836.jpg"
     },
     {
+      "id": 199916,
       "category": "scary",
+      "label": "scary",
       "t_start": 4338.916666666667,
       "t_end": 4347.416666666667,
       "confidence": 0.7,
-      "summary": "The character has a frightened/terror expression."
+      "frame_count": 7,
+      "summary": "The character has a frightened/terror expression.",
+      "thumb": "/thumbs/shrek-2-2004/199916.jpg"
     },
     {
+      "id": 199825,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4347.583333333333,
       "t_end": 4374.75,
       "confidence": 1.0,
-      "summary": "A bright fire or small explosion is visible in the center frame."
+      "frame_count": 23,
+      "summary": "A bright fire or small explosion is visible in the center frame.",
+      "thumb": "/thumbs/shrek-2-2004/199825.jpg"
     },
     {
+      "id": 199917,
       "category": "scary",
+      "label": "scary",
       "t_start": 4357.25,
       "t_end": 4376.083333333333,
       "confidence": 0.8,
-      "summary": "A large, dark creature is looming in front of a castle at night."
+      "frame_count": 9,
+      "summary": "A large, dark creature is looming in front of a castle at night.",
+      "thumb": "/thumbs/shrek-2-2004/199917.jpg"
     },
     {
+      "id": 199818,
       "category": "gun",
+      "label": "gun",
       "t_start": 4367.25,
       "t_end": 4368.75,
       "confidence": 0.8,
-      "summary": "A small character in the background appears to be holding a firearm directed at the large character."
+      "frame_count": 1,
+      "summary": "A small character in the background appears to be holding a firearm directed at the large character.",
+      "thumb": "/thumbs/shrek-2-2004/199818.jpg"
     },
     {
+      "id": 199852,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4374.916666666667,
       "t_end": 4376.416666666667,
       "confidence": 0.9,
-      "summary": "A romantic couple is kissing in the center of a dance floor."
+      "frame_count": 1,
+      "summary": "A romantic couple is kissing in the center of a dance floor.",
+      "thumb": "/thumbs/shrek-2-2004/199852.jpg"
     },
     {
+      "id": 199918,
       "category": "scary",
+      "label": "scary",
       "t_start": 4385.916666666667,
       "t_end": 4400.083333333333,
       "confidence": 0.8,
-      "summary": "A glowing-eyed monster figure appears in a dark setting."
+      "frame_count": 13,
+      "summary": "A glowing-eyed monster figure appears in a dark setting.",
+      "thumb": "/thumbs/shrek-2-2004/199918.jpg"
     },
     {
+      "id": 199826,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4386.916666666667,
       "t_end": 4388.416666666667,
       "confidence": 1.0,
-      "summary": "A large fireball or explosion is visible in the center of the scene."
+      "frame_count": 1,
+      "summary": "A large fireball or explosion is visible in the center of the scene.",
+      "thumb": "/thumbs/shrek-2-2004/199826.jpg"
     },
     {
+      "id": 199827,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4404.916666666667,
       "t_end": 4406.416666666667,
       "confidence": 0.8,
-      "summary": "A large cloud of smoke or an explosion is visible."
+      "frame_count": 1,
+      "summary": "A large cloud of smoke or an explosion is visible.",
+      "thumb": "/thumbs/shrek-2-2004/199827.jpg"
     },
     {
+      "id": 199919,
       "category": "scary",
+      "label": "scary",
       "t_start": 4411.916666666667,
       "t_end": 4416.083333333333,
       "confidence": 0.7,
-      "summary": "The character has an intense, frightening facial expression."
+      "frame_count": 9,
+      "summary": "The character has an intense, frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199919.jpg"
     },
     {
+      "id": 199920,
       "category": "scary",
+      "label": "scary",
       "t_start": 4427.916666666667,
       "t_end": 4441.083333333333,
       "confidence": 0.7,
-      "summary": "The character has a wide-eyed, intense expression that could be perceived as frightening."
+      "frame_count": 16,
+      "summary": "The character has a wide-eyed, intense expression that could be perceived as frightening.",
+      "thumb": "/thumbs/shrek-2-2004/199920.jpg"
     },
     {
+      "id": 199853,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4458.916666666667,
       "t_end": 4460.416666666667,
       "confidence": 0.8,
-      "summary": "A couple is seen kissing in the background."
+      "frame_count": 1,
+      "summary": "A couple is seen kissing in the background.",
+      "thumb": "/thumbs/shrek-2-2004/199853.jpg"
     },
     {
+      "id": 199921,
       "category": "scary",
+      "label": "scary",
       "t_start": 4461.916666666667,
       "t_end": 4469.75,
       "confidence": 0.7,
-      "summary": "A large, dark, monstrous creature is in the foreground which may be frightening."
+      "frame_count": 3,
+      "summary": "A large, dark, monstrous creature is in the foreground which may be frightening.",
+      "thumb": "/thumbs/shrek-2-2004/199921.jpg"
     },
     {
+      "id": 199948,
       "category": "nudity",
+      "label": "nudity",
       "t_start": 4495.25,
       "t_end": 4502.083333333333,
       "confidence": 1.0,
-      "summary": "Character is shown with bare buttocks visible."
+      "frame_count": 2,
+      "summary": "Character is shown with bare buttocks visible.",
+      "thumb": "/thumbs/shrek-2-2004/199948.jpg"
     },
     {
+      "id": 199819,
       "category": "gun",
+      "label": "gun",
       "t_start": 4503.25,
       "t_end": 4504.75,
       "confidence": 1.0,
-      "summary": "A gun barrel is visible in the immediate foreground pointing towards the character."
+      "frame_count": 1,
+      "summary": "A gun barrel is visible in the immediate foreground pointing towards the character.",
+      "thumb": "/thumbs/shrek-2-2004/199819.jpg"
     },
     {
+      "id": 199922,
       "category": "scary",
+      "label": "scary",
       "t_start": 4507.25,
       "t_end": 4508.75,
       "confidence": 0.4,
-      "summary": "A group of armored knights creates a menacing presence."
+      "frame_count": 1,
+      "summary": "A group of armored knights creates a menacing presence.",
+      "thumb": "/thumbs/shrek-2-2004/199922.jpg"
     },
     {
+      "id": 199837,
       "category": "death",
+      "label": "death",
       "t_start": 4518.25,
       "t_end": 4519.75,
       "confidence": 0.6,
-      "summary": "A character is lying motionless on the ground, suggesting death or injury."
+      "frame_count": 1,
+      "summary": "A character is lying motionless on the ground, suggesting death or injury.",
+      "thumb": "/thumbs/shrek-2-2004/199837.jpg"
     },
     {
+      "id": 199923,
       "category": "scary",
+      "label": "scary",
       "t_start": 4528.583333333333,
       "t_end": 4530.083333333333,
       "confidence": 0.4,
-      "summary": "The character has an intense, potentially frightening facial expression."
+      "frame_count": 1,
+      "summary": "The character has an intense, potentially frightening facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199923.jpg"
     },
     {
+      "id": 199924,
       "category": "scary",
+      "label": "scary",
       "t_start": 4551.583333333333,
       "t_end": 4563.083333333333,
       "confidence": 0.5,
-      "summary": "A character in the background has a wide-eyed, frightened expression."
+      "frame_count": 2,
+      "summary": "A character in the background has a wide-eyed, frightened expression.",
+      "thumb": "/thumbs/shrek-2-2004/199924.jpg"
     },
     {
+      "id": 199925,
       "category": "scary",
+      "label": "scary",
       "t_start": 4589.583333333333,
       "t_end": 4592.75,
       "confidence": 0.4,
-      "summary": "The character in the background has a menacing or exaggerated expression."
+      "frame_count": 2,
+      "summary": "The character in the background has a menacing or exaggerated expression.",
+      "thumb": "/thumbs/shrek-2-2004/199925.jpg"
     },
     {
+      "id": 199854,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4594.916666666667,
       "t_end": 4604.75,
       "confidence": 1.0,
-      "summary": "A romantic kiss between two characters."
+      "frame_count": 8,
+      "summary": "A romantic kiss between two characters.",
+      "thumb": "/thumbs/shrek-2-2004/199854.jpg"
     },
     {
+      "id": 199926,
       "category": "scary",
+      "label": "scary",
       "t_start": 4633.25,
       "t_end": 4648.083333333333,
       "confidence": 0.7,
-      "summary": "The character has an intense, aggressive facial expression."
+      "frame_count": 10,
+      "summary": "The character has an intense, aggressive facial expression.",
+      "thumb": "/thumbs/shrek-2-2004/199926.jpg"
     },
     {
+      "id": 199838,
       "category": "death",
+      "label": "death",
       "t_start": 4659.583333333333,
       "t_end": 4666.083333333333,
       "confidence": 0.9,
-      "summary": "A character is lying motionless on the ground, suggesting death."
+      "frame_count": 6,
+      "summary": "A character is lying motionless on the ground, suggesting death.",
+      "thumb": "/thumbs/shrek-2-2004/199838.jpg"
     },
     {
+      "id": 199855,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4666.25,
       "t_end": 4667.75,
       "confidence": 1.0,
-      "summary": "A romantic kiss is occurring between two characters."
+      "frame_count": 1,
+      "summary": "A romantic kiss is occurring between two characters.",
+      "thumb": "/thumbs/shrek-2-2004/199855.jpg"
     },
     {
+      "id": 199927,
       "category": "scary",
+      "label": "scary",
       "t_start": 4672.916666666667,
       "t_end": 4674.416666666667,
       "confidence": 0.6,
-      "summary": "The central character has a distressed, fearful expression."
+      "frame_count": 1,
+      "summary": "The central character has a distressed, fearful expression.",
+      "thumb": "/thumbs/shrek-2-2004/199927.jpg"
     },
     {
+      "id": 199820,
       "category": "gun",
+      "label": "gun",
       "t_start": 4681.583333333333,
       "t_end": 4683.083333333333,
       "confidence": 1.0,
-      "summary": "A character is holding a firearm while riding the horse."
+      "frame_count": 1,
+      "summary": "A character is holding a firearm while riding the horse.",
+      "thumb": "/thumbs/shrek-2-2004/199820.jpg"
     },
     {
+      "id": 199928,
       "category": "scary",
+      "label": "scary",
       "t_start": 4796.583333333333,
       "t_end": 4798.083333333333,
       "confidence": 0.7,
-      "summary": "The character in the center has a frightened expression with a large monster/animal looming behind them."
+      "frame_count": 1,
+      "summary": "The character in the center has a frightened expression with a large monster/animal looming behind them.",
+      "thumb": "/thumbs/shrek-2-2004/199928.jpg"
     },
     {
+      "id": 199856,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4810.583333333333,
       "t_end": 4812.083333333333,
       "confidence": 1.0,
-      "summary": "A romantic kiss between two characters."
+      "frame_count": 1,
+      "summary": "A romantic kiss between two characters.",
+      "thumb": "/thumbs/shrek-2-2004/199856.jpg"
     },
     {
+      "id": 199857,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4840.583333333333,
       "t_end": 4845.75,
       "confidence": 1.0,
-      "summary": "A couple is kissing in the center of the frame."
+      "frame_count": 4,
+      "summary": "A couple is kissing in the center of the frame.",
+      "thumb": "/thumbs/shrek-2-2004/199857.jpg"
     },
     {
+      "id": 199929,
       "category": "scary",
+      "label": "scary",
       "t_start": 4845.25,
       "t_end": 4846.75,
       "confidence": 0.4,
-      "summary": "The character Garfield has an intense, exaggerated facial expression that could be perceived as scary to very young children."
+      "frame_count": 1,
+      "summary": "The character Garfield has an intense, exaggerated facial expression that could be perceived as scary to very young children.",
+      "thumb": "/thumbs/shrek-2-2004/199929.jpg"
     },
     {
+      "id": 199821,
       "category": "gun",
+      "label": "gun",
       "t_start": 4870.916666666667,
       "t_end": 4872.416666666667,
       "confidence": 0.8,
-      "summary": "A character in the background is holding a long object that resembles a rifle or gun."
+      "frame_count": 1,
+      "summary": "A character in the background is holding a long object that resembles a rifle or gun.",
+      "thumb": "/thumbs/shrek-2-2004/199821.jpg"
     },
     {
+      "id": 199930,
       "category": "scary",
+      "label": "scary",
       "t_start": 4896.916666666667,
       "t_end": 4908.75,
       "confidence": 0.8,
-      "summary": "A ghostly or eerie face is visible in the mirror, creating a scary effect."
+      "frame_count": 11,
+      "summary": "A ghostly or eerie face is visible in the mirror, creating a scary effect.",
+      "thumb": "/thumbs/shrek-2-2004/199930.jpg"
     },
     {
+      "id": 199858,
       "category": "kiss",
+      "label": "kiss",
       "t_start": 4904.25,
       "t_end": 4905.75,
       "confidence": 1.0,
-      "summary": "A character is shown kissing another character."
+      "frame_count": 1,
+      "summary": "A character is shown kissing another character.",
+      "thumb": "/thumbs/shrek-2-2004/199858.jpg"
     },
     {
+      "id": 199931,
       "category": "scary",
+      "label": "scary",
       "t_start": 4960.25,
       "t_end": 4963.416666666667,
       "confidence": 0.4,
-      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary."
+      "frame_count": 3,
+      "summary": "The character has an exaggerated, intense facial expression that could be perceived as scary.",
+      "thumb": "/thumbs/shrek-2-2004/199931.jpg"
     },
     {
+      "id": 199932,
       "category": "scary",
+      "label": "scary",
       "t_start": 5071.916666666667,
       "t_end": 5086.75,
       "confidence": 0.7,
-      "summary": "A dragon flying in the night may be perceived as scary by very young children."
+      "frame_count": 13,
+      "summary": "A dragon flying in the night may be perceived as scary by very young children.",
+      "thumb": "/thumbs/shrek-2-2004/199932.jpg"
     },
     {
+      "id": 199828,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5089.25,
       "t_end": 5091.083333333333,
       "confidence": 1.0,
-      "summary": "A small explosion or fireball is visible on the ground near the characters."
+      "frame_count": 2,
+      "summary": "A small explosion or fireball is visible on the ground near the characters.",
+      "thumb": "/thumbs/shrek-2-2004/199828.jpg"
     },
     {
+      "id": 199933,
       "category": "scary",
+      "label": "scary",
       "t_start": 5098.583333333333,
       "t_end": 5104.416666666667,
       "confidence": 0.8,
-      "summary": "The dragon has an intense, menacing expression."
+      "frame_count": 5,
+      "summary": "The dragon has an intense, menacing expression.",
+      "thumb": "/thumbs/shrek-2-2004/199933.jpg"
     }
   ]
 }

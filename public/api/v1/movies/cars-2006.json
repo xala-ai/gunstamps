@@ -8,12 +8,14 @@
   "detection_count": 55,
   "poster": "/posters/cars-2006.jpg",
   "safety": {
-    "rag": "amber",
-    "rag_label": "Amber",
+    "total_minutes": 117,
+    "unsafe_minutes": 21,
+    "safe_minutes": 96,
     "pct": 17.94871794871795,
     "pct_label": "18%",
-    "unsafe_minutes": 21,
-    "total_minutes": 117,
+    "rag": "amber",
+    "rag_label": "Amber",
+    "rag_blurb": "some scenes need guidance",
     "bar": [
       {
         "id": "gun",
@@ -76,183 +78,286 @@
         "tooltip": "Other\n82% of the movie"
       }
     ],
-    "headline": "18% of this movie contained scenes not safe for kids"
+    "flagged_seconds": 74.50000000000074,
+    "other_pct": 82.05128205128206,
+    "headline": "18% of this movie contained scenes not safe for kids",
+    "detail": "21 of 117 minutes contain at least 1 scene not safe for kids"
   },
   "segments": [
     {
+      "id": 183007,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 268.25,
       "t_end": 270.4166666666667,
       "confidence": 1.0,
-      "summary": "The frame shows a bright, central explosion with light trails."
+      "frame_count": 3,
+      "summary": "The frame shows a bright, central explosion with light trails.",
+      "thumb": "/thumbs/cars-2006/183007.jpg"
     },
     {
+      "id": 183008,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 739.25,
       "t_end": 752.0833333333334,
       "confidence": 1.0,
-      "summary": "A large fireball or explosion is visible behind the text."
+      "frame_count": 15,
+      "summary": "A large fireball or explosion is visible behind the text.",
+      "thumb": "/thumbs/cars-2006/183008.jpg"
     },
     {
+      "id": 183021,
       "category": "scary",
+      "label": "scary",
       "t_start": 1572.25,
       "t_end": 1577.75,
       "confidence": 0.4,
-      "summary": "The character has a distressed, wide-eyed expression that could be perceived as frightening."
+      "frame_count": 2,
+      "summary": "The character has a distressed, wide-eyed expression that could be perceived as frightening.",
+      "thumb": "/thumbs/cars-2006/183021.jpg"
     },
     {
+      "id": 183009,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 1577.5833333333333,
       "t_end": 1587.75,
       "confidence": 1.0,
-      "summary": "A vehicle or object is shown amidst a fire or explosion."
+      "frame_count": 2,
+      "summary": "A vehicle or object is shown amidst a fire or explosion.",
+      "thumb": "/thumbs/cars-2006/183009.jpg"
     },
     {
+      "id": 183022,
       "category": "scary",
+      "label": "scary",
       "t_start": 1588.9166666666667,
       "t_end": 1591.4166666666667,
       "confidence": 0.6,
-      "summary": "The character has a creepy, stylized monster-like appearance."
+      "frame_count": 3,
+      "summary": "The character has a creepy, stylized monster-like appearance.",
+      "thumb": "/thumbs/cars-2006/183022.jpg"
     },
     {
+      "id": 183010,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 2466.25,
       "t_end": 2469.75,
       "confidence": 1.0,
-      "summary": "A bright, central explosion or blast is visible against a dark background."
+      "frame_count": 3,
+      "summary": "A bright, central explosion or blast is visible against a dark background.",
+      "thumb": "/thumbs/cars-2006/183010.jpg"
     },
     {
+      "id": 183023,
       "category": "scary",
+      "label": "scary",
       "t_start": 3284.5833333333335,
       "t_end": 3286.0833333333335,
       "confidence": 0.3,
-      "summary": "The dark atmosphere and the character's expression create a slightly tense or scary mood."
+      "frame_count": 1,
+      "summary": "The dark atmosphere and the character's expression create a slightly tense or scary mood.",
+      "thumb": "/thumbs/cars-2006/183023.jpg"
     },
     {
+      "id": 183024,
       "category": "scary",
+      "label": "scary",
       "t_start": 3421.5833333333335,
       "t_end": 3423.0833333333335,
       "confidence": 1.0,
-      "summary": "A vehicle or object is surrounded by a large blast or explosion effect."
+      "frame_count": 1,
+      "summary": "A vehicle or object is surrounded by a large blast or explosion effect.",
+      "thumb": "/thumbs/cars-2006/183024.jpg"
     },
     {
+      "id": 183025,
       "category": "scary",
+      "label": "scary",
       "t_start": 3584.9166666666665,
       "t_end": 3586.4166666666665,
       "confidence": 0.6,
-      "summary": "The character has a menacing, wide-toothed expression in a dark setting."
+      "frame_count": 1,
+      "summary": "The character has a menacing, wide-toothed expression in a dark setting.",
+      "thumb": "/thumbs/cars-2006/183025.jpg"
     },
     {
+      "id": 183002,
       "category": "gun",
+      "label": "gun",
       "t_start": 3803.9166666666665,
       "t_end": 3805.4166666666665,
       "confidence": 0.8,
-      "summary": "A stylized tank is visible in a stadium setting."
+      "frame_count": 1,
+      "summary": "A stylized tank is visible in a stadium setting.",
+      "thumb": "/thumbs/cars-2006/183002.jpg"
     },
     {
+      "id": 183011,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 4649.583333333333,
       "t_end": 4652.083333333333,
       "confidence": 0.9,
-      "summary": "A car is shown next to a large fireball or explosion."
+      "frame_count": 4,
+      "summary": "A car is shown next to a large fireball or explosion.",
+      "thumb": "/thumbs/cars-2006/183011.jpg"
     },
     {
+      "id": 183003,
       "category": "gun",
+      "label": "gun",
       "t_start": 4965.583333333333,
       "t_end": 4967.083333333333,
       "confidence": 1.0,
-      "summary": "A character is holding a gun-shaped object."
+      "frame_count": 1,
+      "summary": "A character is holding a gun-shaped object.",
+      "thumb": "/thumbs/cars-2006/183003.jpg"
     },
     {
+      "id": 183012,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5039.916666666667,
       "t_end": 5041.416666666667,
       "confidence": 0.8,
-      "summary": "A bright red light or blast is visible in the center of the frame."
+      "frame_count": 1,
+      "summary": "A bright red light or blast is visible in the center of the frame.",
+      "thumb": "/thumbs/cars-2006/183012.jpg"
     },
     {
+      "id": 183013,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5262.916666666667,
       "t_end": 5264.416666666667,
       "confidence": 0.8,
-      "summary": "The frame shows a bright, intense light effect consistent with an explosion or blast."
+      "frame_count": 1,
+      "summary": "The frame shows a bright, intense light effect consistent with an explosion or blast.",
+      "thumb": "/thumbs/cars-2006/183013.jpg"
     },
     {
+      "id": 183004,
       "category": "gun",
+      "label": "gun",
       "t_start": 5263.583333333333,
       "t_end": 5265.416666666667,
       "confidence": 0.9,
-      "summary": "A character car is equipped with a large cannon-like weapon."
+      "frame_count": 2,
+      "summary": "A character car is equipped with a large cannon-like weapon.",
+      "thumb": "/thumbs/cars-2006/183004.jpg"
     },
     {
+      "id": 183014,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5423.25,
       "t_end": 5424.75,
       "confidence": 0.7,
-      "summary": "A bright light or blast is visible between the vehicles."
+      "frame_count": 1,
+      "summary": "A bright light or blast is visible between the vehicles.",
+      "thumb": "/thumbs/cars-2006/183014.jpg"
     },
     {
+      "id": 183005,
       "category": "gun",
+      "label": "gun",
       "t_start": 5430.25,
       "t_end": 5431.75,
       "confidence": 0.9,
-      "summary": "Characters are being targeted by large, stylized mechanical weapons/cannons."
+      "frame_count": 1,
+      "summary": "Characters are being targeted by large, stylized mechanical weapons/cannons.",
+      "thumb": "/thumbs/cars-2006/183005.jpg"
     },
     {
+      "id": 183015,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5445.916666666667,
       "t_end": 5449.416666666667,
       "confidence": 0.7,
-      "summary": "A bright light or blast effect is visible near the vehicles."
+      "frame_count": 2,
+      "summary": "A bright light or blast effect is visible near the vehicles.",
+      "thumb": "/thumbs/cars-2006/183015.jpg"
     },
     {
+      "id": 183006,
       "category": "gun",
+      "label": "gun",
       "t_start": 5607.25,
       "t_end": 5608.75,
       "confidence": 0.9,
-      "summary": "Large stylized cannons/weapons are visible on the side of the frame."
+      "frame_count": 1,
+      "summary": "Large stylized cannons/weapons are visible on the side of the frame.",
+      "thumb": "/thumbs/cars-2006/183006.jpg"
     },
     {
+      "id": 183016,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 5712.25,
       "t_end": 5713.75,
       "confidence": 0.5,
-      "summary": "The jet engines are emitting bright fire/exhaust plumes."
+      "frame_count": 1,
+      "summary": "The jet engines are emitting bright fire/exhaust plumes.",
+      "thumb": "/thumbs/cars-2006/183016.jpg"
     },
     {
+      "id": 183026,
       "category": "alcohol_smoke",
+      "label": "alcohol/smoke",
       "t_start": 6054.916666666667,
       "t_end": 6056.416666666667,
       "confidence": 0.5,
-      "summary": "There are bottles visible on the table behind the characters."
+      "frame_count": 1,
+      "summary": "There are bottles visible on the table behind the characters.",
+      "thumb": "/thumbs/cars-2006/183026.jpg"
     },
     {
+      "id": 183017,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 6103.583333333333,
       "t_end": 6110.416666666667,
       "confidence": 1.0,
-      "summary": "The image shows a fiery blast or explosion effect."
+      "frame_count": 2,
+      "summary": "The image shows a fiery blast or explosion effect.",
+      "thumb": "/thumbs/cars-2006/183017.jpg"
     },
     {
+      "id": 183018,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 6139.583333333333,
       "t_end": 6141.083333333333,
       "confidence": 0.8,
-      "summary": "A small explosion or impact is occurring on the grass."
+      "frame_count": 1,
+      "summary": "A small explosion or impact is occurring on the grass.",
+      "thumb": "/thumbs/cars-2006/183018.jpg"
     },
     {
+      "id": 183019,
       "category": "explosion",
+      "label": "explosion",
       "t_start": 6558.916666666667,
       "t_end": 6560.416666666667,
       "confidence": 0.8,
-      "summary": "The orange car has large fire/exhaust blasts coming from it."
+      "frame_count": 1,
+      "summary": "The orange car has large fire/exhaust blasts coming from it.",
+      "thumb": "/thumbs/cars-2006/183019.jpg"
     },
     {
+      "id": 183020,
       "category": "death",
+      "label": "death",
       "t_start": 6749.916666666667,
       "t_end": 6752.083333333333,
       "confidence": 1.0,
-      "summary": "The frame contains a dedication to a deceased person (Joe Ranft 1960-2005)."
+      "frame_count": 3,
+      "summary": "The frame contains a dedication to a deceased person (Joe Ranft 1960-2005).",
+      "thumb": "/thumbs/cars-2006/183020.jpg"
     }
   ]
 }
