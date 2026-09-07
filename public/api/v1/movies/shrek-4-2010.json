@@ -3,10 +3,15 @@
   "title": "Shrek Forever After",
   "year": 2010,
   "duration_s": 5590.7,
-  "summary": null,
+  "summary": "scary moments, some explosions, guns, death, kissing, alcohol and mild nudity.",
   "segment_count": 209,
   "detection_count": 1207,
   "poster": "/posters/shrek-4-2010.jpg",
+  "thumb_aspect": 2.3486,
+  "thumb_size": {
+    "w": 480,
+    "h": 204
+  },
   "safety": {
     "total_minutes": 94,
     "unsafe_minutes": 81,
@@ -2403,5 +2408,9 @@
       "summary": "A brief romantic kiss between two characters.",
       "thumb": "/thumbs/shrek-4-2010/315305.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "PG",
+    "uk": "U"
+  }
 }

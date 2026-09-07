@@ -32,8 +32,8 @@
     if (!seg) return;
     tip.hidden = false;
     tip.classList.add("fixed");
-    tip.style.left = Math.min(window.innerWidth - 320, Math.max(8, x + 12)) + "px";
-    tip.style.top = Math.min(window.innerHeight - 360, Math.max(8, y + 12)) + "px";
+    tip.style.left = Math.min(window.innerWidth - 420, Math.max(8, x + 12)) + "px";
+    tip.style.top = Math.min(window.innerHeight - 380, Math.max(8, y + 12)) + "px";
     tipCat.className = "pill " + (seg.category || "");
     tipCat.textContent = seg.label || seg.category || "";
     tipTime.textContent = clock(seg.t_start) + "–" + clock(seg.t_end);
@@ -84,8 +84,8 @@
             '"></span>'
         )
         .join("");
-      const legendPills = (s.bar || [])
-        .filter((p) => p.id !== "other")
+      const barCats = (s.bar || []).filter((p) => p.id !== "other");
+      const safetyLegendPills = barCats
         .map(
           (p) =>
             '<span class="pill ' +
@@ -105,7 +105,7 @@
         bar +
         "</div>" +
         '<div class="safety-bar-legend">' +
-        legendPills +
+        safetyLegendPills +
         "</div>" +
         '<p class="safety-headline"><span class="rag ' +
         esc(s.rag || "") +
@@ -115,12 +115,43 @@
         esc(s.headline || "") +
         "</p>" +
         '<p class="muted safety-detail">' +
-        esc(s.pct_label || "") +
-        " of minutes flagged · " +
-        esc(m.segment_count || 0) +
-        " scenes</p>";
+        (function () {
+          const us = (m.ratings && m.ratings.us) || "";
+          const uk = (m.ratings && m.ratings.uk) || "";
+          const n = m.segment_count || 0;
+          if (us && uk) {
+            return (
+              "Rated " +
+              esc(us) +
+              " in US, " +
+              esc(uk) +
+              " in UK · " +
+              esc(n) +
+              " scenes flagged by our tool"
+            );
+          }
+          return esc(n) + " scenes flagged by our tool";
+        })() +
+        "</p>";
 
-      legendEl.innerHTML = legendPills;
+      legendEl.setAttribute("role", "group");
+      legendEl.setAttribute("aria-label", "Filter by stamp category");
+      legendEl.innerHTML = barCats
+        .map(
+          (p) =>
+            '<button type="button" class="pill cat-pill ' +
+            esc(p.id) +
+            '" data-category="' +
+            esc(p.id) +
+            '" title="' +
+            esc(p.tooltip || "Click to filter") +
+            '" aria-pressed="false">' +
+            esc(p.label) +
+            " · " +
+            Number(p.film_pct || 0).toFixed(0) +
+            "%</button>"
+        )
+        .join("");
 
       const duration = Math.max(1, Number(m.duration_s) || 1);
       const segs = m.segments || [];
@@ -128,6 +159,7 @@
       segs.forEach((seg) => {
         const el = document.createElement("div");
         el.className = "seg " + (seg.category || "");
+        el.dataset.category = seg.category || "";
         const left = (Number(seg.t_start) / duration) * 100;
         const width = Math.max(
           0.35,
@@ -146,18 +178,20 @@
         return;
       }
       scenesEl.innerHTML =
-        '<table class="results scenes-table"><thead><tr>' +
+        '<table class="results scenes-table" id="scenes-table"><thead><tr>' +
         "<th></th><th>Type</th><th>Start</th><th>End</th><th>Description</th>" +
         "</tr></thead><tbody>" +
         segs
           .map((seg) => {
             return (
-              "<tr>" +
+              '<tr data-category="' +
+              esc(seg.category) +
+              '">' +
               '<td class="thumb-cell">' +
               (seg.thumb
                 ? '<img class="seg-thumb" src="' +
                   esc(seg.thumb) +
-                  '" alt="" width="72" height="72" loading="lazy" />'
+                  '" alt="" width="96" loading="lazy" />'
                 : "") +
               "</td>" +
               "<td><span class=\"pill " +
@@ -178,6 +212,48 @@
           })
           .join("") +
         "</tbody></table>";
+
+      document.querySelectorAll("#scenes-table tbody tr").forEach(function (row, i) {
+        const seg = segs[i];
+        if (!seg) return;
+        row.addEventListener("mousemove", function (ev) {
+          showTip(seg, ev.clientX, ev.clientY);
+        });
+        row.addEventListener("mouseleave", hideTip);
+      });
+
+      (function wireCategoryFilter() {
+        const selected = new Set();
+        const pills = legendEl.querySelectorAll(".cat-pill");
+
+        function applyFilter() {
+          const active = selected.size > 0;
+          timelineEl.querySelectorAll(".seg").forEach(function (el) {
+            const on = !active || selected.has(el.dataset.category);
+            el.classList.toggle("filtered-out", !on);
+          });
+          document.querySelectorAll("#scenes-table tbody tr").forEach(function (el) {
+            const on = !active || selected.has(el.dataset.category);
+            el.hidden = !on;
+          });
+          pills.forEach(function (btn) {
+            const on = selected.has(btn.dataset.category);
+            btn.classList.toggle("active", on);
+            btn.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+          document.body.classList.toggle("cat-filter-on", active);
+        }
+
+        pills.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            const cat = btn.dataset.category;
+            if (!cat) return;
+            if (selected.has(cat)) selected.delete(cat);
+            else selected.add(cat);
+            applyFilter();
+          });
+        });
+      })();
     })
     .catch(() => {
       titleEl.textContent = "Not found";

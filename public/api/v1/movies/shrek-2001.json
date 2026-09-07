@@ -7,6 +7,11 @@
   "segment_count": 140,
   "detection_count": 1127,
   "poster": "/posters/shrek-2001.jpg",
+  "thumb_aspect": 1.7778,
+  "thumb_size": {
+    "w": 480,
+    "h": 270
+  },
   "safety": {
     "total_minutes": 91,
     "unsafe_minutes": 63,
@@ -1644,5 +1649,9 @@
       "summary": "A character is holding a firearm/gun-shaped weapon.",
       "thumb": "/thumbs/shrek-2001/171603.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "PG",
+    "uk": "U"
+  }
 }

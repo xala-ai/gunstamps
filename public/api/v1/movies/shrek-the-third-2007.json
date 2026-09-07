@@ -3,10 +3,15 @@
   "title": "Shrek the Third",
   "year": 2007,
   "duration_s": 5566.3,
-  "summary": null,
+  "summary": "some violence, scary moments, kissing, alcohol, and mild nudity.",
   "segment_count": 160,
   "detection_count": 633,
   "poster": "/posters/shrek-the-third-2007.jpg",
+  "thumb_aspect": 1.7902,
+  "thumb_size": {
+    "w": 480,
+    "h": 268
+  },
   "safety": {
     "total_minutes": 93,
     "unsafe_minutes": 68,
@@ -1864,5 +1869,9 @@
       "summary": "A character is briefly shown from behind with bare buttocks visible.",
       "thumb": "/thumbs/shrek-the-third-2007/293325.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "PG",
+    "uk": "U"
+  }
 }

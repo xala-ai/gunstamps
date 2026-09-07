@@ -7,6 +7,11 @@
   "segment_count": 33,
   "detection_count": 128,
   "poster": "/posters/cars-3-2017.jpg",
+  "thumb_aspect": 2.3925,
+  "thumb_size": {
+    "w": 480,
+    "h": 200
+  },
   "safety": {
     "total_minutes": 103,
     "unsafe_minutes": 24,
@@ -437,5 +442,9 @@
       "summary": "A pair of eyes peering out from the darkness can be perceived as scary.",
       "thumb": "/thumbs/cars-3-2017/173127.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "G",
+    "uk": "U"
+  }
 }

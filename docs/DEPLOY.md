@@ -9,6 +9,8 @@ Netlify already has custom domain `gunstamps.xala.ai` attached (SSL pending DNS)
 - Publish directory: `public`
 - CNAME target: `gunstamps.netlify.app`
 
+**Before deploy:** preview `public/` with `python3 -m http.server` from that folder, or hit G3 Tailscale `http://100.116.141.47:8787/` (serves the same tree). Pipeline UI is only at `/dev`.
+
 ## Cloudflare (you)
 
 1. In the `xala.ai` zone, add:

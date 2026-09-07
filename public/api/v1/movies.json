@@ -250,6 +250,112 @@
       }
     },
     {
+      "id": "httyd-2010",
+      "title": "How to Train Your Dragon",
+      "year": 2010,
+      "duration_s": 5871.1,
+      "summary": "some scary moments, explosions, and mild violence.",
+      "segment_count": 217,
+      "detection_count": 2524,
+      "poster": "/posters/httyd-2010.jpg",
+      "safety": {
+        "total_minutes": 98,
+        "unsafe_minutes": 87,
+        "safe_minutes": 11,
+        "pct": 88.77551020408163,
+        "pct_label": "89%",
+        "rag": "red",
+        "rag_label": "Red",
+        "rag_blurb": "frequent scenes not safe for kids",
+        "bar": [
+          {
+            "id": "gun",
+            "label": "gun",
+            "seconds": 101.33333333333414,
+            "minutes": 32,
+            "film_pct": 32.6530612244898,
+            "flagged_pct": 36.7816091954023,
+            "share_pct": 15.43921916592724,
+            "tooltip": "gun\n33% of the movie\n37% of flagged minutes"
+          },
+          {
+            "id": "explosion",
+            "label": "explosion",
+            "seconds": 510.333333333332,
+            "minutes": 33,
+            "film_pct": 33.673469387755105,
+            "flagged_pct": 37.93103448275862,
+            "share_pct": 15.921694764862465,
+            "tooltip": "explosion\n34% of the movie\n38% of flagged minutes"
+          },
+          {
+            "id": "death",
+            "label": "death",
+            "seconds": 28.166666666667425,
+            "minutes": 14,
+            "film_pct": 14.285714285714286,
+            "flagged_pct": 16.091954022988507,
+            "share_pct": 6.754658385093166,
+            "tooltip": "death\n14% of the movie\n16% of flagged minutes"
+          },
+          {
+            "id": "kiss",
+            "label": "kiss",
+            "seconds": 22.833333333333883,
+            "minutes": 11,
+            "film_pct": 11.224489795918368,
+            "flagged_pct": 12.64367816091954,
+            "share_pct": 5.307231588287488,
+            "tooltip": "kiss\n11% of the movie\n13% of flagged minutes"
+          },
+          {
+            "id": "scary",
+            "label": "scary",
+            "seconds": 2361.333333333334,
+            "minutes": 82,
+            "film_pct": 83.6734693877551,
+            "flagged_pct": 94.25287356321839,
+            "share_pct": 39.56299911268855,
+            "tooltip": "scary\n84% of the movie\n94% of flagged minutes"
+          },
+          {
+            "id": "alcohol_smoke",
+            "label": "alcohol/smoke",
+            "seconds": 30.5,
+            "minutes": 3,
+            "film_pct": 3.061224489795918,
+            "flagged_pct": 3.4482758620689653,
+            "share_pct": 1.4474267968056787,
+            "tooltip": "alcohol/smoke\n3% of the movie\n3% of flagged minutes"
+          },
+          {
+            "id": "nudity",
+            "label": "nudity",
+            "seconds": 12.666666666666742,
+            "minutes": 9,
+            "film_pct": 9.183673469387756,
+            "flagged_pct": 10.344827586206897,
+            "share_pct": 4.342280390417036,
+            "tooltip": "nudity\n9% of the movie\n10% of flagged minutes"
+          },
+          {
+            "id": "other",
+            "label": "Other",
+            "seconds": 0.0,
+            "minutes": 11,
+            "film_pct": 11.224489795918368,
+            "flagged_pct": 0.0,
+            "share_pct": 11.224489795918368,
+            "tooltip": "Other\n11% of the movie"
+          }
+        ],
+        "flagged_seconds": 3067.1666666666683,
+        "other_pct": 11.224489795918368,
+        "headline": "89% of this movie contained scenes not safe for kids",
+        "detail": "87 of 98 minutes contain at least 1 scene not safe for kids"
+      }
+    },
+    {
       "id": "minions-2015",
       "title": "Minions",
       "year": 2015,
@@ -572,7 +678,7 @@
       "title": "Shrek Forever After",
       "year": 2010,
       "duration_s": 5590.7,
-      "summary": null,
+      "summary": "scary moments, some explosions, guns, death, kissing, alcohol and mild nudity.",
       "segment_count": 209,
       "detection_count": 1207,
       "poster": "/posters/shrek-4-2010.jpg",
@@ -678,7 +784,7 @@
       "title": "Shrek the Third",
       "year": 2007,
       "duration_s": 5566.3,
-      "summary": null,
+      "summary": "some violence, scary moments, kissing, alcohol, and mild nudity.",
       "segment_count": 160,
       "detection_count": 633,
       "poster": "/posters/shrek-the-third-2007.jpg",

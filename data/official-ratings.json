@@ -1,0 +1,11 @@
+{
+  "cars-2006": { "us": "G", "uk": "U" },
+  "cars-2-2011": { "us": "G", "uk": "U" },
+  "cars-3-2017": { "us": "G", "uk": "U" },
+  "httyd-2010": { "us": "PG", "uk": "PG" },
+  "minions-2015": { "us": "PG", "uk": "U" },
+  "shrek-2001": { "us": "PG", "uk": "U" },
+  "shrek-2-2004": { "us": "PG", "uk": "U" },
+  "shrek-the-third-2007": { "us": "PG", "uk": "U" },
+  "shrek-4-2010": { "us": "PG", "uk": "U" }
+}

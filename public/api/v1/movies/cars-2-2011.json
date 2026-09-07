@@ -7,6 +7,11 @@
   "segment_count": 89,
   "detection_count": 404,
   "poster": "/posters/cars-2-2011.jpg",
+  "thumb_aspect": 2.3925,
+  "thumb_size": {
+    "w": 480,
+    "h": 200
+  },
   "safety": {
     "total_minutes": 108,
     "unsafe_minutes": 54,
@@ -1063,5 +1068,9 @@
       "summary": "A memorial card is visible for two individuals.",
       "thumb": "/thumbs/cars-2-2011/178053.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "G",
+    "uk": "U"
+  }
 }

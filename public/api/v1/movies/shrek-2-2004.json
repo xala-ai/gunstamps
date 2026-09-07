@@ -7,6 +7,11 @@
   "segment_count": 149,
   "detection_count": 637,
   "poster": "/posters/shrek-2-2004.jpg",
+  "thumb_aspect": 1.7778,
+  "thumb_size": {
+    "w": 480,
+    "h": 270
+  },
   "safety": {
     "total_minutes": 93,
     "unsafe_minutes": 67,
@@ -1743,5 +1748,9 @@
       "summary": "The dragon has an intense, menacing expression.",
       "thumb": "/thumbs/shrek-2-2004/199933.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "PG",
+    "uk": "U"
+  }
 }

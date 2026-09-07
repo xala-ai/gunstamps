@@ -7,6 +7,11 @@
   "segment_count": 25,
   "detection_count": 55,
   "poster": "/posters/cars-2006.jpg",
+  "thumb_aspect": 2.3925,
+  "thumb_size": {
+    "w": 480,
+    "h": 200
+  },
   "safety": {
     "total_minutes": 117,
     "unsafe_minutes": 21,
@@ -359,5 +364,9 @@
       "summary": "The frame contains a dedication to a deceased person (Joe Ranft 1960-2005).",
       "thumb": "/thumbs/cars-2006/183020.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "G",
+    "uk": "U"
+  }
 }

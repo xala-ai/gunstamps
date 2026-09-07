@@ -53,7 +53,11 @@
           "</a></td>" +
           "<td>" +
           (m.poster
-            ? '<img class="poster-thumb" src="' + esc(m.poster) + '" alt="" loading="lazy" />'
+            ? '<a href="/movie.html?id=' +
+              encodeURIComponent(m.id) +
+              '"><img class="poster-thumb" src="' +
+              esc(m.poster) +
+              '" alt="" loading="lazy" /></a>'
             : "—") +
           "</td>" +
           "<td>" +

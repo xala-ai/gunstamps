@@ -7,6 +7,11 @@
   "segment_count": 226,
   "detection_count": 1047,
   "poster": "/posters/minions-2015.jpg",
+  "thumb_aspect": 1.8156,
+  "thumb_size": {
+    "w": 480,
+    "h": 264
+  },
   "safety": {
     "total_minutes": 86,
     "unsafe_minutes": 75,
@@ -2590,5 +2595,9 @@
       "summary": "The character is holding a yellow object that appears to be a stylized toy gun or launcher.",
       "thumb": "/thumbs/minions-2015/156644.jpg"
     }
-  ]
+  ],
+  "ratings": {
+    "us": "PG",
+    "uk": "U"
+  }
 }

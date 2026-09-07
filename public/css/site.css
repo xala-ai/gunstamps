@@ -28,7 +28,7 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .muted { color: var(--muted); }
 .hero, main, footer {
-  max-width: 960px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 1.25rem 1.5rem;
 }
@@ -96,17 +96,19 @@ tr:last-child td { border-bottom: 0; }
 .safety-seg.alcohol_smoke { background: var(--alcohol_smoke); }
 .safety-seg.nudity { background: var(--nudity); }
 .safety-seg.other { background: var(--other); }
-.meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; font-size: 0.85rem; }
+.meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; font-size: 0.85rem; margin-top: 7px; }
 .rag {
   display: inline-block;
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
   font-weight: 600;
   font-size: 0.75rem;
+  background: #0e0c0a;
+  border: 1px solid currentColor;
 }
-.rag.green { background: #8fd18f; color: #0e1a0e; }
-.rag.amber { background: #f0c27a; color: #1a1208; }
-.rag.red { background: #e08888; color: #2a1010; }
+.rag.green { color: #8fd18f; border-color: #8fd18f; background: #0e0c0a; }
+.rag.amber { color: #f0c27a; border-color: #f0c27a; background: #0e0c0a; }
+.rag.red { color: #e08888; border-color: #e08888; background: #0e0c0a; }
 .summary { margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
 .empty, #status {
   padding: 1rem;
@@ -116,7 +118,7 @@ tr:last-child td { border-bottom: 0; }
 footer { padding-bottom: 3rem; font-size: 0.85rem; }
 [hidden] { display: none !important; }
 
-.detail-header { max-width: 960px; margin: 0 auto; padding: 1.25rem 1.5rem; }
+.detail-header { max-width: 970px; margin: 0 auto; padding: 1.25rem 1.5rem; }
 .crumb { margin: 0 0 0.75rem; }
 .detail-hero { display: flex; gap: 1.25rem; align-items: flex-start; flex-wrap: wrap; }
 .poster-lg {
@@ -132,9 +134,11 @@ footer { padding-bottom: 3rem; font-size: 0.85rem; }
 .safety-panel { margin-top: 0.85rem; }
 .safety-bar-legend {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.4rem;
   margin: 0.55rem 0 0.35rem;
+  width: max-content;
+  max-width: 100%;
 }
 .safety-headline { margin: 0.5rem 0 0.15rem; color: var(--text); }
 .safety-detail { margin: 0.15rem 0 0; font-size: 0.9rem; }
@@ -197,14 +201,41 @@ footer { padding-bottom: 3rem; font-size: 0.85rem; }
 .seg.nudity { background: var(--nudity); }
 .legend {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
   gap: 0.4rem;
   margin-bottom: 0.5rem;
+  width: max-content;
+  max-width: 100%;
+}
+.legend .cat-pill {
+  cursor: pointer;
+  font-family: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid color-mix(in srgb, #000 25%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, #fff 18%, transparent);
+}
+.legend .cat-pill:hover {
+  filter: brightness(1.08);
+  outline: 2px solid color-mix(in srgb, #fff 55%, transparent);
+  outline-offset: 1px;
+}
+.legend .cat-pill.active {
+  outline: 2px solid #f3ebe1;
+  outline-offset: 2px;
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, #fff 25%, transparent),
+    0 0 0 3px color-mix(in srgb, #f0c27a 45%, transparent);
+}
+body.cat-filter-on .timeline .seg.filtered-out {
+  opacity: 0.12;
+  pointer-events: none;
 }
 .seg-tooltip {
   position: absolute;
   z-index: 20;
-  width: 300px;
+  width: 400px;
   background: #1a1612;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -218,8 +249,9 @@ footer { padding-bottom: 3rem; font-size: 0.85rem; }
 }
 .seg-tooltip img {
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
   background: #0e0c0a;
   border-radius: 6px;
@@ -227,14 +259,25 @@ footer { padding-bottom: 3rem; font-size: 0.85rem; }
 .seg-tooltip-meta { margin-top: 0.5rem; }
 .seg-tooltip-meta p { margin: 0.35rem 0 0; color: var(--text); font-size: 0.9rem; }
 .seg-thumb {
-  width: 72px;
-  height: 72px;
-  object-fit: cover;
+  width: 96px;
+  height: auto;
+  max-height: 64px;
+  object-fit: contain;
   border-radius: 6px;
   background: #2a241e;
   border: 1px solid var(--line);
+  vertical-align: middle;
 }
-.thumb-cell { width: 80px; }
+.thumb-cell { width: 104px; }
+#scenes-table tbody tr { cursor: default; }
 .scenes-table td { vertical-align: middle; }
 h2 { font-size: 1.15rem; margin: 1.75rem 0 0.5rem; }
+
+@media (max-width: 900px) {
+  .legend,
+  .safety-bar-legend {
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
 
