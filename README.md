@@ -2,22 +2,25 @@
 
 Parental guidance stamps for kids’ movies (guns, explosions, scary scenes, alcohol/smoke, nudity, …).
 
-- **Site (staging):** https://gunstamps.netlify.app
-- **Custom domain (pending Cloudflare DNS):** https://gunstamps.xala.ai
-- **API shape:** [`/api/v1/movies.json`](public/api/v1/movies.json) · OpenAPI [`public/openapi.yaml`](public/openapi.yaml)
-- **Issues / roadmap:** use GitHub Issues on this repo
-- **Note:** repo is currently `csaladenes/gunstamps` — transfer to `xala-ai/gunstamps` in GitHub Settings (org create blocked for the agent PAT)
+**Live:** https://gunstamps.xala.ai  
+**Repo:** https://github.com/csaladenes/gunstamps (transfer to `xala-ai/gunstamps` when ready)
 
-## Architecture (day 1)
+## Two modes only
+
+| Mode | What | Where |
+|------|------|--------|
+| **Simple** | Catalog: poster, mix bar, summary, segment count, search | `/` on the live site |
+| **Expert** | Movie detail: summary + %, mix bar, timeline with thumbs, flagged-scenes table | `/movie.html?id=…` |
+
+No other public UI variants. Internal analysis tooling on G3 (`:8787/ops`) is ops-only, not a product mode.
+
+## Architecture
 
 | Layer | Role |
 |--------|------|
-| GitHub | Roadmap, issues, plugin repos, this static site source |
-| Netlify CDN | Public UI + versioned `/api/v1/*.json` snapshot |
-| G3 (private) | Analysis worker + SQLite source of truth (not public) |
-| EC2 (later) | Canonical API + DB; CDN keeps the UI |
-
-Static JSON on the CDN is a **publish snapshot**, not the product database. Clients (web, Kodi, browser extensions) should call the versioned API paths so we can swap in EC2 without rewriting plugins.
+| Netlify CDN | Simple + Expert UI + `/api/v1` snapshot |
+| G3 | Analysis worker, SQLite, read API `:8790`, ops UI `:8787/ops` |
+| EC2 (later) | Canonical API + DB |
 
 ## Local preview
 
@@ -25,12 +28,9 @@ Static JSON on the CDN is a **publish snapshot**, not the product database. Clie
 cd public && python3 -m http.server 8788
 ```
 
-## Export snapshot from G3
+## Export / deploy
 
 ```bash
-./scripts/export-from-g3.sh
+./scripts/export-from-g3.sh   # refresh JSON + thumbs from G3
+# then commit + Netlify deploy (see docs/DEPLOY.md)
 ```
-
-## Domain
-
-Reserve **gunstamps.xala.ai** in Cloudflare → CNAME to the Netlify site hostname (see `docs/DEPLOY.md`).
